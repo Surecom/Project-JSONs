@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-05T14:25:31.753Z",
+  "timestamp": "2026-02-06T14:47:57.824Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -127,6 +127,10 @@
           {
             "id": "2ed031c5-5926-4638-8f27-c92d09135fbd",
             "side": "right"
+          },
+          {
+            "id": "fc74a4ed-8af5-4275-9ea1-e9a958795b42",
+            "side": "left"
           }
         ]
       },
@@ -176,7 +180,8 @@
           "a07ba992-9157-47bc-865a-37439f57a458",
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
           "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
-          "f0283d93-3146-4f55-970b-e6e055bb6dfd"
+          "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+          "84fb1cc5-3001-4147-a132-2581beab47f6"
         ],
         "position": {
           "x": -1456,
@@ -217,7 +222,7 @@
         "metadata": {},
         "containerIds": [],
         "position": {
-          "x": -1488,
+          "x": -1504,
           "y": 176
         },
         "size": {
@@ -249,6 +254,10 @@
           },
           {
             "id": "e201a69d-909e-4cfe-b270-6ce0318ace5f",
+            "side": "left"
+          },
+          {
+            "id": "e52bd126-d7ba-4b87-a793-d9d4460cf164",
             "side": "left"
           }
         ]
@@ -448,7 +457,7 @@
           "92fed135-bd48-4865-b66c-b35f169c1bec"
         ],
         "position": {
-          "x": -2688,
+          "x": -2848,
           "y": 128
         },
         "size": {
@@ -477,6 +486,14 @@
           {
             "id": "845a452d-eadc-4b48-986f-495bcf8335c9",
             "side": "right"
+          },
+          {
+            "id": "7ec51fe5-8007-4203-956d-89e4f58e0426",
+            "side": "top"
+          },
+          {
+            "id": "01843b15-0267-44c4-91ab-5051642350c0",
+            "side": "top"
           }
         ]
       },
@@ -486,7 +503,7 @@
         "metadata": {},
         "containerIds": [],
         "position": {
-          "x": -2416,
+          "x": -2576,
           "y": 1040
         },
         "size": {
@@ -520,7 +537,7 @@
         "metadata": {},
         "containerIds": [],
         "position": {
-          "x": -2672,
+          "x": -2832,
           "y": 1040
         },
         "size": {
@@ -547,6 +564,40 @@
             "side": "right"
           }
         ]
+      },
+      "3943f54c-99ff-49eb-9340-4527c346e500": {
+        "id": "3943f54c-99ff-49eb-9340-4527c346e500",
+        "name": "AI Studio",
+        "metadata": {},
+        "containerIds": [],
+        "position": {
+          "x": -1008,
+          "y": 160
+        },
+        "size": {
+          "width": 224,
+          "height": 160
+        },
+        "color": "#10b981",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "8442ddfb-10c4-4492-9d7b-f6a49e5c4406",
+            "side": "top"
+          },
+          {
+            "id": "0592c395-5781-4047-846d-f997a43aa102",
+            "side": "bottom"
+          },
+          {
+            "id": "5be1b1a3-def3-4690-b339-0f8a37d84c84",
+            "side": "left"
+          },
+          {
+            "id": "60224419-9db5-41f8-b72a-3ed057e4318c",
+            "side": "right"
+          }
+        ]
       }
     },
     "containers": {
@@ -556,7 +607,7 @@
         "name": "API Gateway",
         "type": "App",
         "position": {
-          "x": 624,
+          "x": 640,
           "y": 416
         },
         "size": {
@@ -569,10 +620,6 @@
           {
             "id": "c43204d2-75fb-4fda-a814-8b8806a48d4c",
             "side": "top"
-          },
-          {
-            "id": "ca1280c5-6f65-4996-8f96-415d3951daa2",
-            "side": "bottom"
           },
           {
             "id": "6e02e3cd-76d6-4fe6-9975-153bb2c8ad6a",
@@ -596,6 +643,10 @@
           },
           {
             "id": "8b846511-f113-440a-8644-aed9a43ea83c",
+            "side": "left"
+          },
+          {
+            "id": "d7f45655-7f0a-456a-a57b-7eb122d4d88c",
             "side": "left"
           }
         ]
@@ -987,7 +1038,6 @@
         },
         "color": "",
         "groupIds": [],
-        "parentGroupId": "4e96545c-802e-428f-ae2c-47154741bd2e",
         "ports": [
           {
             "id": "f88906bb-2103-48bc-a593-dcf4f5ebed7f",
@@ -1081,6 +1131,10 @@
           {
             "id": "25d93678-43dd-4d63-8877-a469c76e3d6a",
             "side": "right"
+          },
+          {
+            "id": "9bbe8815-3334-43cf-b7de-c44bfd48cfdb",
+            "side": "top"
           }
         ]
       },
@@ -1775,7 +1829,7 @@
         "name": "Agents' Orchestrator",
         "type": "App",
         "position": {
-          "x": -2656,
+          "x": -2816,
           "y": 192
         },
         "size": {
@@ -1809,7 +1863,7 @@
         "name": "Kafka",
         "type": "Bus",
         "position": {
-          "x": -2128,
+          "x": -2288,
           "y": 192
         },
         "size": {
@@ -1844,7 +1898,7 @@
         "name": "GigaConfig",
         "type": "App",
         "position": {
-          "x": -2368,
+          "x": -2528,
           "y": 496
         },
         "size": {
@@ -1878,7 +1932,7 @@
         "name": "GigaBlock",
         "type": "App",
         "position": {
-          "x": -2608,
+          "x": -2768,
           "y": 496
         },
         "size": {
@@ -1912,7 +1966,7 @@
         "name": "GigaProxy",
         "type": "App",
         "position": {
-          "x": -2384,
+          "x": -2544,
           "y": 864
         },
         "size": {
@@ -1948,119 +2002,14 @@
           }
         ]
       },
-      "f3975471-3eba-488e-87ef-4f2205cba695": {
-        "id": "f3975471-3eba-488e-87ef-4f2205cba695",
-        "systemId": "",
-        "name": "Proxy",
+      "84fb1cc5-3001-4147-a132-2581beab47f6": {
+        "id": "84fb1cc5-3001-4147-a132-2581beab47f6",
+        "systemId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "name": "NAT GW",
         "type": "App",
         "position": {
-          "x": -464,
-          "y": 1520
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "#10b981",
-        "groupIds": [],
-        "parentGroupId": "e0fa998c-ab8f-4c1a-bb90-91dae50e8e8f",
-        "ports": [
-          {
-            "id": "fa67a7a5-2d55-4089-ba54-463b908a2659",
-            "side": "top"
-          },
-          {
-            "id": "51a57dc2-fb4d-4d6c-a887-3e7a2225634a",
-            "side": "bottom"
-          },
-          {
-            "id": "2797240b-beb2-4736-8211-86a513d79826",
-            "side": "left"
-          },
-          {
-            "id": "5c83dd88-1420-45e0-8610-ade42944fe75",
-            "side": "right"
-          }
-        ]
-      },
-      "1be82a62-58d5-40e2-8390-b1464e54fd03": {
-        "id": "1be82a62-58d5-40e2-8390-b1464e54fd03",
-        "systemId": "",
-        "name": "Bare metal LB",
-        "type": "App",
-        "position": {
-          "x": -464,
-          "y": 1392
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "#10b981",
-        "groupIds": [],
-        "parentGroupId": "e0fa998c-ab8f-4c1a-bb90-91dae50e8e8f",
-        "ports": [
-          {
-            "id": "c5bb800a-687f-489f-8f89-94caf4dea6ce",
-            "side": "top"
-          },
-          {
-            "id": "a1d284f7-32b3-43e6-aff8-6031b0d0b790",
-            "side": "bottom"
-          },
-          {
-            "id": "b585105b-0fc2-4550-8ecb-ef30775c732d",
-            "side": "left"
-          },
-          {
-            "id": "d95949f5-638c-4919-b74c-a628aa3a594d",
-            "side": "right"
-          }
-        ]
-      },
-      "b24c459b-8b09-494b-988f-c6e64f9c3c73": {
-        "id": "b24c459b-8b09-494b-988f-c6e64f9c3c73",
-        "systemId": "",
-        "name": "Resource",
-        "type": "App",
-        "position": {
-          "x": -64,
-          "y": 1280
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "parentGroupId": "4e96545c-802e-428f-ae2c-47154741bd2e",
-        "ports": [
-          {
-            "id": "be761f6c-a9af-4e63-900c-98f95c4b2849",
-            "side": "top"
-          },
-          {
-            "id": "4a264fde-6832-4910-8cad-24eb11e4f00a",
-            "side": "bottom"
-          },
-          {
-            "id": "2d2b7b54-ed54-4e75-b047-44f80e33817e",
-            "side": "left"
-          },
-          {
-            "id": "679ae55f-657c-4733-a52a-add6e52a2503",
-            "side": "right"
-          }
-        ]
-      },
-      "2f2ce720-d053-485b-888b-960eada5f1fa": {
-        "id": "2f2ce720-d053-485b-888b-960eada5f1fa",
-        "systemId": "",
-        "name": "Proxy",
-        "type": "App",
-        "position": {
-          "x": -64,
-          "y": 1520
+          "x": -832,
+          "y": 1104
         },
         "size": {
           "width": 128,
@@ -2068,22 +2017,21 @@
         },
         "color": "#a855f7",
         "groupIds": [],
-        "parentGroupId": "b0d22c9f-3fdc-466f-a9d0-d1da930af734",
         "ports": [
           {
-            "id": "d39760e6-2a14-4cac-bc66-4eecae9e125e",
+            "id": "4b6d858d-8b8b-48dc-91bd-26d3bab43518",
             "side": "top"
           },
           {
-            "id": "d42219df-62f8-41aa-946a-db0356e0fd7e",
+            "id": "7f35c026-facf-4f64-baef-d7f4d89f303c",
             "side": "bottom"
           },
           {
-            "id": "a7ba5791-4cef-474e-a49d-ab9ab064a9c2",
+            "id": "9341fcad-75ed-4107-87d5-c78688f321ad",
             "side": "left"
           },
           {
-            "id": "0ade1293-fa3c-4b9a-8ba6-aefa876492cf",
+            "id": "9063ebab-2098-4056-8128-0d1ced0c79f5",
             "side": "right"
           }
         ]
@@ -2327,7 +2275,7 @@
       "d9a20644-c870-4a01-b10b-6d5c37b78be5": {
         "id": "d9a20644-c870-4a01-b10b-6d5c37b78be5",
         "sourceId": "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-        "sourceSide": "8b846511-f113-440a-8644-aed9a43ea83c",
+        "sourceSide": "d7f45655-7f0a-456a-a57b-7eb122d4d88c",
         "targetId": "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
         "targetSide": "7dd8beac-bfbd-490b-898a-a982d0ed8b84",
         "endpoints": [],
@@ -2344,8 +2292,8 @@
         ],
         "description": "Загрузка файлов",
         "labelOffset": {
-          "x": 70.2810795750737,
-          "y": -81.91358157560637
+          "x": 193.08215892024532,
+          "y": -54.874811811531856
         }
       },
       "73cabed4-ad88-49c8-82dd-d80884dde065": {
@@ -2655,13 +2603,13 @@
         },
         "controlPoints": [
           {
-            "x": 704,
+            "x": 720,
             "y": 176
           }
         ],
         "description": "Произведение запросов \nпо RAG по tenant",
         "labelOffset": {
-          "x": 73.87748264154504,
+          "x": 58.10486694583494,
           "y": -136.2411790751136
         }
       },
@@ -2760,7 +2708,7 @@
         },
         "controlPoints": [
           {
-            "x": 672,
+            "x": 688,
             "y": 240
           }
         ],
@@ -2936,7 +2884,7 @@
         },
         "controlPoints": [
           {
-            "x": -1344,
+            "x": -1360,
             "y": 400
           }
         ],
@@ -2979,21 +2927,26 @@
       "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc": {
         "id": "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc",
         "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
-        "sourceSide": "e201a69d-909e-4cfe-b270-6ce0318ace5f",
+        "sourceSide": "e52bd126-d7ba-4b87-a793-d9d4460cf164",
         "targetId": "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
         "targetSide": "0a83f456-5c3f-4cbe-8134-a5c6e724013f",
         "endpoints": [],
         "style": {
           "type": "polyline",
-          "color": "#475569",
+          "color": "#10b981",
           "arrow": true
         },
         "controlPoints": [
           {
             "x": -1872,
-            "y": 288
+            "y": 304
           }
-        ]
+        ],
+        "description": "Сохранение артефактов агентов",
+        "labelOffset": {
+          "x": 235.67070735568223,
+          "y": -388.51077315540834
+        }
       },
       "a8664bd2-c851-4564-ba2e-b882f461c138": {
         "id": "a8664bd2-c851-4564-ba2e-b882f461c138",
@@ -3635,7 +3588,7 @@
         },
         "controlPoints": [
           {
-            "x": -2048,
+            "x": -2208,
             "y": 528
           }
         ]
@@ -3668,11 +3621,11 @@
         },
         "controlPoints": [
           {
-            "x": -2752,
+            "x": -2912,
             "y": 224
           },
           {
-            "x": -2752,
+            "x": -2912,
             "y": 896
           }
         ]
@@ -3691,11 +3644,11 @@
         },
         "controlPoints": [
           {
-            "x": -2544,
+            "x": -2704,
             "y": 640
           },
           {
-            "x": -2336,
+            "x": -2496,
             "y": 640
           }
         ]
@@ -3723,10 +3676,15 @@
         "endpoints": [],
         "style": {
           "type": "bezier",
-          "color": "#475569",
+          "color": "#a855f7",
           "arrow": true
         },
-        "controlPoints": []
+        "controlPoints": [],
+        "description": "Работа с агентами",
+        "labelOffset": {
+          "x": 226.68597930063788,
+          "y": 1.421228710348828
+        }
       },
       "4a37a09e-6bf2-4816-920e-8d7487c4693b": {
         "id": "4a37a09e-6bf2-4816-920e-8d7487c4693b",
@@ -3757,8 +3715,8 @@
         "controlPoints": [],
         "description": "Предоставление конфигураций / Обновлений агентов\n\nПредоставление отзывов для аналитики",
         "labelOffset": {
-          "x": -2.3980680534091334,
-          "y": -29.33361552893399
+          "x": 151.34134429625965,
+          "y": -28.376975939186764
         }
       },
       "a96e1366-3d80-403c-8c6f-8c3ac19cd4eb": {
@@ -3775,11 +3733,11 @@
         },
         "controlPoints": [
           {
-            "x": -2336,
+            "x": -2496,
             "y": 992
           },
           {
-            "x": -2560,
+            "x": -2720,
             "y": 992
           }
         ]
@@ -3798,125 +3756,6 @@
         },
         "controlPoints": []
       },
-      "142c2094-b64f-4912-a152-11787868472a": {
-        "id": "142c2094-b64f-4912-a152-11787868472a",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
-        "targetId": "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
-        "targetSide": "a1650c31-f9a1-4036-8ac9-35efe5fffa62",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": 0,
-            "y": 1632
-          }
-        ]
-      },
-      "40b8ce42-7e74-41e1-94f0-8e46511c29ba": {
-        "id": "40b8ce42-7e74-41e1-94f0-8e46511c29ba",
-        "sourceId": "1be82a62-58d5-40e2-8390-b1464e54fd03",
-        "sourceSide": "c5bb800a-687f-489f-8f89-94caf4dea6ce",
-        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "targetSide": "f2911250-a7fa-43e9-8b94-4208abdb3df5",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#10b981",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -400,
-            "y": 880
-          }
-        ],
-        "description": "Потребитель Агента вызывает его по API из интернета"
-      },
-      "f7bc8d99-45d4-4061-b1bb-e621deda5ee3": {
-        "id": "f7bc8d99-45d4-4061-b1bb-e621deda5ee3",
-        "sourceId": "b24c459b-8b09-494b-988f-c6e64f9c3c73",
-        "sourceSide": "2d2b7b54-ed54-4e75-b047-44f80e33817e",
-        "targetId": "1be82a62-58d5-40e2-8390-b1464e54fd03",
-        "targetSide": "d95949f5-638c-4919-b74c-a628aa3a594d",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -160,
-            "y": 1312
-          },
-          {
-            "x": -160,
-            "y": 1424
-          }
-        ]
-      },
-      "5071acd9-ea45-4c7d-b185-de4d0e0d49c7": {
-        "id": "5071acd9-ea45-4c7d-b185-de4d0e0d49c7",
-        "sourceId": "f3975471-3eba-488e-87ef-4f2205cba695",
-        "sourceSide": "5c83dd88-1420-45e0-8610-ade42944fe75",
-        "targetId": "2f2ce720-d053-485b-888b-960eada5f1fa",
-        "targetSide": "a7ba5791-4cef-474e-a49d-ab9ab064a9c2",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Скрываем IP Сбера"
-      },
-      "78f49ea9-813e-4c0c-aaae-09bdf3fbccbf": {
-        "id": "78f49ea9-813e-4c0c-aaae-09bdf3fbccbf",
-        "sourceId": "2f2ce720-d053-485b-888b-960eada5f1fa",
-        "sourceSide": "d39760e6-2a14-4cac-bc66-4eecae9e125e",
-        "targetId": "b24c459b-8b09-494b-988f-c6e64f9c3c73",
-        "targetSide": "4a264fde-6832-4910-8cad-24eb11e4f00a",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": []
-      },
-      "13e3007d-bb63-4d99-91d1-577c8a02b780": {
-        "id": "13e3007d-bb63-4d99-91d1-577c8a02b780",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
-        "targetId": "f3975471-3eba-488e-87ef-4f2205cba695",
-        "targetSide": "2797240b-beb2-4736-8211-86a513d79826",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -512,
-            "y": 1632
-          },
-          {
-            "x": -512,
-            "y": 1552
-          }
-        ],
-        "description": "Агент вызывант ресурс по настройкам",
-        "labelOffset": {
-          "x": -144.00936825978295,
-          "y": 37.89720217362719
-        }
-      },
       "141a7ad8-219b-47b1-9461-df8e54b326b7": {
         "id": "141a7ad8-219b-47b1-9461-df8e54b326b7",
         "sourceId": "c6d50117-0d79-426a-9744-fd9deffd39c2",
@@ -3931,7 +3770,7 @@
         },
         "controlPoints": [
           {
-            "x": -1344,
+            "x": -1360,
             "y": 48
           }
         ],
@@ -3955,7 +3794,7 @@
         },
         "controlPoints": [
           {
-            "x": -1408,
+            "x": -1424,
             "y": 48
           }
         ],
@@ -3964,27 +3803,222 @@
           "x": -139.50986460804415,
           "y": -84.73932516933036
         }
+      },
+      "1eeb4ca4-99df-412f-a9c8-1f546c15f6f8": {
+        "id": "1eeb4ca4-99df-412f-a9c8-1f546c15f6f8",
+        "sourceId": "3943f54c-99ff-49eb-9340-4527c346e500",
+        "sourceSide": "5be1b1a3-def3-4690-b339-0f8a37d84c84",
+        "targetId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+        "targetSide": "3cad94eb-3f47-400e-a141-0f0a00bb0b8d",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Получение списков агентов пользователя",
+        "labelOffset": {
+          "x": 0,
+          "y": -5.394275271133324
+        }
+      },
+      "c867d6c6-f522-4193-a813-6d9bca10663c": {
+        "id": "c867d6c6-f522-4193-a813-6d9bca10663c",
+        "sourceId": "3943f54c-99ff-49eb-9340-4527c346e500",
+        "sourceSide": "60224419-9db5-41f8-b72a-3ed057e4318c",
+        "targetId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
+        "targetSide": "dd0166bb-0487-45fc-bde3-9c2252bb5bcd",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Создание агентов через конструктор"
+      },
+      "14382330-bfa5-4262-9f76-83f5a6d30006": {
+        "id": "14382330-bfa5-4262-9f76-83f5a6d30006",
+        "sourceId": "3943f54c-99ff-49eb-9340-4527c346e500",
+        "sourceSide": "0592c395-5781-4047-846d-f997a43aa102",
+        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
+        "targetSide": "5a9789ac-4fb7-4154-ab14-e7fe8538f4c2",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -896,
+            "y": 496
+          },
+          {
+            "x": -1360,
+            "y": 496
+          }
+        ],
+        "description": "Вызов агентов напрямую из UI",
+        "labelOffset": {
+          "x": -115.71022788175651,
+          "y": 0
+        }
+      },
+      "58be2dcb-5a77-43ce-937a-87114b309687": {
+        "id": "58be2dcb-5a77-43ce-937a-87114b309687",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
+        "targetId": "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+        "targetSide": "8b846511-f113-440a-8644-aed9a43ea83c",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -128,
+            "y": 1632
+          },
+          {
+            "x": -128,
+            "y": 448
+          }
+        ],
+        "description": "Агенты вызывают RAG как tool",
+        "labelOffset": {
+          "x": -100.62918498908425,
+          "y": 588.1602364017167
+        }
+      },
+      "313b4957-8e65-4425-80d9-dd826492c39a": {
+        "id": "313b4957-8e65-4425-80d9-dd826492c39a",
+        "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
+        "sourceSide": "fc74a4ed-8af5-4275-9ea1-e9a958795b42",
+        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
+        "targetSide": "9bbe8815-3334-43cf-b7de-c44bfd48cfdb",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -848,
+            "y": 544
+          },
+          {
+            "x": -1328,
+            "y": 544
+          }
+        ],
+        "description": "Работа с sandbox агентами\nдля тестирования",
+        "labelOffset": {
+          "x": 348.32357259250375,
+          "y": -116.90311682899102
+        }
+      },
+      "68c33c5c-66ac-4a34-ae35-4c70100bc19e": {
+        "id": "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
+        "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+        "sourceSide": "e201a69d-909e-4cfe-b270-6ce0318ace5f",
+        "targetId": "d0f0343d-6631-4fca-b19d-c761b79b317c",
+        "targetSide": "1fc87b39-fe5c-4bac-b1c4-f4df5e04d58c",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#10b981",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -2000,
+            "y": 256
+          },
+          {
+            "x": -2000,
+            "y": 1216
+          }
+        ],
+        "description": "Сохранение секретов в нужный engine",
+        "labelOffset": {
+          "x": 129.61369970578744,
+          "y": -477.6888674799756
+        }
+      },
+      "8dc1f0ff-db80-427c-88ac-d3a0e10c9c63": {
+        "id": "8dc1f0ff-db80-427c-88ac-d3a0e10c9c63",
+        "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
+        "sourceSide": "c89c066e-3a2a-4536-8b15-19f7a9617a4d",
+        "targetId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+        "targetSide": "1fd905c7-d1db-4b18-bdd8-68bd4cd66d0f",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -304,
+            "y": 80
+          },
+          {
+            "x": -1360,
+            "y": 96
+          }
+        ],
+        "description": "Регистрация агента для деплоя в PROD"
+      },
+      "cb0f5e0e-7308-446c-98e7-727030a53cf2": {
+        "id": "cb0f5e0e-7308-446c-98e7-727030a53cf2",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
+        "targetId": "84fb1cc5-3001-4147-a132-2581beab47f6",
+        "targetSide": "7f35c026-facf-4f64-baef-d7f4d89f303c",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#a855f7",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -768,
+            "y": 1632
+          }
+        ],
+        "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
+        "labelOffset": {
+          "x": -154.75516435901773,
+          "y": -3.292663071468496
+        }
+      },
+      "9752712e-02ea-4453-9e23-d074854fc0fa": {
+        "id": "9752712e-02ea-4453-9e23-d074854fc0fa",
+        "sourceId": "84fb1cc5-3001-4147-a132-2581beab47f6",
+        "sourceSide": "9063ebab-2098-4056-8128-0d1ced0c79f5",
+        "targetId": "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
+        "targetSide": "27f36a02-1778-4f36-a44b-b48fed821c87",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#facc15",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Свободный доступ к интернету\nна основе заранее определённых правил",
+        "labelOffset": {
+          "x": 59.89320856652955,
+          "y": -42.53285825739067
+        }
       }
     },
     "groups": {
-      "4e96545c-802e-428f-ae2c-47154741bd2e": {
-        "id": "4e96545c-802e-428f-ae2c-47154741bd2e",
-        "name": "Дикий интернет",
-        "position": {
-          "x": -96,
-          "y": 1216
-        },
-        "size": {
-          "width": 192,
-          "height": 160
-        },
-        "isCollapsed": false,
-        "ports": [],
-        "style": {
-          "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
-        }
-      },
       "d0149188-4dc0-4368-9720-cb2970ba80e4": {
         "id": "d0149188-4dc0-4368-9720-cb2970ba80e4",
         "name": "SD environment",
@@ -4020,42 +4054,6 @@
           "borderStyle": "dashed",
           "borderColor": "#94a3b8"
         }
-      },
-      "e0fa998c-ab8f-4c1a-bb90-91dae50e8e8f": {
-        "id": "e0fa998c-ab8f-4c1a-bb90-91dae50e8e8f",
-        "name": "DMZ / SWG / KWTS",
-        "position": {
-          "x": -496,
-          "y": 1328
-        },
-        "size": {
-          "width": 192,
-          "height": 288
-        },
-        "isCollapsed": false,
-        "ports": [],
-        "style": {
-          "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
-        }
-      },
-      "b0d22c9f-3fdc-466f-a9d0-d1da930af734": {
-        "id": "b0d22c9f-3fdc-466f-a9d0-d1da930af734",
-        "name": "Cloud ru",
-        "position": {
-          "x": -96,
-          "y": 1456
-        },
-        "size": {
-          "width": 192,
-          "height": 160
-        },
-        "isCollapsed": false,
-        "ports": [],
-        "style": {
-          "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
-        }
       }
     },
     "integrationLayers": {
@@ -4077,7 +4075,6 @@
           "93d5f402-7f91-4cca-82bc-10b30b2c4c55",
           "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6",
           "1c49a32e-5596-4272-b566-71acb78b00c3",
-          "a5e87558-cc05-4840-baa7-8048a7a96d81",
           "d9a20644-c870-4a01-b10b-6d5c37b78be5",
           "86f6dc53-a840-47bb-8c17-4c7f2450d156",
           "73cabed4-ad88-49c8-82dd-d80884dde065",
@@ -4101,8 +4098,6 @@
           "4ea7a942-8f7b-4da4-9653-09833fc1f806",
           "8bcd1e08-0b7a-4aa9-aa88-31569036ce1f",
           "9a7fd202-3bc7-499c-a8c5-1d1ec30b9eb9",
-          "4e96545c-802e-428f-ae2c-47154741bd2e",
-          "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
           "36fa58fe-ef85-493e-8339-7a427b1917d2",
           "91409dcd-0a72-4813-92d4-a8da61a8b87a",
           "ae84dd19-d528-42bb-8e71-36624bf784d0",
@@ -4176,7 +4171,7 @@
           "33b1f582-d08d-451f-9d14-679113c49f96",
           "df96f8e4-e81d-4148-a0fb-a68350ae944e",
           "7c288914-f356-48d9-b9cf-8a9d64fdae7a",
-          "142c2094-b64f-4912-a152-11787868472a"
+          "84fb1cc5-3001-4147-a132-2581beab47f6"
         ],
         "hiddenElementIds": []
       },
@@ -4214,18 +4209,6 @@
           "9e184c8c-3b94-46bd-93e3-f890e9d50489",
           "a96e1366-3d80-403c-8c6f-8c3ac19cd4eb",
           "8d4a9b2a-1002-4e45-a1c4-4dbd57857612",
-          "4e96545c-802e-428f-ae2c-47154741bd2e",
-          "e0fa998c-ab8f-4c1a-bb90-91dae50e8e8f",
-          "f3975471-3eba-488e-87ef-4f2205cba695",
-          "1be82a62-58d5-40e2-8390-b1464e54fd03",
-          "40b8ce42-7e74-41e1-94f0-8e46511c29ba",
-          "b24c459b-8b09-494b-988f-c6e64f9c3c73",
-          "f7bc8d99-45d4-4061-b1bb-e621deda5ee3",
-          "b0d22c9f-3fdc-466f-a9d0-d1da930af734",
-          "2f2ce720-d053-485b-888b-960eada5f1fa",
-          "5071acd9-ea45-4c7d-b185-de4d0e0d49c7",
-          "78f49ea9-813e-4c0c-aaae-09bdf3fbccbf",
-          "13e3007d-bb63-4d99-91d1-577c8a02b780",
           "e5e15d9b-3a7c-4973-9a73-b680c007df07",
           "c6d50117-0d79-426a-9744-fd9deffd39c2",
           "141a7ad8-219b-47b1-9461-df8e54b326b7",
@@ -4235,6 +4218,57 @@
           "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
           "d0f0343d-6631-4fca-b19d-c761b79b317c",
           "9f0ce94f-7c7b-494c-a777-67bc052c1578"
+        ],
+        "hiddenElementIds": []
+      },
+      "7e350f9b-6811-431f-a397-06ef050957a7": {
+        "id": "7e350f9b-6811-431f-a397-06ef050957a7",
+        "name": "AI Studio",
+        "color": "#00ffff",
+        "zIndex": 2,
+        "visibleElementIds": [
+          "3943f54c-99ff-49eb-9340-4527c346e500",
+          "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+          "a5e87558-cc05-4840-baa7-8048a7a96d81",
+          "615ab8b8-86c1-468a-b230-60b0a135d46d",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+          "67df732f-a1f8-4365-9063-281c158bb32b",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "b980ef13-f918-4745-9b58-0bf2a669cd03",
+          "002c4823-605a-4235-aeb0-ee6503539c50",
+          "4718d099-1794-40ad-b754-81aa7206a9f4",
+          "a07ba992-9157-47bc-865a-37439f57a458",
+          "4147136a-02dd-475b-8e69-f25ebfd6f40f",
+          "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+          "d0149188-4dc0-4368-9720-cb2970ba80e4",
+          "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
+          "d0f0343d-6631-4fca-b19d-c761b79b317c",
+          "1eeb4ca4-99df-412f-a9c8-1f546c15f6f8",
+          "c867d6c6-f522-4193-a813-6d9bca10663c",
+          "14382330-bfa5-4262-9f76-83f5a6d30006",
+          "6cfbcffe-9b80-4d03-aa67-5c206fadf98d",
+          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
+          "58be2dcb-5a77-43ce-937a-87114b309687",
+          "313b4957-8e65-4425-80d9-dd826492c39a",
+          "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
+          "8dc1f0ff-db80-427c-88ac-d3a0e10c9c63",
+          "e97476c1-f396-4668-962e-12e56dff79ab"
+        ],
+        "hiddenElementIds": []
+      },
+      "ff31fd3b-6825-479f-a508-5e596cf20e89": {
+        "id": "ff31fd3b-6825-479f-a508-5e596cf20e89",
+        "name": "ARI and Wild Internet",
+        "color": "#ffa000",
+        "zIndex": 3,
+        "visibleElementIds": [
+          "4718d099-1794-40ad-b754-81aa7206a9f4",
+          "84fb1cc5-3001-4147-a132-2581beab47f6",
+          "67df732f-a1f8-4365-9063-281c158bb32b",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
+          "cb0f5e0e-7308-446c-98e7-727030a53cf2",
+          "9752712e-02ea-4453-9e23-d074854fc0fa"
         ],
         "hiddenElementIds": []
       }
@@ -4628,6 +4662,7 @@
     "savedElements": {},
     "savedElementGroups": {},
     "customColors": [],
-    "isViewMode": false
+    "isViewMode": false,
+    "isForcedViewMode": false
   }
 }
