@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-09T11:56:03.538Z",
+  "timestamp": "2026-02-09T12:04:29.727Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -177,7 +177,9 @@
       "4718d099-1794-40ad-b754-81aa7206a9f4": {
         "id": "4718d099-1794-40ad-b754-81aa7206a9f4",
         "name": "ARI",
-        "metadata": {},
+        "metadata": {
+          "Deployment Target": "ns: ari"
+        },
         "containerIds": [
           "a07ba992-9157-47bc-865a-37439f57a458",
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
@@ -1224,7 +1226,10 @@
             "id": "0c6ef32b-126b-464b-8c54-a8f57d30a832",
             "side": "right"
           }
-        ]
+        ],
+        "metadata": {
+          "Deployment Target": "pod: ari-oap"
+        }
       },
       "2169b4a2-3985-4b47-b2be-0104a56dd67f": {
         "id": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
@@ -1348,7 +1353,10 @@
             "side": "right"
           }
         ],
-        "tables": []
+        "tables": [],
+        "metadata": {
+          "Deployment Target": "vm: d-ari-pgsql-adv-msk[01-03]"
+        }
       },
       "f0283d93-3146-4f55-970b-e6e055bb6dfd": {
         "id": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
@@ -1390,7 +1398,10 @@
             "id": "bba2a2a2-0ea1-45e5-a863-e010165e94bd",
             "side": "left"
           }
-        ]
+        ],
+        "metadata": {
+          "Deployment Target": "pod: ari-controller"
+        }
       },
       "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb": {
         "id": "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
