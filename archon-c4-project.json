@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-09T12:04:29.727Z",
+  "timestamp": "2026-02-10T09:30:23.353Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -71,11 +71,11 @@
         ],
         "position": {
           "x": -96,
-          "y": 352
+          "y": 336
         },
         "size": {
           "width": 1328,
-          "height": 688
+          "height": 704
         },
         "color": "",
         "groupIds": [],
@@ -96,7 +96,8 @@
             "id": "e3259fb1-bfe1-45c5-b44d-ea7d5677221c",
             "side": "right"
           }
-        ]
+        ],
+        "description": ""
       },
       "a5e87558-cc05-4840-baa7-8048a7a96d81": {
         "id": "a5e87558-cc05-4840-baa7-8048a7a96d81",
@@ -189,11 +190,11 @@
         ],
         "position": {
           "x": -1456,
-          "y": 784
+          "y": 768
         },
         "size": {
           "width": 784,
-          "height": 416
+          "height": 432
         },
         "color": "",
         "groupIds": [],
@@ -279,11 +280,11 @@
         ],
         "position": {
           "x": -1552,
-          "y": 1424
+          "y": 1408
         },
         "size": {
           "width": 752,
-          "height": 272
+          "height": 288
         },
         "color": "#a855f7",
         "groupIds": [],
@@ -356,11 +357,11 @@
         ],
         "position": {
           "x": -1280,
-          "y": -976
+          "y": -992
         },
         "size": {
           "width": 928,
-          "height": 896
+          "height": 912
         },
         "color": "",
         "groupIds": [],
@@ -464,11 +465,11 @@
         ],
         "position": {
           "x": -2848,
-          "y": 128
+          "y": 112
         },
         "size": {
           "width": 752,
-          "height": 832
+          "height": 848
         },
         "color": "#a855f7",
         "groupIds": [],
@@ -626,11 +627,11 @@
         ],
         "position": {
           "x": -1920,
-          "y": 2032
+          "y": 2000
         },
         "size": {
           "width": 992,
-          "height": 864
+          "height": 896
         },
         "color": "",
         "groupIds": [],
@@ -704,7 +705,8 @@
             "id": "d7f45655-7f0a-456a-a57b-7eb122d4d88c",
             "side": "left"
           }
-        ]
+        ],
+        "description": ""
       },
       "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": {
         "id": "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
@@ -903,7 +905,11 @@
             "side": "top"
           }
         ],
-        "topics": []
+        "topics": [],
+        "description": "",
+        "technologies": [
+          ""
+        ]
       },
       "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": {
         "id": "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
@@ -1518,7 +1524,7 @@
         "type": "App",
         "position": {
           "x": -1248,
-          "y": 1824
+          "y": 1872
         },
         "size": {
           "width": 128,
@@ -1553,7 +1559,7 @@
         "type": "App",
         "position": {
           "x": -1056,
-          "y": 1824
+          "y": 1872
         },
         "size": {
           "width": 208,
@@ -4845,11 +4851,11 @@
         "name": "SD environment",
         "position": {
           "x": -1968,
-          "y": 1024
+          "y": 1008
         },
         "size": {
           "width": 192,
-          "height": 352
+          "height": 368
         },
         "isCollapsed": false,
         "ports": [],
@@ -4863,11 +4869,11 @@
         "name": "Функции для Агентов",
         "position": {
           "x": -1280,
-          "y": 1760
+          "y": 1792
         },
         "size": {
           "width": 464,
-          "height": 160
+          "height": 176
         },
         "isCollapsed": false,
         "ports": [],
@@ -4881,11 +4887,11 @@
         "name": "Cloud Infra",
         "position": {
           "x": -2080,
-          "y": 1168
+          "y": 1152
         },
         "size": {
           "width": 304,
-          "height": 272
+          "height": 288
         },
         "isCollapsed": false,
         "ports": [],
@@ -4899,18 +4905,19 @@
         "name": "Интернет",
         "position": {
           "x": -96,
-          "y": 1216
+          "y": 1200
         },
         "size": {
           "width": 192,
-          "height": 160
+          "height": 176
         },
         "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
           "borderColor": "#94a3b8"
-        }
+        },
+        "description": ""
       }
     },
     "integrationLayers": {
