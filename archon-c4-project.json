@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-10T09:30:23.353Z",
+  "timestamp": "2026-02-10T14:08:41.667Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -360,8 +360,8 @@
           "y": -992
         },
         "size": {
-          "width": 928,
-          "height": 912
+          "width": 1376,
+          "height": 848
         },
         "color": "",
         "groupIds": [],
@@ -390,8 +390,8 @@
         "metadata": {},
         "containerIds": [],
         "position": {
-          "x": -1008,
-          "y": 32
+          "x": 384,
+          "y": -176
         },
         "size": {
           "width": 224,
@@ -424,8 +424,8 @@
         "metadata": {},
         "containerIds": [],
         "position": {
-          "x": -416,
-          "y": -64
+          "x": 368,
+          "y": -736
         },
         "size": {
           "width": 224,
@@ -1593,7 +1593,7 @@
         "name": "UI",
         "type": "App",
         "position": {
-          "x": -960,
+          "x": -976,
           "y": -912
         },
         "size": {
@@ -1635,7 +1635,7 @@
         "name": "Gateway service",
         "type": "App",
         "position": {
-          "x": -960,
+          "x": -976,
           "y": -704
         },
         "size": {
@@ -1658,10 +1658,6 @@
             "side": "left"
           },
           {
-            "id": "9f5698e2-e57a-4ed1-98d6-1e266b183b79",
-            "side": "right"
-          },
-          {
             "id": "e78d986a-a282-4233-b2f9-70c03a2a51e9",
             "side": "left"
           },
@@ -1677,7 +1673,7 @@
         "name": "Trace",
         "type": "App",
         "position": {
-          "x": -960,
+          "x": -976,
           "y": -480
         },
         "size": {
@@ -1692,10 +1688,6 @@
             "side": "top"
           },
           {
-            "id": "e4e52a59-83c1-4e2e-9ad2-ef5931cbe485",
-            "side": "bottom"
-          },
-          {
             "id": "d41fe0f8-99ef-463c-aa8b-5feef670bbc5",
             "side": "left"
           },
@@ -1706,6 +1698,14 @@
           {
             "id": "f1bb3b24-b7d5-4452-80a2-7a75032327a3",
             "side": "right"
+          },
+          {
+            "id": "3329d55c-ef56-4af3-8016-7472cc332ab4",
+            "side": "bottom"
+          },
+          {
+            "id": "dbfbd6e8-de24-42ca-9df6-dd42eacc6123",
+            "side": "bottom"
           }
         ]
       },
@@ -1716,7 +1716,7 @@
         "type": "DB",
         "position": {
           "x": -1248,
-          "y": -288
+          "y": -240
         },
         "size": {
           "width": 128,
@@ -1740,10 +1740,6 @@
           {
             "id": "fa6dc96e-0baf-4984-906f-0def2f37eabc",
             "side": "right"
-          },
-          {
-            "id": "32de93d7-fc25-4db8-ba16-99341e2c7329",
-            "side": "top"
           }
         ],
         "tables": []
@@ -1754,8 +1750,8 @@
         "name": "S3",
         "type": "DB",
         "position": {
-          "x": -960,
-          "y": -288
+          "x": -464,
+          "y": -240
         },
         "size": {
           "width": 128,
@@ -1789,8 +1785,8 @@
         "name": "PostgreSQL",
         "type": "DB",
         "position": {
-          "x": -784,
-          "y": -288
+          "x": -464,
+          "y": -336
         },
         "size": {
           "width": 128,
@@ -1799,10 +1795,6 @@
         "color": "",
         "groupIds": [],
         "ports": [
-          {
-            "id": "286c0e3c-fc54-42cb-809c-fac19a84101e",
-            "side": "top"
-          },
           {
             "id": "cd9c3aab-1a1a-401e-9e70-6111849d98a8",
             "side": "bottom"
@@ -1814,6 +1806,10 @@
           {
             "id": "9779dccc-5fa3-4c5a-81e8-87c21baed8c8",
             "side": "right"
+          },
+          {
+            "id": "6e7c6657-bcc7-4ad3-96f1-3dc00d5bfc3d",
+            "side": "top"
           }
         ],
         "tables": []
@@ -1824,8 +1820,8 @@
         "name": "Kafka",
         "type": "Bus",
         "position": {
-          "x": -544,
-          "y": -288
+          "x": -480,
+          "y": -688
         },
         "size": {
           "width": 160,
@@ -1851,8 +1847,8 @@
             "side": "right"
           },
           {
-            "id": "aa490054-8f23-45f6-a989-696d3cb1db7c",
-            "side": "top"
+            "id": "1ae26d3d-87cf-4f9b-937d-e3664caffcad",
+            "side": "left"
           }
         ],
         "topics": []
@@ -1863,8 +1859,8 @@
         "name": "Caller Backend",
         "type": "App",
         "position": {
-          "x": -944,
-          "y": -176
+          "x": -64,
+          "y": -688
         },
         "size": {
           "width": 128,
@@ -1890,7 +1886,7 @@
             "side": "right"
           },
           {
-            "id": "eeb6086e-39a8-43db-a564-31746483e82f",
+            "id": "4ad52164-a87d-48b6-9e37-2ef6c45f1ac4",
             "side": "bottom"
           }
         ]
@@ -2653,8 +2649,8 @@
         "id": "305fd96d-50a6-4074-8706-6665f16d7385",
         "name": "BA",
         "position": {
-          "x": -800,
-          "y": -1152
+          "x": -816,
+          "y": -1184
         },
         "size": {
           "width": 128,
@@ -2684,8 +2680,8 @@
         "id": "6f3681c4-07b4-4d58-ac2a-0fb1ecb707a7",
         "name": "Admin",
         "position": {
-          "x": -960,
-          "y": -1152
+          "x": -976,
+          "y": -1184
         },
         "size": {
           "width": 128,
@@ -2715,8 +2711,8 @@
         "id": "56035615-b30e-44a0-b087-b95e539cf824",
         "name": "Developer",
         "position": {
-          "x": -1120,
-          "y": -1152
+          "x": -1136,
+          "y": -1184
         },
         "size": {
           "width": 128,
@@ -3762,39 +3758,53 @@
         "sourceId": "91d00661-3881-43a2-8064-e85985dd8276",
         "sourceSide": "7e34e580-a451-4cc8-a8a5-4634e1f16c85",
         "targetId": "e97476c1-f396-4668-962e-12e56dff79ab",
-        "targetSide": "cfc0401d-6023-4fa5-93b1-7dc61b44eb88",
+        "targetSide": "ccbc763c-bc1a-4cfa-84c3-e3f805f15c27",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [],
-        "description": "Работа с GigaChat, транскрибация, генерация голоса"
+        "controlPoints": [
+          {
+            "x": 976,
+            "y": -96
+          }
+        ],
+        "description": "Работа с GigaChat, транскрибация, генерация голоса",
+        "labelOffset": {
+          "x": -180.1821497411829,
+          "y": -86.2292719244623
+        }
       },
       "6a4e9b71-0410-4897-a419-fc6bfdbeef9d": {
         "id": "6a4e9b71-0410-4897-a419-fc6bfdbeef9d",
         "sourceId": "75773706-eb28-48ed-805d-f7d176166836",
-        "sourceSide": "60a89d6d-6c71-4877-99a5-d7fed2a973e7",
+        "sourceSide": "4ad52164-a87d-48b6-9e37-2ef6c45f1ac4",
         "targetId": "91d00661-3881-43a2-8064-e85985dd8276",
-        "targetSide": "575815e7-dcf6-4e74-b9db-ca5615acdcdc",
+        "targetSide": "f359ee86-4dda-46ff-ae7c-dc46cbedab7c",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [],
+        "controlPoints": [
+          {
+            "x": 16,
+            "y": -96
+          }
+        ],
         "description": "Голосовое обращение",
         "labelOffset": {
-          "x": -80.12822808848966,
-          "y": 7.004527965022135
+          "x": 4.643893892027052,
+          "y": -2.4145966994797163
         }
       },
       "582577ad-a0ff-44ee-a3fa-6e77dffae5b9": {
         "id": "582577ad-a0ff-44ee-a3fa-6e77dffae5b9",
         "sourceId": "75773706-eb28-48ed-805d-f7d176166836",
-        "sourceSide": "1d9051e5-11bb-4858-86cb-159bda102761",
+        "sourceSide": "60a89d6d-6c71-4877-99a5-d7fed2a973e7",
         "targetId": "6445e778-96a4-497a-a6fb-83615e0da860",
         "targetSide": "78dff73e-bd58-47b6-ba47-3a0b4248a552",
         "endpoints": [],
@@ -3805,41 +3815,26 @@
         },
         "controlPoints": [
           {
+            "x": -16,
+            "y": -96
+          },
+          {
             "x": -1184,
-            "y": -144
+            "y": -96
           }
         ],
         "description": "Обновление сессии звонка",
         "labelOffset": {
-          "x": 127.59141099483963,
-          "y": 37.4580289159162
+          "x": 245.85375400469627,
+          "y": -0.2184697420913153
         }
       },
       "e922faf9-1bd7-45c2-a38b-7b5664bc400f": {
         "id": "e922faf9-1bd7-45c2-a38b-7b5664bc400f",
         "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
-        "sourceSide": "e4e52a59-83c1-4e2e-9ad2-ef5931cbe485",
+        "sourceSide": "dbfbd6e8-de24-42ca-9df6-dd42eacc6123",
         "targetId": "80893243-5b05-48a0-bbfe-f820fe9d3170",
-        "targetSide": "30447343-943b-49b2-9a94-ba9ce5ae2938",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Работа с \nартефактами звонков",
-        "labelOffset": {
-          "x": 65.11816860964609,
-          "y": 2.0349427690514403
-        }
-      },
-      "b825451d-9bdb-49b0-b7fd-a1921cceb26d": {
-        "id": "b825451d-9bdb-49b0-b7fd-a1921cceb26d",
-        "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
-        "sourceSide": "d41fe0f8-99ef-463c-aa8b-5feef670bbc5",
-        "targetId": "6445e778-96a4-497a-a6fb-83615e0da860",
-        "targetSide": "32de93d7-fc25-4db8-ba16-99341e2c7329",
+        "targetSide": "1535e4c7-0a84-4cb8-95b7-c6d55540eaa2",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3848,14 +3843,38 @@
         },
         "controlPoints": [
           {
-            "x": -1168,
-            "y": -448
+            "x": -896,
+            "y": -208
+          }
+        ],
+        "description": "Работа с \nартефактами звонков",
+        "labelOffset": {
+          "x": -77.23615380953083,
+          "y": -15.132650839774328
+        }
+      },
+      "b825451d-9bdb-49b0-b7fd-a1921cceb26d": {
+        "id": "b825451d-9bdb-49b0-b7fd-a1921cceb26d",
+        "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
+        "sourceSide": "3329d55c-ef56-4af3-8016-7472cc332ab4",
+        "targetId": "6445e778-96a4-497a-a6fb-83615e0da860",
+        "targetSide": "fa6dc96e-0baf-4984-906f-0def2f37eabc",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -928,
+            "y": -208
           }
         ],
         "description": "Работа с сессией звонка",
         "labelOffset": {
-          "x": 109.76209619474935,
-          "y": -87.41304602762233
+          "x": 2.6895319849814996,
+          "y": -4.55938443569363
         }
       },
       "ecfd658e-80d2-4b9b-819b-70fb9ab51222": {
@@ -3863,7 +3882,7 @@
         "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
         "sourceSide": "f1bb3b24-b7d5-4452-80a2-7a75032327a3",
         "targetId": "a179f2bf-cf6a-497e-9b7f-75c9e2895233",
-        "targetSide": "286c0e3c-fc54-42cb-809c-fac19a84101e",
+        "targetSide": "6e7c6657-bcc7-4ad3-96f1-3dc00d5bfc3d",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3872,14 +3891,14 @@
         },
         "controlPoints": [
           {
-            "x": -720,
+            "x": -400,
             "y": -432
           }
         ],
         "description": "Хранилище связей",
         "labelOffset": {
-          "x": 64.10069722512048,
-          "y": 15.262070767885803
+          "x": 64.98217024568976,
+          "y": 7.291391151095809
         }
       },
       "a3ec8656-1b05-4759-a7b2-c9ff46f00a1d": {
@@ -3915,14 +3934,14 @@
         },
         "controlPoints": [
           {
-            "x": -1200,
+            "x": -1184,
             "y": -656
           }
         ],
         "description": "Обновление сессии звонка",
         "labelOffset": {
-          "x": -87.50253906921193,
-          "y": -11.192185229782922
+          "x": 88.18681020773147,
+          "y": -2.6219730699319825
         }
       },
       "4dda8113-fe0f-464e-86ee-dbc5d65fdac8": {
@@ -3949,54 +3968,6 @@
         "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
         "sourceSide": "65dfb0c2-da07-4caa-8c74-dbe8a155418b",
         "targetId": "1e1e9564-e46c-41b1-85b6-8fee915037b2",
-        "targetSide": "0fbf7637-691b-4132-b499-3abaf3ab0f88",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -496,
-            "y": -464
-          }
-        ],
-        "description": "Получение информации о звонке\nтекст / аудио",
-        "labelOffset": {
-          "x": -178.47695592483308,
-          "y": -105.86492486947179
-        }
-      },
-      "e178b903-61c4-4e30-99c7-4ac7f6570e18": {
-        "id": "e178b903-61c4-4e30-99c7-4ac7f6570e18",
-        "sourceId": "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
-        "sourceSide": "cd541d30-ced6-4848-a7d0-7f6e79a85577",
-        "targetId": "1e1e9564-e46c-41b1-85b6-8fee915037b2",
-        "targetSide": "aa490054-8f23-45f6-a989-696d3cb1db7c",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -432,
-            "y": -656
-          }
-        ],
-        "description": "Инициализация звонка",
-        "labelOffset": {
-          "x": -106.12499476190385,
-          "y": -184.90495396851628
-        }
-      },
-      "a858a206-cfcf-4b63-900c-34af16f3cbe3": {
-        "id": "a858a206-cfcf-4b63-900c-34af16f3cbe3",
-        "sourceId": "75773706-eb28-48ed-805d-f7d176166836",
-        "sourceSide": "050ad172-4bc4-4220-b5e8-8414a3f8b059",
-        "targetId": "1e1e9564-e46c-41b1-85b6-8fee915037b2",
         "targetSide": "8f14b22f-257b-4088-9c1d-cc9bd5273b2d",
         "endpoints": [],
         "style": {
@@ -4006,20 +3977,58 @@
         },
         "controlPoints": [
           {
-            "x": -464,
-            "y": -144
+            "x": -400,
+            "y": -464
           }
         ],
+        "description": "Получение информации о звонке\nтекст / аудио",
+        "labelOffset": {
+          "x": -232.6022021559794,
+          "y": 67.66885062984909
+        }
+      },
+      "e178b903-61c4-4e30-99c7-4ac7f6570e18": {
+        "id": "e178b903-61c4-4e30-99c7-4ac7f6570e18",
+        "sourceId": "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
+        "sourceSide": "cd541d30-ced6-4848-a7d0-7f6e79a85577",
+        "targetId": "1e1e9564-e46c-41b1-85b6-8fee915037b2",
+        "targetSide": "ca1a3be1-932d-49ab-9d63-0f93f2745f19",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Инициализация звонка",
+        "labelOffset": {
+          "x": 4.554782309434017,
+          "y": -2.10937890220265
+        }
+      },
+      "a858a206-cfcf-4b63-900c-34af16f3cbe3": {
+        "id": "a858a206-cfcf-4b63-900c-34af16f3cbe3",
+        "sourceId": "75773706-eb28-48ed-805d-f7d176166836",
+        "sourceSide": "1d9051e5-11bb-4858-86cb-159bda102761",
+        "targetId": "1e1e9564-e46c-41b1-85b6-8fee915037b2",
+        "targetSide": "a73bfef7-a6b7-46e6-8e72-599aa36ae1b5",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
         "description": "Информация о звонке\nПодписка на инициализацию звонка",
         "labelOffset": {
-          "x": -127.18392306571513,
-          "y": 23.401841844091564
+          "x": -6.828441241524729,
+          "y": -13.228087406748955
         }
       },
       "d31089cd-5048-4206-bbe7-1d2a685bd0dc": {
         "id": "d31089cd-5048-4206-bbe7-1d2a685bd0dc",
         "sourceId": "75773706-eb28-48ed-805d-f7d176166836",
-        "sourceSide": "eeb6086e-39a8-43db-a564-31746483e82f",
+        "sourceSide": "050ad172-4bc4-4220-b5e8-8414a3f8b059",
         "targetId": "6bce9f35-524d-4659-83d2-d189be85fc34",
         "targetSide": "35888628-a2b7-4221-b066-5f04573e820e",
         "endpoints": [],
@@ -4028,12 +4037,7 @@
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [
-          {
-            "x": -864,
-            "y": 16
-          }
-        ],
+        "controlPoints": [],
         "description": "Установка голосового вызова"
       },
       "ebace73a-9e20-49a9-bdde-4bd31de03330": {
