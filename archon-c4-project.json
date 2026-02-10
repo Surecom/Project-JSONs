@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-10T14:08:41.667Z",
+  "timestamp": "2026-02-10T14:11:20.218Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -1696,15 +1696,15 @@
             "side": "right"
           },
           {
-            "id": "f1bb3b24-b7d5-4452-80a2-7a75032327a3",
-            "side": "right"
-          },
-          {
             "id": "3329d55c-ef56-4af3-8016-7472cc332ab4",
             "side": "bottom"
           },
           {
             "id": "dbfbd6e8-de24-42ca-9df6-dd42eacc6123",
+            "side": "bottom"
+          },
+          {
+            "id": "aed96cd1-a9d2-4737-87c3-36884a0ccc0d",
             "side": "bottom"
           }
         ]
@@ -1740,6 +1740,10 @@
           {
             "id": "fa6dc96e-0baf-4984-906f-0def2f37eabc",
             "side": "right"
+          },
+          {
+            "id": "7f0fd743-6fe9-4792-82bf-964806a98396",
+            "side": "top"
           }
         ],
         "tables": []
@@ -1750,7 +1754,7 @@
         "name": "S3",
         "type": "DB",
         "position": {
-          "x": -464,
+          "x": -704,
           "y": -240
         },
         "size": {
@@ -1785,8 +1789,8 @@
         "name": "PostgreSQL",
         "type": "DB",
         "position": {
-          "x": -464,
-          "y": -336
+          "x": -976,
+          "y": -240
         },
         "size": {
           "width": 128,
@@ -3832,25 +3836,20 @@
       "e922faf9-1bd7-45c2-a38b-7b5664bc400f": {
         "id": "e922faf9-1bd7-45c2-a38b-7b5664bc400f",
         "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
-        "sourceSide": "dbfbd6e8-de24-42ca-9df6-dd42eacc6123",
+        "sourceSide": "aed96cd1-a9d2-4737-87c3-36884a0ccc0d",
         "targetId": "80893243-5b05-48a0-bbfe-f820fe9d3170",
-        "targetSide": "1535e4c7-0a84-4cb8-95b7-c6d55540eaa2",
+        "targetSide": "30447343-943b-49b2-9a94-ba9ce5ae2938",
         "endpoints": [],
         "style": {
-          "type": "polyline",
+          "type": "bezier",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [
-          {
-            "x": -896,
-            "y": -208
-          }
-        ],
+        "controlPoints": [],
         "description": "Работа с \nартефактами звонков",
         "labelOffset": {
-          "x": -77.23615380953083,
-          "y": -15.132650839774328
+          "x": 168.90158247395073,
+          "y": 34.74548074190034
         }
       },
       "b825451d-9bdb-49b0-b7fd-a1921cceb26d": {
@@ -3858,29 +3857,24 @@
         "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
         "sourceSide": "3329d55c-ef56-4af3-8016-7472cc332ab4",
         "targetId": "6445e778-96a4-497a-a6fb-83615e0da860",
-        "targetSide": "fa6dc96e-0baf-4984-906f-0def2f37eabc",
+        "targetSide": "7f0fd743-6fe9-4792-82bf-964806a98396",
         "endpoints": [],
         "style": {
-          "type": "polyline",
+          "type": "bezier",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [
-          {
-            "x": -928,
-            "y": -208
-          }
-        ],
+        "controlPoints": [],
         "description": "Работа с сессией звонка",
         "labelOffset": {
-          "x": 2.6895319849814996,
-          "y": -4.55938443569363
+          "x": -3.8163112648020387,
+          "y": 55.07751202065646
         }
       },
       "ecfd658e-80d2-4b9b-819b-70fb9ab51222": {
         "id": "ecfd658e-80d2-4b9b-819b-70fb9ab51222",
         "sourceId": "c07ea25d-f8f1-421c-b7d6-b656308d9369",
-        "sourceSide": "f1bb3b24-b7d5-4452-80a2-7a75032327a3",
+        "sourceSide": "dbfbd6e8-de24-42ca-9df6-dd42eacc6123",
         "targetId": "a179f2bf-cf6a-497e-9b7f-75c9e2895233",
         "targetSide": "6e7c6657-bcc7-4ad3-96f1-3dc00d5bfc3d",
         "endpoints": [],
@@ -3889,16 +3883,11 @@
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [
-          {
-            "x": -400,
-            "y": -432
-          }
-        ],
+        "controlPoints": [],
         "description": "Хранилище связей",
         "labelOffset": {
           "x": 64.98217024568976,
-          "y": 7.291391151095809
+          "y": 52.83229389958137
         }
       },
       "a3ec8656-1b05-4759-a7b2-c9ff46f00a1d": {
@@ -3934,7 +3923,7 @@
         },
         "controlPoints": [
           {
-            "x": -1184,
+            "x": -1200,
             "y": -656
           }
         ],
@@ -3978,7 +3967,7 @@
         "controlPoints": [
           {
             "x": -400,
-            "y": -464
+            "y": -448
           }
         ],
         "description": "Получение информации о звонке\nтекст / аудио",
