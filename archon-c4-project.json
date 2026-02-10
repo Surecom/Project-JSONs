@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-10T14:13:42.919Z",
+  "timestamp": "2026-02-10T14:15:03.739Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -425,7 +425,7 @@
         "containerIds": [],
         "position": {
           "x": 368,
-          "y": -736
+          "y": -752
         },
         "size": {
           "width": 224,
@@ -1825,7 +1825,7 @@
         "type": "Bus",
         "position": {
           "x": -480,
-          "y": -688
+          "y": -704
         },
         "size": {
           "width": 160,
@@ -1849,10 +1849,6 @@
           {
             "id": "a73bfef7-a6b7-46e6-8e72-599aa36ae1b5",
             "side": "right"
-          },
-          {
-            "id": "1ae26d3d-87cf-4f9b-937d-e3664caffcad",
-            "side": "left"
           }
         ],
         "topics": []
@@ -1864,7 +1860,7 @@
         "type": "App",
         "position": {
           "x": -64,
-          "y": -688
+          "y": -704
         },
         "size": {
           "width": 128,
