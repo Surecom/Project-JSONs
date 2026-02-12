@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-10T14:15:03.739Z",
+  "timestamp": "2026-02-12T14:45:36.269Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -95,6 +95,14 @@
           {
             "id": "e3259fb1-bfe1-45c5-b44d-ea7d5677221c",
             "side": "right"
+          },
+          {
+            "id": "d715a380-add6-443d-810f-12f65f5dd5c0",
+            "side": "right"
+          },
+          {
+            "id": "fdcef8da-f327-496c-bcee-6665364cf165",
+            "side": "top"
           }
         ],
         "description": ""
@@ -182,18 +190,17 @@
           "Deployment Target": "ns: ari"
         },
         "containerIds": [
-          "a07ba992-9157-47bc-865a-37439f57a458",
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
           "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
           "f0283d93-3146-4f55-970b-e6e055bb6dfd",
           "84fb1cc5-3001-4147-a132-2581beab47f6"
         ],
         "position": {
-          "x": -1456,
+          "x": -1488,
           "y": 768
         },
         "size": {
-          "width": 784,
+          "width": 816,
           "height": 432
         },
         "color": "",
@@ -218,6 +225,18 @@
           {
             "id": "937804c4-4f7f-4a3e-a8c0-564926b83917",
             "side": "bottom"
+          },
+          {
+            "id": "e92f5b17-c3dd-4f33-9d4f-23d98de021e4",
+            "side": "top"
+          },
+          {
+            "id": "5be904b0-3513-4f1a-a963-518816616b08",
+            "side": "left"
+          },
+          {
+            "id": "244d7941-0e30-4cc2-a2ea-e6784a9bc28f",
+            "side": "left"
           }
         ]
       },
@@ -264,46 +283,6 @@
           {
             "id": "e52bd126-d7ba-4b87-a793-d9d4460cf164",
             "side": "left"
-          }
-        ]
-      },
-      "67df732f-a1f8-4365-9063-281c158bb32b": {
-        "id": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "name": "ARI Dynamic Agent namespace",
-        "metadata": {
-          "Deployment Target": "ns: ARI-Dynamic-{UUID}"
-        },
-        "containerIds": [
-          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-          "b980ef13-f918-4745-9b58-0bf2a669cd03",
-          "002c4823-605a-4235-aeb0-ee6503539c50"
-        ],
-        "position": {
-          "x": -1552,
-          "y": 1408
-        },
-        "size": {
-          "width": 752,
-          "height": 288
-        },
-        "color": "#a855f7",
-        "groupIds": [],
-        "ports": [
-          {
-            "id": "c97c44bb-6d51-4411-9c83-daa44c05dc59",
-            "side": "top"
-          },
-          {
-            "id": "94a028c6-79b8-4f98-b556-497aefdfdf45",
-            "side": "bottom"
-          },
-          {
-            "id": "6e897150-fe05-48c6-8490-40a5c39c23e5",
-            "side": "left"
-          },
-          {
-            "id": "647a3918-f026-4b48-9c63-b1e64e013842",
-            "side": "right"
           }
         ]
       },
@@ -626,8 +605,8 @@
           "5213e793-e425-4819-9d58-6fe27fac05f1"
         ],
         "position": {
-          "x": -1920,
-          "y": 2000
+          "x": -2080,
+          "y": 1936
         },
         "size": {
           "width": 992,
@@ -651,9 +630,279 @@
           {
             "id": "3978c88e-39a6-4a12-b3fd-2d49c121cca0",
             "side": "right"
+          },
+          {
+            "id": "9012489a-6da9-4172-b2f9-e36c11d09277",
+            "side": "top"
+          },
+          {
+            "id": "0f738ff1-e697-452b-8079-9c2ec801fc8e",
+            "side": "top"
+          },
+          {
+            "id": "e2940d35-b9bd-4e55-ad9f-abcb36bf4805",
+            "side": "left"
+          },
+          {
+            "id": "8670274e-ab81-4fd4-87a2-7c0c51c45c8a",
+            "side": "left"
           }
         ],
         "description": "Трассировка вызовов, промптов, цепочек, токенов, latency, cost"
+      },
+      "170d9b97-b2e2-4500-a588-5a11d63b5418": {
+        "id": "170d9b97-b2e2-4500-a588-5a11d63b5418",
+        "name": "ARI Dynamic Agent DB",
+        "metadata": {},
+        "containerIds": [
+          "79165802-40c0-4db9-80b3-33f653a2ccb8"
+        ],
+        "position": {
+          "x": -1648,
+          "y": 1408
+        },
+        "size": {
+          "width": 192,
+          "height": 176
+        },
+        "color": "#6366f1",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "a4b2b93e-4a2d-4e99-875b-2a32ee537e38",
+            "side": "top"
+          },
+          {
+            "id": "9df8aae3-e061-4d29-b4cc-64d1268da9f6",
+            "side": "bottom"
+          },
+          {
+            "id": "d7df5b52-a4ce-4591-9136-70688c4ee9c3",
+            "side": "left"
+          },
+          {
+            "id": "7e9233fa-5094-48f2-9168-ec64b506d00f",
+            "side": "right"
+          }
+        ]
+      },
+      "67df732f-a1f8-4365-9063-281c158bb32b": {
+        "id": "67df732f-a1f8-4365-9063-281c158bb32b",
+        "name": "ARI Dynamic Agent namespace",
+        "metadata": {
+          "Deployment Target": "ns: ARI-Dynamic-{UUID}"
+        },
+        "containerIds": [
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "b980ef13-f918-4745-9b58-0bf2a669cd03",
+          "aae6dfd9-b79a-446c-9206-037a33faa14e",
+          "374374ab-2701-4d8e-9e52-21183b441ab6"
+        ],
+        "position": {
+          "x": -1264,
+          "y": 1392
+        },
+        "size": {
+          "width": 464,
+          "height": 304
+        },
+        "color": "#a855f7",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "c97c44bb-6d51-4411-9c83-daa44c05dc59",
+            "side": "top"
+          },
+          {
+            "id": "94a028c6-79b8-4f98-b556-497aefdfdf45",
+            "side": "bottom"
+          },
+          {
+            "id": "6e897150-fe05-48c6-8490-40a5c39c23e5",
+            "side": "left"
+          },
+          {
+            "id": "647a3918-f026-4b48-9c63-b1e64e013842",
+            "side": "right"
+          },
+          {
+            "id": "3db161c0-5604-469b-9e2f-4566c6e819e1",
+            "side": "top"
+          },
+          {
+            "id": "dce7b317-65f5-45f3-acef-36187a09e944",
+            "side": "bottom"
+          }
+        ]
+      },
+      "65ebd0ec-cb55-4425-9ac5-4004b82d064b": {
+        "id": "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+        "name": "Интернет",
+        "metadata": {},
+        "containerIds": [],
+        "position": {
+          "x": -96,
+          "y": 1184
+        },
+        "size": {
+          "width": 192,
+          "height": 176
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "0524acce-14fb-4a81-9a66-1fb7a0d93899",
+            "side": "top"
+          },
+          {
+            "id": "0110828c-98d5-4fc4-a5f6-ebe1a32ce2a6",
+            "side": "bottom"
+          },
+          {
+            "id": "c3109d68-db51-41db-aa48-4877ecb1c68e",
+            "side": "left"
+          },
+          {
+            "id": "7fae14d5-6d15-4b45-961d-dfebbe631073",
+            "side": "right"
+          }
+        ],
+        "activeVersion": "latest",
+        "versions": [
+          "latest"
+        ]
+      },
+      "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": {
+        "id": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+        "name": "Функции для Агентов",
+        "metadata": {},
+        "containerIds": [
+          "2ba8d505-27d3-491b-9cde-1326560fd12e",
+          "fd992819-d871-4577-8169-0da554ba5910"
+        ],
+        "position": {
+          "x": -976,
+          "y": 1936
+        },
+        "size": {
+          "width": 480,
+          "height": 176
+        },
+        "color": "#000000",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "817199ae-3c67-43e9-b795-133af17a32c5",
+            "side": "top"
+          },
+          {
+            "id": "ace84d6a-f436-4f53-b66c-2467259c5571",
+            "side": "bottom"
+          },
+          {
+            "id": "8ecf937c-659c-4cff-99e0-733c0224c972",
+            "side": "left"
+          },
+          {
+            "id": "66387cfc-e65d-4f75-88bc-cabd56033ed6",
+            "side": "right"
+          },
+          {
+            "id": "7dd3ae02-9724-4248-8c80-cf8fe21b4317",
+            "side": "top"
+          }
+        ],
+        "activeVersion": "latest",
+        "versions": [
+          "latest"
+        ]
+      },
+      "dad041a8-ea22-45b8-8467-8e1a22f76030": {
+        "id": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "name": "Sber Devices",
+        "metadata": {},
+        "containerIds": [
+          "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+          "be717a0c-fff2-4d1c-b04c-67073825217b"
+        ],
+        "position": {
+          "x": -1952,
+          "y": 976
+        },
+        "size": {
+          "width": 192,
+          "height": 272
+        },
+        "color": "#10b981",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "bd47452f-ba82-40fc-9cb3-e007c36a7cf9",
+            "side": "top"
+          },
+          {
+            "id": "dbd75757-b70e-406a-9a33-d8c60404f7e5",
+            "side": "bottom"
+          },
+          {
+            "id": "ba7ad4b6-8f90-4456-9403-2ee3d6f6a2cf",
+            "side": "left"
+          },
+          {
+            "id": "53c2f543-bed6-4b09-a66f-35fd22887490",
+            "side": "right"
+          }
+        ],
+        "activeVersion": "latest",
+        "versions": [
+          "latest"
+        ]
+      },
+      "b4b6849a-e514-4e8a-b7cc-caca297bbd88": {
+        "id": "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+        "name": "Cloud Infra",
+        "metadata": {},
+        "containerIds": [
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9"
+        ],
+        "position": {
+          "x": -2080,
+          "y": 1248
+        },
+        "size": {
+          "width": 304,
+          "height": 256
+        },
+        "color": "#a855f7",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "e12471da-315f-4b23-9326-f71ac6750ffa",
+            "side": "top"
+          },
+          {
+            "id": "023f0387-107e-4f4e-9b58-50e7ccb27976",
+            "side": "bottom"
+          },
+          {
+            "id": "a4c0206e-4893-467f-bf10-9cf752090334",
+            "side": "left"
+          },
+          {
+            "id": "feea974e-c62a-463d-ae4d-4d2177fd8f39",
+            "side": "right"
+          },
+          {
+            "id": "809a6f7e-fc79-4241-ad96-cee928422ec5",
+            "side": "right"
+          }
+        ],
+        "activeVersion": "latest",
+        "versions": [
+          "latest"
+        ]
       }
     },
     "containers": {
@@ -1084,87 +1333,17 @@
         ],
         "tables": []
       },
-      "602ae8c8-0a1c-4a90-89d0-4070bfba5955": {
-        "id": "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
-        "systemId": "",
-        "name": "Какой то ресурс",
-        "type": "App",
-        "position": {
-          "x": -64,
-          "y": 1280
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "ports": [
-          {
-            "id": "f88906bb-2103-48bc-a593-dcf4f5ebed7f",
-            "side": "top"
-          },
-          {
-            "id": "a1650c31-f9a1-4036-8ac9-35efe5fffa62",
-            "side": "bottom"
-          },
-          {
-            "id": "27f36a02-1778-4f36-a44b-b48fed821c87",
-            "side": "left"
-          },
-          {
-            "id": "db2d5260-9c1e-466e-b9a7-6356f1c99d19",
-            "side": "right"
-          }
-        ],
-        "parentGroupId": "be6ca3d8-08a2-4325-8586-ae3e04ba6c73"
-      },
-      "a07ba992-9157-47bc-865a-37439f57a458": {
-        "id": "a07ba992-9157-47bc-865a-37439f57a458",
-        "systemId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "name": "Данные агентов",
-        "type": "DB",
-        "position": {
-          "x": -1072,
-          "y": 1104
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "ports": [
-          {
-            "id": "35c9182b-ad59-4bf9-9b3c-ad9042ab45f5",
-            "side": "top"
-          },
-          {
-            "id": "f4395e64-4c1a-4547-846f-f2c7018d0596",
-            "side": "bottom"
-          },
-          {
-            "id": "880e7cf1-2a03-4a7e-95be-c3e6140360a5",
-            "side": "left"
-          },
-          {
-            "id": "9eaf119d-d834-44f2-b39d-b312beadf465",
-            "side": "right"
-          }
-        ],
-        "tables": []
-      },
       "4147136a-02dd-475b-8e69-f25ebfd6f40f": {
         "id": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
         "systemId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "name": "API Gateway ARI",
+        "name": "Controller / Agent Ingress",
         "type": "App",
         "position": {
-          "x": -1424,
+          "x": -1456,
           "y": 864
         },
         "size": {
-          "width": 128,
+          "width": 176,
           "height": 64
         },
         "color": "",
@@ -1237,133 +1416,6 @@
           "Deployment Target": "pod: ari-oap"
         }
       },
-      "2169b4a2-3985-4b47-b2be-0104a56dd67f": {
-        "id": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "name": "Aegra",
-        "type": "App",
-        "position": {
-          "x": -1232,
-          "y": 1600
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "ports": [
-          {
-            "id": "e178756f-8251-4d0e-8392-27185bf240d8",
-            "side": "top"
-          },
-          {
-            "id": "0e9a119d-296f-46b6-a489-abe794e3a15b",
-            "side": "bottom"
-          },
-          {
-            "id": "5c0bd3df-2073-447d-98b6-0132f4a3c9b1",
-            "side": "left"
-          },
-          {
-            "id": "56636047-f272-4642-afd1-0546bc9e027a",
-            "side": "right"
-          },
-          {
-            "id": "6f08db87-927f-401a-9fb7-7d20bceaf693",
-            "side": "right"
-          },
-          {
-            "id": "f6ad2909-2aed-4220-a9d7-0557a650a17e",
-            "side": "bottom"
-          },
-          {
-            "id": "abdb3fc9-0492-498a-b631-f5564e733630",
-            "side": "left"
-          },
-          {
-            "id": "d01b5daa-5954-4a2d-a858-ddf1d0bf72ff",
-            "side": "right"
-          }
-        ],
-        "description": "\n[MIGRATED DATA] showSideCars: true\n[MIGRATED DATA] sideCars: [{\"name\":\"arize\",\"color\":\"#ffff00\"}]"
-      },
-      "b980ef13-f918-4745-9b58-0bf2a669cd03": {
-        "id": "b980ef13-f918-4745-9b58-0bf2a669cd03",
-        "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "name": "Aegra API GW",
-        "type": "App",
-        "position": {
-          "x": -960,
-          "y": 1488
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "ports": [
-          {
-            "id": "fa809db4-9a5e-41c5-ad67-466e1bc04dd3",
-            "side": "top"
-          },
-          {
-            "id": "1c24d171-b8a9-499c-bbf7-94cc1825a0c2",
-            "side": "bottom"
-          },
-          {
-            "id": "42b729d3-8aef-4c17-87e3-366f54c971fb",
-            "side": "left"
-          },
-          {
-            "id": "19a4ae16-3f1d-4b3e-bf7f-cba9abbb59d8",
-            "side": "right"
-          },
-          {
-            "id": "ce810b45-66c2-4100-abff-d9cd84c4f98f",
-            "side": "right"
-          }
-        ]
-      },
-      "002c4823-605a-4235-aeb0-ee6503539c50": {
-        "id": "002c4823-605a-4235-aeb0-ee6503539c50",
-        "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "name": "Aegra PostgreSQL",
-        "type": "DB",
-        "position": {
-          "x": -1520,
-          "y": 1488
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "ports": [
-          {
-            "id": "09d73253-3012-4273-ad6a-a2c391fe48c3",
-            "side": "top"
-          },
-          {
-            "id": "73603083-8629-4e02-84d8-ed77098c3895",
-            "side": "bottom"
-          },
-          {
-            "id": "34604e32-b8b7-4df9-b08f-7236bc77bab3",
-            "side": "left"
-          },
-          {
-            "id": "4da8fa14-e44c-422d-b23c-c7f0bffbbeda",
-            "side": "right"
-          }
-        ],
-        "tables": [],
-        "metadata": {
-          "Deployment Target": "vm: d-ari-pgsql-adv-msk[01-03]"
-        }
-      },
       "f0283d93-3146-4f55-970b-e6e055bb6dfd": {
         "id": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "systemId": "4718d099-1794-40ad-b754-81aa7206a9f4",
@@ -1403,189 +1455,15 @@
           {
             "id": "bba2a2a2-0ea1-45e5-a863-e010165e94bd",
             "side": "left"
+          },
+          {
+            "id": "3927cf85-ce44-4d83-92a5-cd8eb8aedbbb",
+            "side": "bottom"
           }
         ],
         "metadata": {
           "Deployment Target": "pod: ari-controller"
         }
-      },
-      "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb": {
-        "id": "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
-        "systemId": "",
-        "name": "Хранилище Артефактов",
-        "type": "DB",
-        "position": {
-          "x": -1936,
-          "y": 1088
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "parentGroupId": "d0149188-4dc0-4368-9720-cb2970ba80e4",
-        "ports": [
-          {
-            "id": "0a83f456-5c3f-4cbe-8134-a5c6e724013f",
-            "side": "top"
-          },
-          {
-            "id": "5527ae01-1a0a-4536-aee6-9f957c832902",
-            "side": "bottom"
-          },
-          {
-            "id": "1d828714-353f-42c4-8398-b8cb7fa018d3",
-            "side": "left"
-          },
-          {
-            "id": "41d42388-20a8-4b3e-923f-e5efdf77b2e9",
-            "side": "right"
-          }
-        ],
-        "tables": []
-      },
-      "d0f0343d-6631-4fca-b19d-c761b79b317c": {
-        "id": "d0f0343d-6631-4fca-b19d-c761b79b317c",
-        "systemId": "",
-        "name": "Secret Manager",
-        "type": "DB",
-        "position": {
-          "x": -1936,
-          "y": 1184
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "parentGroupId": "d0149188-4dc0-4368-9720-cb2970ba80e4",
-        "ports": [
-          {
-            "id": "64ee23ec-a768-468b-8e5e-a863059f4af9",
-            "side": "top"
-          },
-          {
-            "id": "ec9cac36-ba5b-49b9-b8e3-299202ee3c05",
-            "side": "bottom"
-          },
-          {
-            "id": "1fc87b39-fe5c-4bac-b1c4-f4df5e04d58c",
-            "side": "left"
-          },
-          {
-            "id": "50a4e57c-82d5-49f0-81d1-def04a7f8c54",
-            "side": "right"
-          }
-        ],
-        "tables": []
-      },
-      "9f0ce94f-7c7b-494c-a777-67bc052c1578": {
-        "id": "9f0ce94f-7c7b-494c-a777-67bc052c1578",
-        "systemId": "",
-        "name": "GIT",
-        "type": "DB",
-        "position": {
-          "x": -1936,
-          "y": 1280
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "#64748b",
-        "groupIds": [],
-        "parentGroupId": "d0149188-4dc0-4368-9720-cb2970ba80e4",
-        "ports": [
-          {
-            "id": "755c1438-04fd-4259-b01a-fda9b6cd5a29",
-            "side": "top"
-          },
-          {
-            "id": "af994e87-843f-4f2d-826e-90204aae67b4",
-            "side": "bottom"
-          },
-          {
-            "id": "5c41101d-2121-4c98-ad05-43093f1c48bf",
-            "side": "left"
-          },
-          {
-            "id": "430313b2-39b3-4e9c-9e74-fef07229f046",
-            "side": "right"
-          }
-        ],
-        "tables": []
-      },
-      "e5bbad81-a5c4-4dd9-80b5-93512b74e2f4": {
-        "id": "e5bbad81-a5c4-4dd9-80b5-93512b74e2f4",
-        "systemId": "",
-        "name": "External Functions",
-        "type": "App",
-        "position": {
-          "x": -1248,
-          "y": 1872
-        },
-        "size": {
-          "width": 128,
-          "height": 64
-        },
-        "color": "#f43f5e",
-        "groupIds": [],
-        "parentGroupId": "0b2aa16f-371e-494f-b0a0-40872d5c7d82",
-        "ports": [
-          {
-            "id": "66cf668d-f461-4316-b0b4-1039daf9a882",
-            "side": "top"
-          },
-          {
-            "id": "09602287-8399-4e71-8b87-ede53a7afa45",
-            "side": "bottom"
-          },
-          {
-            "id": "75d893d5-2ba6-46ea-b129-d7b1f38f31a2",
-            "side": "left"
-          },
-          {
-            "id": "a6a7f9f9-9b04-457c-9bdb-910669cf53ab",
-            "side": "right"
-          }
-        ]
-      },
-      "b5b9142b-fd14-452e-bed3-180371e99af3": {
-        "id": "b5b9142b-fd14-452e-bed3-180371e99af3",
-        "systemId": "",
-        "name": "GigaPlatform Function Registry",
-        "type": "App",
-        "position": {
-          "x": -1056,
-          "y": 1872
-        },
-        "size": {
-          "width": 208,
-          "height": 64
-        },
-        "color": "",
-        "groupIds": [],
-        "parentGroupId": "0b2aa16f-371e-494f-b0a0-40872d5c7d82",
-        "ports": [
-          {
-            "id": "a7505994-4b82-4a84-85b2-7c3dca5aa86f",
-            "side": "top"
-          },
-          {
-            "id": "00cfcfcd-fbf5-4633-9075-207d01b42621",
-            "side": "bottom"
-          },
-          {
-            "id": "c8eb39d9-a8eb-462b-aa21-eb48ca35b8ec",
-            "side": "left"
-          },
-          {
-            "id": "630a4179-f00e-4191-b03d-556536d9621e",
-            "side": "right"
-          }
-        ]
       },
       "2a837ce9-832b-422f-b89f-0b1d3e97bb16": {
         "id": "2a837ce9-832b-422f-b89f-0b1d3e97bb16",
@@ -2104,84 +1982,14 @@
           }
         ]
       },
-      "f45d28bf-5de9-42fe-b365-4242612d8e3f": {
-        "id": "f45d28bf-5de9-42fe-b365-4242612d8e3f",
-        "systemId": "",
-        "name": "Networks repo team security group",
-        "type": "App",
-        "position": {
-          "x": -2048,
-          "y": 1232
-        },
-        "size": {
-          "width": 240,
-          "height": 64
-        },
-        "color": "#a855f7",
-        "groupIds": [],
-        "parentGroupId": "0477c0da-a70f-460c-85ad-0d5b7593c410",
-        "ports": [
-          {
-            "id": "8a42aa74-c456-4fe6-b405-1875f1437beb",
-            "side": "top"
-          },
-          {
-            "id": "fae39848-1009-4083-8724-69e2f9690172",
-            "side": "bottom"
-          },
-          {
-            "id": "68f3cb24-9973-4a46-9d09-76c66e6d94f5",
-            "side": "left"
-          },
-          {
-            "id": "04572a7e-f81e-4be1-b2d5-d8f66e11ea25",
-            "side": "right"
-          }
-        ]
-      },
-      "06aaf106-e993-4f61-a409-77dbd4dfc278": {
-        "id": "06aaf106-e993-4f61-a409-77dbd4dfc278",
-        "systemId": "",
-        "name": "Cloud API OKD repo",
-        "type": "App",
-        "position": {
-          "x": -2048,
-          "y": 1344
-        },
-        "size": {
-          "width": 240,
-          "height": 64
-        },
-        "color": "#a855f7",
-        "groupIds": [],
-        "parentGroupId": "0477c0da-a70f-460c-85ad-0d5b7593c410",
-        "ports": [
-          {
-            "id": "1725d871-2383-46db-b8c8-a7c80876363f",
-            "side": "top"
-          },
-          {
-            "id": "71618342-d343-48a5-8339-45b7568e32c0",
-            "side": "bottom"
-          },
-          {
-            "id": "5eb339f9-c908-4854-a68e-632e405db816",
-            "side": "left"
-          },
-          {
-            "id": "41c4cc40-c790-4936-84f7-a28db9b9b65c",
-            "side": "right"
-          }
-        ]
-      },
       "54667da6-eac2-4460-bae7-1a851ae0babe": {
         "id": "54667da6-eac2-4460-bae7-1a851ae0babe",
         "systemId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
         "name": "LF Ingress",
         "type": "App",
         "position": {
-          "x": -1680,
-          "y": 2288
+          "x": -1840,
+          "y": 2224
         },
         "size": {
           "width": 128,
@@ -2190,10 +1998,6 @@
         "color": "",
         "groupIds": [],
         "ports": [
-          {
-            "id": "4d9bf1ab-362c-4b22-8db0-d448fa411e28",
-            "side": "top"
-          },
           {
             "id": "02556dd4-50f8-4d71-a8da-aaa845ea421f",
             "side": "bottom"
@@ -2218,8 +2022,8 @@
         "name": "LF Backend",
         "type": "App",
         "position": {
-          "x": -1680,
-          "y": 2400
+          "x": -1840,
+          "y": 2336
         },
         "size": {
           "width": 128,
@@ -2247,6 +2051,10 @@
           {
             "id": "8c3dde7a-5dbe-4bfd-807d-8f342f1689d8",
             "side": "left"
+          },
+          {
+            "id": "62683b98-caf5-4f67-b331-75ab74d3b584",
+            "side": "right"
           }
         ]
       },
@@ -2256,8 +2064,8 @@
         "name": "Redis",
         "type": "DB",
         "position": {
-          "x": -1680,
-          "y": 2528
+          "x": -1840,
+          "y": 2464
         },
         "size": {
           "width": 128,
@@ -2291,8 +2099,8 @@
         "name": "LF Async Worker",
         "type": "App",
         "position": {
-          "x": -1680,
-          "y": 2656
+          "x": -1840,
+          "y": 2592
         },
         "size": {
           "width": 128,
@@ -2333,8 +2141,8 @@
         "name": "PostgreSQL",
         "type": "DB",
         "position": {
-          "x": -1888,
-          "y": 2800
+          "x": -2048,
+          "y": 2736
         },
         "size": {
           "width": 128,
@@ -2372,8 +2180,8 @@
         "name": "ClickHouse",
         "type": "DB",
         "position": {
-          "x": -1680,
-          "y": 2800
+          "x": -1840,
+          "y": 2736
         },
         "size": {
           "width": 128,
@@ -2407,8 +2215,8 @@
         "name": "S3",
         "type": "DB",
         "position": {
-          "x": -1472,
-          "y": 2800
+          "x": -1632,
+          "y": 2736
         },
         "size": {
           "width": 128,
@@ -2446,8 +2254,8 @@
         "name": "Arize Phoenix",
         "type": "App",
         "position": {
-          "x": -1088,
-          "y": 2400
+          "x": -1248,
+          "y": 2336
         },
         "size": {
           "width": 128,
@@ -2480,8 +2288,8 @@
         "name": "PostgreSQL",
         "type": "DB",
         "position": {
-          "x": -1088,
-          "y": 2528
+          "x": -1248,
+          "y": 2464
         },
         "size": {
           "width": 128,
@@ -2515,14 +2323,14 @@
         "name": "Arize Ingress",
         "type": "App",
         "position": {
-          "x": -1088,
-          "y": 2288
+          "x": -1248,
+          "y": 2224
         },
         "size": {
           "width": 128,
           "height": 64
         },
-        "color": "#3b82f6",
+        "color": "#6366f1",
         "groupIds": [],
         "ports": [
           {
@@ -2549,8 +2357,8 @@
         "name": "Telemetry Adapter",
         "type": "App",
         "position": {
-          "x": -1376,
-          "y": 2096
+          "x": -1536,
+          "y": 2032
         },
         "size": {
           "width": 128,
@@ -2580,6 +2388,389 @@
             "side": "bottom"
           }
         ]
+      },
+      "79165802-40c0-4db9-80b3-33f653a2ccb8": {
+        "id": "79165802-40c0-4db9-80b3-33f653a2ccb8",
+        "systemId": "170d9b97-b2e2-4500-a588-5a11d63b5418",
+        "name": "PostgreSQL",
+        "type": "DB",
+        "position": {
+          "x": -1616,
+          "y": 1488
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "ef1fd26e-9d77-42fd-a110-4447d4ab34ea",
+            "side": "top"
+          },
+          {
+            "id": "ba7e462b-f785-4872-a918-d708e379ecdc",
+            "side": "bottom"
+          },
+          {
+            "id": "87fbfbec-747f-4f28-aacc-e4835b35fa33",
+            "side": "left"
+          },
+          {
+            "id": "241b27e5-3081-4c36-a841-b6aca860c850",
+            "side": "right"
+          }
+        ]
+      },
+      "2169b4a2-3985-4b47-b2be-0104a56dd67f": {
+        "id": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
+        "name": "Aegra",
+        "type": "App",
+        "position": {
+          "x": -1232,
+          "y": 1600
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "e178756f-8251-4d0e-8392-27185bf240d8",
+            "side": "top"
+          },
+          {
+            "id": "0e9a119d-296f-46b6-a489-abe794e3a15b",
+            "side": "bottom"
+          },
+          {
+            "id": "5c0bd3df-2073-447d-98b6-0132f4a3c9b1",
+            "side": "left"
+          },
+          {
+            "id": "56636047-f272-4642-afd1-0546bc9e027a",
+            "side": "right"
+          },
+          {
+            "id": "6f08db87-927f-401a-9fb7-7d20bceaf693",
+            "side": "right"
+          },
+          {
+            "id": "f6ad2909-2aed-4220-a9d7-0557a650a17e",
+            "side": "bottom"
+          },
+          {
+            "id": "abdb3fc9-0492-498a-b631-f5564e733630",
+            "side": "left"
+          },
+          {
+            "id": "d01b5daa-5954-4a2d-a858-ddf1d0bf72ff",
+            "side": "right"
+          },
+          {
+            "id": "c1833e39-5f65-4e6a-963c-4f520f8d1f2b",
+            "side": "left"
+          },
+          {
+            "id": "658016b4-7e4e-4ce9-954e-5007b8ba3503",
+            "side": "bottom"
+          },
+          {
+            "id": "2e11a695-0c53-4fdd-8cec-3a52419381d4",
+            "side": "bottom"
+          }
+        ],
+        "description": "",
+        "parentGroupId": "dc3df43b-2f3d-4cc5-9042-203883af4c25",
+        "parentGroupLayerId": "default-layer"
+      },
+      "b980ef13-f918-4745-9b58-0bf2a669cd03": {
+        "id": "b980ef13-f918-4745-9b58-0bf2a669cd03",
+        "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
+        "name": "Aegra API Ingress",
+        "type": "App",
+        "position": {
+          "x": -960,
+          "y": 1472
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "fa809db4-9a5e-41c5-ad67-466e1bc04dd3",
+            "side": "top"
+          },
+          {
+            "id": "1c24d171-b8a9-499c-bbf7-94cc1825a0c2",
+            "side": "bottom"
+          },
+          {
+            "id": "42b729d3-8aef-4c17-87e3-366f54c971fb",
+            "side": "left"
+          },
+          {
+            "id": "19a4ae16-3f1d-4b3e-bf7f-cba9abbb59d8",
+            "side": "right"
+          },
+          {
+            "id": "ce810b45-66c2-4100-abff-d9cd84c4f98f",
+            "side": "right"
+          }
+        ]
+      },
+      "374374ab-2701-4d8e-9e52-21183b441ab6": {
+        "id": "374374ab-2701-4d8e-9e52-21183b441ab6",
+        "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
+        "name": "GigaBlock Engine",
+        "type": "App",
+        "position": {
+          "x": -1232,
+          "y": 1488
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "1a178987-c7c1-4c0f-8a17-5a9492cd01d3",
+            "side": "top"
+          },
+          {
+            "id": "85e84022-8232-4b6f-b2b8-f78bb9a7180b",
+            "side": "bottom"
+          },
+          {
+            "id": "841d735a-3842-4e01-8f15-d99af409d53a",
+            "side": "left"
+          },
+          {
+            "id": "19050e1c-319b-49ca-b3a6-55e46a09e7be",
+            "side": "right"
+          }
+        ],
+        "parentGroupId": "dc3df43b-2f3d-4cc5-9042-203883af4c25",
+        "parentGroupLayerId": "default-layer"
+      },
+      "2ba8d505-27d3-491b-9cde-1326560fd12e": {
+        "id": "2ba8d505-27d3-491b-9cde-1326560fd12e",
+        "systemId": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+        "name": "External Functions",
+        "type": "App",
+        "position": {
+          "x": -944,
+          "y": 2016
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#f43f5e",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "0438bc44-2d50-4a09-bf93-31f9473b29cb",
+            "side": "top"
+          },
+          {
+            "id": "435e0a3b-8586-4ff3-a77f-a83290555614",
+            "side": "bottom"
+          },
+          {
+            "id": "b93b8197-4249-4300-945f-1b0f1a63bdbf",
+            "side": "left"
+          },
+          {
+            "id": "9c7ee57c-b752-4bc3-9c0f-78f12754b7d9",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
+      },
+      "fd992819-d871-4577-8169-0da554ba5910": {
+        "id": "fd992819-d871-4577-8169-0da554ba5910",
+        "systemId": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+        "name": "GigaPlatform Function Registry",
+        "type": "App",
+        "position": {
+          "x": -736,
+          "y": 2016
+        },
+        "size": {
+          "width": 208,
+          "height": 64
+        },
+        "color": "#a855f7",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "f3761308-1e89-4b2e-89d8-5e65eaedc626",
+            "side": "top"
+          },
+          {
+            "id": "2e6b9b08-e08b-42c0-82bb-6bb1151a109c",
+            "side": "bottom"
+          },
+          {
+            "id": "82370e24-7eed-462e-965c-ff6d0c1b8609",
+            "side": "left"
+          },
+          {
+            "id": "5b43f818-c518-44b5-bb80-df37b07d9d66",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
+      },
+      "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a": {
+        "id": "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+        "systemId": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "name": "S3",
+        "type": "DB",
+        "position": {
+          "x": -1920,
+          "y": 1056
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "44134719-0301-4f32-923c-dc77208b6402",
+            "side": "top"
+          },
+          {
+            "id": "fb72ea67-dbe3-4081-bb83-cad692dcccc9",
+            "side": "bottom"
+          },
+          {
+            "id": "4ff14579-c32a-491c-9cce-fcb2da637ba7",
+            "side": "left"
+          },
+          {
+            "id": "1079b433-d38a-403f-afa5-31427144f6f9",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
+      },
+      "be717a0c-fff2-4d1c-b04c-67073825217b": {
+        "id": "be717a0c-fff2-4d1c-b04c-67073825217b",
+        "systemId": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "name": "Vault",
+        "type": "DB",
+        "position": {
+          "x": -1920,
+          "y": 1152
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "f1c1c70a-d2e8-483d-8d35-0ab9a6f2b517",
+            "side": "top"
+          },
+          {
+            "id": "0d589d54-bd4e-4d64-9d3a-67932fd71988",
+            "side": "bottom"
+          },
+          {
+            "id": "477ee6f6-6aee-47b1-a2bd-e914ea525587",
+            "side": "left"
+          },
+          {
+            "id": "bbb2efcf-3e0a-4496-b8aa-bc3398035854",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
+      },
+      "215d803d-cd18-450b-bdcd-ecd350532a83": {
+        "id": "215d803d-cd18-450b-bdcd-ecd350532a83",
+        "systemId": "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+        "name": "Networks repo team security group",
+        "type": "App",
+        "position": {
+          "x": -2048,
+          "y": 1328
+        },
+        "size": {
+          "width": 240,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "c6ddc18b-b79c-4fc5-9708-6401c2b34611",
+            "side": "top"
+          },
+          {
+            "id": "9042d677-e7b2-4432-b9cd-389aec963413",
+            "side": "bottom"
+          },
+          {
+            "id": "4397fe8b-369d-41bd-a50a-779075b31aee",
+            "side": "left"
+          },
+          {
+            "id": "8587f9c6-a0e6-4442-8bf8-af2502462dcc",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
+      },
+      "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9": {
+        "id": "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
+        "systemId": "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+        "name": "Cloud API OKD repo",
+        "type": "App",
+        "position": {
+          "x": -2048,
+          "y": 1408
+        },
+        "size": {
+          "width": 240,
+          "height": 64
+        },
+        "color": "",
+        "groupIds": [],
+        "ports": [
+          {
+            "id": "1f1ffe80-2059-4de3-a162-75fdf89763ee",
+            "side": "top"
+          },
+          {
+            "id": "acc50683-a87e-4037-9c97-dc107c3441ef",
+            "side": "bottom"
+          },
+          {
+            "id": "3756b915-06e5-4c9e-be21-374a16cded6a",
+            "side": "left"
+          },
+          {
+            "id": "38791f47-c426-4a01-a22c-4532d3a35d25",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
       }
     },
     "users": {
@@ -2588,7 +2779,7 @@
         "name": "User",
         "position": {
           "x": 1376,
-          "y": 400
+          "y": 336
         },
         "size": {
           "width": 128,
@@ -2616,9 +2807,9 @@
       },
       "46bdb71a-f333-4882-b840-82c5a2d5f7e4": {
         "id": "46bdb71a-f333-4882-b840-82c5a2d5f7e4",
-        "name": "Admin",
+        "name": "ARI Admin",
         "position": {
-          "x": -832,
+          "x": -1008,
           "y": 544
         },
         "size": {
@@ -3138,8 +3329,8 @@
         "id": "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12",
         "sourceId": "e97476c1-f396-4668-962e-12e56dff79ab",
         "sourceSide": "32e3d6cf-2050-4953-8413-4bace16314ce",
-        "targetId": "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-        "targetSide": "16e6b939-abd9-4af1-9ec0-d3976aacfade",
+        "targetId": "615ab8b8-86c1-468a-b230-60b0a135d46d",
+        "targetSide": "fdcef8da-f327-496c-bcee-6665364cf165",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3148,14 +3339,14 @@
         },
         "controlPoints": [
           {
-            "x": 720,
+            "x": 784,
             "y": 176
           }
         ],
         "description": "Произведение запросов \nпо RAG по tenant",
         "labelOffset": {
-          "x": 58.10486694583494,
-          "y": -136.2411790751136
+          "x": -13.357724474588963,
+          "y": -96.23407835195349
         }
       },
       "33ebf154-577d-4e8d-8ad1-23a59ade8433": {
@@ -3190,8 +3381,8 @@
         "id": "c08ab758-2781-423b-8603-6f24b50b2703",
         "sourceId": "93d5f402-7f91-4cca-82bc-10b30b2c4c55",
         "sourceSide": "c6383dc7-713f-4f25-b6f6-3cbff4b3c7eb",
-        "targetId": "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6",
-        "targetSide": "fb3bdd72-ecfd-4d59-91bd-a0bad472e2a2",
+        "targetId": "615ab8b8-86c1-468a-b230-60b0a135d46d",
+        "targetSide": "e3259fb1-bfe1-45c5-b44d-ea7d5677221c",
         "endpoints": [],
         "style": {
           "type": "bezier",
@@ -3199,7 +3390,11 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с RAG UI"
+        "description": "Работа с RAG UI",
+        "labelOffset": {
+          "x": 44.12430711905063,
+          "y": 46.531087507362486
+        }
       },
       "4ea7a942-8f7b-4da4-9653-09833fc1f806": {
         "id": "4ea7a942-8f7b-4da4-9653-09833fc1f806",
@@ -3243,8 +3438,8 @@
         "id": "9a7fd202-3bc7-499c-a8c5-1d1ec30b9eb9",
         "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
         "sourceSide": "2ed031c5-5926-4638-8f27-c92d09135fbd",
-        "targetId": "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-        "targetSide": "c43204d2-75fb-4fda-a814-8b8806a48d4c",
+        "targetId": "615ab8b8-86c1-468a-b230-60b0a135d46d",
+        "targetSide": "fa0432da-d5af-4d27-8b56-27ff4f768a03",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3253,33 +3448,14 @@
         },
         "controlPoints": [
           {
-            "x": 688,
+            "x": 352,
             "y": 240
           }
         ],
         "description": "Получение всех tenant \nпо пользователю",
         "labelOffset": {
-          "x": -126.88433258587486,
-          "y": -107.16947393140558
-        }
-      },
-      "36fa58fe-ef85-493e-8339-7a427b1917d2": {
-        "id": "36fa58fe-ef85-493e-8339-7a427b1917d2",
-        "sourceId": "86f6dc53-a840-47bb-8c17-4c7f2450d156",
-        "sourceSide": "999bf0e2-e046-41ac-b556-20fb3723e503",
-        "targetId": "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
-        "targetSide": "f88906bb-2103-48bc-a593-dcf4f5ebed7f",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Сбор информации",
-        "labelOffset": {
-          "x": 59.277354527604075,
-          "y": 89.76285114180041
+          "x": -172.97917253262324,
+          "y": -63.56624695475173
         }
       },
       "91409dcd-0a72-4813-92d4-a8da61a8b87a": {
@@ -3329,21 +3505,6 @@
           "y": -16.110886311134152
         }
       },
-      "63d4e2df-5a5e-4461-886e-60d1d197fc8a": {
-        "id": "63d4e2df-5a5e-4461-886e-60d1d197fc8a",
-        "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-        "sourceSide": "44835aba-13e3-411e-8324-324ffe18438e",
-        "targetId": "a07ba992-9157-47bc-865a-37439f57a458",
-        "targetSide": "880e7cf1-2a03-4a7e-95be-c3e6140360a5",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Взаимодействие с БД"
-      },
       "1d9cfa12-7f7c-4477-a59f-720c800a770d": {
         "id": "1d9cfa12-7f7c-4477-a59f-720c800a770d",
         "sourceId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
@@ -3361,58 +3522,6 @@
         "labelOffset": {
           "x": 108.49429332141062,
           "y": 26.818814079449567
-        }
-      },
-      "a72dc220-b3f7-4f65-a150-6dc6cd841773": {
-        "id": "a72dc220-b3f7-4f65-a150-6dc6cd841773",
-        "sourceId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "sourceSide": "25d93678-43dd-4d63-8877-a469c76e3d6a",
-        "targetId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
-        "targetSide": "fa809db4-9a5e-41c5-ad67-466e1bc04dd3",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -896,
-            "y": 912
-          }
-        ],
-        "description": "Роутинг на агента",
-        "labelOffset": {
-          "x": 57.677351562116314,
-          "y": 83.60041973644479
-        }
-      },
-      "9ff3b1a4-d9d9-4a4c-a1d9-11ef38db1bc4": {
-        "id": "9ff3b1a4-d9d9-4a4c-a1d9-11ef38db1bc4",
-        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
-        "sourceSide": "19a4ae16-3f1d-4b3e-bf7f-cba9abbb59d8",
-        "targetId": "ae84dd19-d528-42bb-8e71-36624bf784d0",
-        "targetSide": "10f73b2b-8c4b-4ca1-a711-cc4b98be45da",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -496,
-            "y": 1504
-          },
-          {
-            "x": -496,
-            "y": 464
-          }
-        ],
-        "description": "Аутентификация / Авторизация",
-        "labelOffset": {
-          "x": -121.9648548031488,
-          "y": 512.8079493395628
         }
       },
       "71f43604-202e-4dbb-80bf-f68f0295756e": {
@@ -3439,15 +3548,24 @@
         "id": "3be24adc-b12f-4b82-92b3-cd3087568929",
         "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
         "sourceSide": "cf07a5bc-fc13-44ce-902f-831ce7e899ac",
-        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "targetSide": "b20c9646-bd6e-44ab-9ded-7ca71f170df9",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "3d289b0e-97dc-480e-a8f0-3e507a6785c8",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [],
+        "controlPoints": [
+          {
+            "x": -1536,
+            "y": 464
+          },
+          {
+            "x": -1536,
+            "y": 832
+          }
+        ],
         "description": "Работа с ARI",
         "labelOffset": {
           "x": -49.663515302644555,
@@ -3458,23 +3576,27 @@
         "id": "b2b02043-a0cb-4d30-be6f-a899292ea73d",
         "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "sourceSide": "f0eff305-80ca-4294-af67-5fe6ceb39029",
-        "targetId": "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
-        "targetSide": "41d42388-20a8-4b3e-923f-e5efdf77b2e9",
+        "targetId": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "targetSide": "53c2f543-bed6-4b09-a66f-35fd22887490",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Скачивание агента из GigaStore's S3 Bucket"
+        "description": "Скачивание агента из GigaStore's S3 Bucket",
+        "labelOffset": {
+          "x": -32.87077015362388,
+          "y": -7.640147140944464
+        }
       },
       "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc": {
         "id": "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc",
         "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
         "sourceSide": "e52bd126-d7ba-4b87-a793-d9d4460cf164",
-        "targetId": "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
-        "targetSide": "0a83f456-5c3f-4cbe-8134-a5c6e724013f",
+        "targetId": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "targetSide": "bd47452f-ba82-40fc-9cb3-e007c36a7cf9",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3483,70 +3605,22 @@
         },
         "controlPoints": [
           {
-            "x": -1872,
+            "x": -1856,
             "y": 304
           }
         ],
         "description": "Сохранение артефактов агентов",
         "labelOffset": {
-          "x": 235.67070735568223,
-          "y": -388.51077315540834
-        }
-      },
-      "a8664bd2-c851-4564-ba2e-b882f461c138": {
-        "id": "a8664bd2-c851-4564-ba2e-b882f461c138",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "5c0bd3df-2073-447d-98b6-0132f4a3c9b1",
-        "targetId": "002c4823-605a-4235-aeb0-ee6503539c50",
-        "targetSide": "73603083-8629-4e02-84d8-ed77098c3895",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -1456,
-            "y": 1616
-          }
-        ],
-        "description": "Внутренняя коммуникация",
-        "labelOffset": {
-          "x": 91.73154309684378,
-          "y": 35.570082164870655
-        }
-      },
-      "855378d3-16d8-44b3-b517-fccecea8b921": {
-        "id": "855378d3-16d8-44b3-b517-fccecea8b921",
-        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
-        "sourceSide": "1c24d171-b8a9-499c-bbf7-94cc1825a0c2",
-        "targetId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "targetSide": "56636047-f272-4642-afd1-0546bc9e027a",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -896,
-            "y": 1616
-          }
-        ],
-        "description": "Запрос на агента",
-        "labelOffset": {
-          "x": 1.0494669244724264,
-          "y": 1.7465637782104295
+          "x": 207.17252998963568,
+          "y": -336.9426426835142
         }
       },
       "3a902a9e-cb30-4a94-8e25-ec776a527364": {
         "id": "3a902a9e-cb30-4a94-8e25-ec776a527364",
         "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "sourceSide": "00df25a8-b728-4602-b62b-8f31706ccea8",
-        "targetId": "d0f0343d-6631-4fca-b19d-c761b79b317c",
-        "targetSide": "50a4e57c-82d5-49f0-81d1-def04a7f8c54",
+        "targetId": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "targetSide": "dbd75757-b70e-406a-9a33-d8c60404f7e5",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3555,148 +3629,30 @@
         },
         "controlPoints": [
           {
-            "x": -1520,
+            "x": -1504,
             "y": 1136
           },
           {
-            "x": -1520,
-            "y": 1216
+            "x": -1504,
+            "y": 1280
+          },
+          {
+            "x": -1856,
+            "y": 1280
           }
         ],
         "description": "Получение секретов",
         "labelOffset": {
-          "x": -107.92207714794768,
-          "y": 39.543967199247845
-        }
-      },
-      "7dd19026-5540-4c9e-88a7-3855c7dacc90": {
-        "id": "7dd19026-5540-4c9e-88a7-3855c7dacc90",
-        "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-        "sourceSide": "bba2a2a2-0ea1-45e5-a863-e010165e94bd",
-        "targetId": "9f0ce94f-7c7b-494c-a777-67bc052c1578",
-        "targetSide": "430313b2-39b3-4e9c-9e74-fef07229f046",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -1488,
-            "y": 1152
-          },
-          {
-            "x": -1488,
-            "y": 1312
-          }
-        ],
-        "description": "Временное решение по скачиванию агентов",
-        "labelOffset": {
-          "x": -152.87070926949605,
-          "y": 80.21928308201291
-        }
-      },
-      "13554ba8-6bb8-4b8e-900e-a5d36112fd1d": {
-        "id": "13554ba8-6bb8-4b8e-900e-a5d36112fd1d",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "d01b5daa-5954-4a2d-a858-ddf1d0bf72ff",
-        "targetId": "e97476c1-f396-4668-962e-12e56dff79ab",
-        "targetSide": "f0e41925-6ded-4d3a-900b-f2db3381e4dc",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": 1632,
-            "y": 1648
-          },
-          {
-            "x": 1632,
-            "y": 112
-          }
-        ]
-      },
-      "a476af99-8c5c-4709-a2e0-a50d9991de9c": {
-        "id": "a476af99-8c5c-4709-a2e0-a50d9991de9c",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "f6ad2909-2aed-4220-a9d7-0557a650a17e",
-        "targetId": "b5b9142b-fd14-452e-bed3-180371e99af3",
-        "targetSide": "a7505994-4b82-4a84-85b2-7c3dca5aa86f",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -1152,
-            "y": 1744
-          },
-          {
-            "x": -944,
-            "y": 1744
-          }
-        ],
-        "description": "Вызов внутренних Tools"
-      },
-      "b1f226fd-3ebc-440f-86ba-7d1e41391c5a": {
-        "id": "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "0e9a119d-296f-46b6-a489-abe794e3a15b",
-        "targetId": "e5bbad81-a5c4-4dd9-80b5-93512b74e2f4",
-        "targetSide": "66cf668d-f461-4316-b0b4-1039daf9a882",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Вызов внешних Tools",
-        "labelOffset": {
-          "x": -71.2969054890209,
-          "y": 13.0953499877794
-        }
-      },
-      "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1": {
-        "id": "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
-        "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-        "sourceSide": "4fed03a5-5580-4b0e-b616-20f2a1b44ca1",
-        "targetId": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "targetSide": "c97c44bb-6d51-4411-9c83-daa44c05dc59",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#a855f7",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -1360,
-            "y": 1344
-          },
-          {
-            "x": -1168,
-            "y": 1344
-          }
-        ],
-        "description": "Создание / удаление namespace с Агентом",
-        "labelOffset": {
-          "x": 33.75483373802649,
-          "y": -1.8752685410013328
+          "x": 62.732588590095475,
+          "y": -2.014713135727561
         }
       },
       "4cb2d99f-3339-425a-83ed-bf569b1e85b5": {
         "id": "4cb2d99f-3339-425a-83ed-bf569b1e85b5",
         "sourceId": "46bdb71a-f333-4882-b840-82c5a2d5f7e4",
         "sourceSide": "048d75a7-7b6a-4567-b3d3-3e27b6493c41",
-        "targetId": "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
-        "targetSide": "417910ce-ee1a-4a73-bd16-37c3dab7ea7a",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "e92f5b17-c3dd-4f33-9d4f-23d98de021e4",
         "endpoints": [],
         "style": {
           "type": "bezier",
@@ -3727,30 +3683,6 @@
         "labelOffset": {
           "x": -121.96040535731356,
           "y": -14.314386991390847
-        }
-      },
-      "e48e07b0-4871-4b46-bcfd-05f28bc284bc": {
-        "id": "e48e07b0-4871-4b46-bcfd-05f28bc284bc",
-        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
-        "sourceSide": "ce810b45-66c2-4100-abff-d9cd84c4f98f",
-        "targetId": "91659662-2680-4c20-9f07-5518378a0add",
-        "targetSide": "574020bf-1dc2-4e15-bd2e-5768dd6067c5",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -320,
-            "y": 1536
-          }
-        ],
-        "description": "Проверка биллинга",
-        "labelOffset": {
-          "x": -82.72989974259542,
-          "y": 124.09484961389308
         }
       },
       "37b546d0-432f-4125-83af-18efc0c357c1": {
@@ -3844,8 +3776,8 @@
         "controlPoints": [],
         "description": "Работа с \nартефактами звонков",
         "labelOffset": {
-          "x": 168.90158247395073,
-          "y": 34.74548074190034
+          "x": 170.14400002496552,
+          "y": 38.472733394944726
         }
       },
       "b825451d-9bdb-49b0-b7fd-a1921cceb26d": {
@@ -4023,7 +3955,11 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Установка голосового вызова"
+        "description": "Установка голосового вызова",
+        "labelOffset": {
+          "x": -1.5987041390637842,
+          "y": -3.1974082781274547
+        }
       },
       "ebace73a-9e20-49a9-bdde-4bd31de03330": {
         "id": "ebace73a-9e20-49a9-bdde-4bd31de03330",
@@ -4069,34 +4005,6 @@
         },
         "controlPoints": [],
         "description": "Работа с UI"
-      },
-      "7c288914-f356-48d9-b9cf-8a9d64fdae7a": {
-        "id": "7c288914-f356-48d9-b9cf-8a9d64fdae7a",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "abdb3fc9-0492-498a-b631-f5564e733630",
-        "targetId": "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
-        "targetSide": "76330c38-ec34-4512-9238-b50f96c292f3",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -2080,
-            "y": 1648
-          },
-          {
-            "x": -2080,
-            "y": -688
-          }
-        ],
-        "description": "Создание сессии звонка от Агента",
-        "labelOffset": {
-          "x": 782.2618543858553,
-          "y": -1171.840818987287
-        }
       },
       "6916c734-0bb2-4e27-ad39-556b6ad8c5fd": {
         "id": "6916c734-0bb2-4e27-ad39-556b6ad8c5fd",
@@ -4209,19 +4117,24 @@
         "id": "d26d8407-3602-4e2d-9f46-58d66ea27af8",
         "sourceId": "92fed135-bd48-4865-b66c-b35f169c1bec",
         "sourceSide": "61d9cd20-2f4b-49c3-92cc-093cc80237b9",
-        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "targetSide": "202a8595-8ae6-44e1-9ad1-12d693e51eee",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "5be904b0-3513-4f1a-a963-518816616b08",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#a855f7",
           "arrow": true
         },
-        "controlPoints": [],
+        "controlPoints": [
+          {
+            "x": -1600,
+            "y": 896
+          }
+        ],
         "description": "Работа с агентами",
         "labelOffset": {
-          "x": 226.68597930063788,
-          "y": 1.421228710348828
+          "x": -129.93868476722832,
+          "y": -51.28744805439874
         }
       },
       "4a37a09e-6bf2-4816-920e-8d7487c4693b": {
@@ -4380,8 +4293,8 @@
         "id": "14382330-bfa5-4262-9f76-83f5a6d30006",
         "sourceId": "3943f54c-99ff-49eb-9340-4527c346e500",
         "sourceSide": "0592c395-5781-4047-846d-f997a43aa102",
-        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "targetSide": "5a9789ac-4fb7-4154-ab14-e7fe8538f4c2",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "ba465291-3dd5-4f01-a3ad-0bef1db8617e",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4394,50 +4307,22 @@
             "y": 496
           },
           {
-            "x": -1360,
+            "x": -1216,
             "y": 496
           }
         ],
         "description": "Вызов агентов напрямую из UI",
         "labelOffset": {
-          "x": -115.71022788175651,
-          "y": 0
-        }
-      },
-      "58be2dcb-5a77-43ce-937a-87114b309687": {
-        "id": "58be2dcb-5a77-43ce-937a-87114b309687",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
-        "targetId": "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-        "targetSide": "8b846511-f113-440a-8644-aed9a43ea83c",
-        "endpoints": [],
-        "style": {
-          "type": "polyline",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [
-          {
-            "x": -128,
-            "y": 1632
-          },
-          {
-            "x": -128,
-            "y": 448
-          }
-        ],
-        "description": "Агенты вызывают RAG как tool",
-        "labelOffset": {
-          "x": -100.62918498908425,
-          "y": 588.1602364017167
+          "x": -21.523854736446538,
+          "y": -2.1645611058469854
         }
       },
       "313b4957-8e65-4425-80d9-dd826492c39a": {
         "id": "313b4957-8e65-4425-80d9-dd826492c39a",
         "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
         "sourceSide": "fc74a4ed-8af5-4275-9ea1-e9a958795b42",
-        "targetId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "targetSide": "9bbe8815-3334-43cf-b7de-c44bfd48cfdb",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "e92f5b17-c3dd-4f33-9d4f-23d98de021e4",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4450,22 +4335,22 @@
             "y": 544
           },
           {
-            "x": -1328,
+            "x": -944,
             "y": 544
           }
         ],
         "description": "Работа с sandbox агентами\nдля тестирования",
         "labelOffset": {
-          "x": 348.32357259250375,
-          "y": -116.90311682899102
+          "x": 320.94076367605237,
+          "y": -92.25858880418474
         }
       },
       "68c33c5c-66ac-4a34-ae35-4c70100bc19e": {
         "id": "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
         "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
         "sourceSide": "e201a69d-909e-4cfe-b270-6ce0318ace5f",
-        "targetId": "d0f0343d-6631-4fca-b19d-c761b79b317c",
-        "targetSide": "1fc87b39-fe5c-4bac-b1c4-f4df5e04d58c",
+        "targetId": "dad041a8-ea22-45b8-8467-8e1a22f76030",
+        "targetSide": "ba7ad4b6-8f90-4456-9403-2ee3d6f6a2cf",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4479,13 +4364,13 @@
           },
           {
             "x": -2000,
-            "y": 1216
+            "y": 1120
           }
         ],
         "description": "Сохранение секретов в нужный engine",
         "labelOffset": {
-          "x": 129.61369970578744,
-          "y": -477.6888674799756
+          "x": 144.54131642133598,
+          "y": -439.6912976585799
         }
       },
       "8dc1f0ff-db80-427c-88ac-d3a0e10c9c63": {
@@ -4503,7 +4388,7 @@
         "controlPoints": [
           {
             "x": -304,
-            "y": 80
+            "y": 96
           },
           {
             "x": -1360,
@@ -4512,50 +4397,12 @@
         ],
         "description": "Регистрация агента для деплоя в PROD"
       },
-      "cb0f5e0e-7308-446c-98e7-727030a53cf2": {
-        "id": "cb0f5e0e-7308-446c-98e7-727030a53cf2",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
-        "targetId": "84fb1cc5-3001-4147-a132-2581beab47f6",
-        "targetSide": "7f35c026-facf-4f64-baef-d7f4d89f303c",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#a855f7",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
-        "labelOffset": {
-          "x": -99.37134370433614,
-          "y": -107.62032523493872
-        }
-      },
-      "9752712e-02ea-4453-9e23-d074854fc0fa": {
-        "id": "9752712e-02ea-4453-9e23-d074854fc0fa",
-        "sourceId": "84fb1cc5-3001-4147-a132-2581beab47f6",
-        "sourceSide": "9063ebab-2098-4056-8128-0d1ced0c79f5",
-        "targetId": "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
-        "targetSide": "27f36a02-1778-4f36-a44b-b48fed821c87",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#facc15",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Свободный доступ к интернету\nна основе заранее определённых правил",
-        "labelOffset": {
-          "x": 59.89320856652955,
-          "y": -42.53285825739067
-        }
-      },
       "a70c2f05-c4b6-45f8-9306-d28c5233755d": {
         "id": "a70c2f05-c4b6-45f8-9306-d28c5233755d",
         "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "sourceSide": "f0eff305-80ca-4294-af67-5fe6ceb39029",
-        "targetId": "f45d28bf-5de9-42fe-b365-4242612d8e3f",
-        "targetSide": "04572a7e-f81e-4be1-b2d5-d8f66e11ea25",
+        "targetId": "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+        "targetSide": "feea974e-c62a-463d-ae4d-4d2177fd8f39",
         "endpoints": [],
         "style": {
           "type": "bezier",
@@ -4563,14 +4410,18 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Создание network policy"
+        "description": "Создание network policy",
+        "labelOffset": {
+          "x": -96.88977655864983,
+          "y": 20.669818999178915
+        }
       },
       "6ae599b4-c6fb-483d-b71e-05c893fc8490": {
         "id": "6ae599b4-c6fb-483d-b71e-05c893fc8490",
         "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "sourceSide": "bba2a2a2-0ea1-45e5-a863-e010165e94bd",
-        "targetId": "06aaf106-e993-4f61-a409-77dbd4dfc278",
-        "targetSide": "41c4cc40-c790-4936-84f7-a28db9b9b65c",
+        "targetId": "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+        "targetSide": "809a6f7e-fc79-4241-ad96-cee928422ec5",
         "endpoints": [],
         "style": {
           "type": "bezier",
@@ -4578,7 +4429,11 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Создание namespaces"
+        "description": "Создание namespaces",
+        "labelOffset": {
+          "x": 78.8036849343689,
+          "y": 23.253546374075995
+        }
       },
       "ff61e7e3-9b74-4f53-b2ab-2a660890c727": {
         "id": "ff61e7e3-9b74-4f53-b2ab-2a660890c727",
@@ -4692,23 +4547,23 @@
         },
         "controlPoints": [
           {
-            "x": -1936,
-            "y": 2416
+            "x": -2096,
+            "y": 2352
           },
           {
-            "x": -1936,
-            "y": 2912
+            "x": -2096,
+            "y": 2848
           },
           {
-            "x": -1616,
-            "y": 2912
+            "x": -1776,
+            "y": 2848
           }
         ]
       },
       "c1840cf5-f352-4a72-9309-d0c9325d3b21": {
         "id": "c1840cf5-f352-4a72-9309-d0c9325d3b21",
         "sourceId": "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
-        "sourceSide": "7d14b926-d6fe-4117-b484-422b571e342c",
+        "sourceSide": "62683b98-caf5-4f67-b331-75ab74d3b584",
         "targetId": "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
         "targetSide": "8db03b8d-0f5c-47a2-9aea-3a1fbe801cfc",
         "endpoints": [],
@@ -4733,25 +4588,6 @@
         },
         "controlPoints": []
       },
-      "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": {
-        "id": "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "0e9a119d-296f-46b6-a489-abe794e3a15b",
-        "targetId": "54667da6-eac2-4460-bae7-1a851ae0babe",
-        "targetSide": "1764d809-14f8-4867-b5e4-5f4e38321835",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Через OTEL Collector",
-        "labelOffset": {
-          "x": -59.21147172456449,
-          "y": -1.9737157241520435
-        }
-      },
       "244c7279-8bd5-433e-bb90-eac8c9c46318": {
         "id": "244c7279-8bd5-433e-bb90-eac8c9c46318",
         "sourceId": "ca09a792-070d-4d76-8e24-3ff283c89bfe",
@@ -4765,25 +4601,6 @@
           "arrow": true
         },
         "controlPoints": []
-      },
-      "04ff8f90-d2ed-4845-a960-a7189414c5ae": {
-        "id": "04ff8f90-d2ed-4845-a960-a7189414c5ae",
-        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-        "sourceSide": "f6ad2909-2aed-4220-a9d7-0557a650a17e",
-        "targetId": "c91f9454-5dd3-428f-bf78-33c815759f9a",
-        "targetSide": "42b549a2-645d-449c-bc7c-acae6c5da516",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Через OTEL Collector",
-        "labelOffset": {
-          "x": 79.07056104648404,
-          "y": -1.8604837893290096
-        }
       },
       "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a": {
         "id": "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
@@ -4799,8 +4616,8 @@
         },
         "controlPoints": [
           {
-            "x": -1328,
-            "y": 2320
+            "x": -1488,
+            "y": 2256
           }
         ],
         "description": "Получение информации\nот LangFuse",
@@ -4823,8 +4640,8 @@
         },
         "controlPoints": [
           {
-            "x": -1296,
-            "y": 2320
+            "x": -1456,
+            "y": 2256
           }
         ],
         "description": "Получение информации\nот Arize Phoenix",
@@ -4832,81 +4649,615 @@
           "x": -12.825357433113822,
           "y": -23.15719055216232
         }
+      },
+      "48eba994-627c-4d5f-b3e6-7118c215079c": {
+        "id": "48eba994-627c-4d5f-b3e6-7118c215079c",
+        "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+        "sourceSide": "4fed03a5-5580-4b0e-b616-20f2a1b44ca1",
+        "targetId": "170d9b97-b2e2-4500-a588-5a11d63b5418",
+        "targetSide": "a4b2b93e-4a2d-4e99-875b-2a32ee537e38",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#6366f1",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -1376,
+            "y": 1344
+          },
+          {
+            "x": -1552,
+            "y": 1344
+          }
+        ],
+        "description": "Создание namespace / DB\nдля Агентов",
+        "labelOffset": {
+          "x": -5.098794909325079,
+          "y": -14.096888486776606
+        }
+      },
+      "a72dc220-b3f7-4f65-a150-6dc6cd841773": {
+        "id": "a72dc220-b3f7-4f65-a150-6dc6cd841773",
+        "sourceId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
+        "sourceSide": "25d93678-43dd-4d63-8877-a469c76e3d6a",
+        "targetId": "67df732f-a1f8-4365-9063-281c158bb32b",
+        "targetSide": "3db161c0-5604-469b-9e2f-4566c6e819e1",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -960,
+            "y": 912
+          }
+        ],
+        "description": "Роутинг на агента",
+        "labelOffset": {
+          "x": 65.52493037274337,
+          "y": 175.1144904203261
+        }
+      },
+      "9ff3b1a4-d9d9-4a4c-a1d9-11ef38db1bc4": {
+        "id": "9ff3b1a4-d9d9-4a4c-a1d9-11ef38db1bc4",
+        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
+        "sourceSide": "19a4ae16-3f1d-4b3e-bf7f-cba9abbb59d8",
+        "targetId": "ae84dd19-d528-42bb-8e71-36624bf784d0",
+        "targetSide": "10f73b2b-8c4b-4ca1-a711-cc4b98be45da",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -496,
+            "y": 1488
+          },
+          {
+            "x": -496,
+            "y": 464
+          }
+        ],
+        "description": "Аутентификация / Авторизация",
+        "labelOffset": {
+          "x": -121.9648548031488,
+          "y": 512.8079493395628
+        }
+      },
+      "855378d3-16d8-44b3-b517-fccecea8b921": {
+        "id": "855378d3-16d8-44b3-b517-fccecea8b921",
+        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
+        "sourceSide": "1c24d171-b8a9-499c-bbf7-94cc1825a0c2",
+        "targetId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "targetSide": "56636047-f272-4642-afd1-0546bc9e027a",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -896,
+            "y": 1616
+          }
+        ],
+        "description": "Запрос на агента",
+        "labelOffset": {
+          "x": 1.0494669244724264,
+          "y": 1.7465637782104295
+        }
+      },
+      "13554ba8-6bb8-4b8e-900e-a5d36112fd1d": {
+        "id": "13554ba8-6bb8-4b8e-900e-a5d36112fd1d",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "d01b5daa-5954-4a2d-a858-ddf1d0bf72ff",
+        "targetId": "e97476c1-f396-4668-962e-12e56dff79ab",
+        "targetSide": "f0e41925-6ded-4d3a-900b-f2db3381e4dc",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": 1632,
+            "y": 1648
+          },
+          {
+            "x": 1632,
+            "y": 112
+          }
+        ]
+      },
+      "a476af99-8c5c-4709-a2e0-a50d9991de9c": {
+        "id": "a476af99-8c5c-4709-a2e0-a50d9991de9c",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "2e11a695-0c53-4fdd-8cec-3a52419381d4",
+        "targetId": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+        "targetSide": "7dd3ae02-9724-4248-8c80-cf8fe21b4317",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Вызов внутренних Tools",
+        "labelOffset": {
+          "x": 317.20537296157204,
+          "y": 115.91633639627662
+        }
+      },
+      "b1f226fd-3ebc-440f-86ba-7d1e41391c5a": {
+        "id": "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "658016b4-7e4e-4ce9-954e-5007b8ba3503",
+        "targetId": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+        "targetSide": "817199ae-3c67-43e9-b795-133af17a32c5",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Вызов внешних Tools",
+        "labelOffset": {
+          "x": 86.82279028669132,
+          "y": 117.83705929143593
+        }
+      },
+      "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1": {
+        "id": "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
+        "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+        "sourceSide": "3927cf85-ce44-4d83-92a5-cd8eb8aedbbb",
+        "targetId": "67df732f-a1f8-4365-9063-281c158bb32b",
+        "targetSide": "c97c44bb-6d51-4411-9c83-daa44c05dc59",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#a855f7",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -1344,
+            "y": 1344
+          },
+          {
+            "x": -1104,
+            "y": 1344
+          }
+        ],
+        "description": "Создание / удаление namespace с Агентом",
+        "labelOffset": {
+          "x": 11.860201938764476,
+          "y": -4.081406400786818
+        }
+      },
+      "e48e07b0-4871-4b46-bcfd-05f28bc284bc": {
+        "id": "e48e07b0-4871-4b46-bcfd-05f28bc284bc",
+        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
+        "sourceSide": "ce810b45-66c2-4100-abff-d9cd84c4f98f",
+        "targetId": "91659662-2680-4c20-9f07-5518378a0add",
+        "targetSide": "574020bf-1dc2-4e15-bd2e-5768dd6067c5",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -320,
+            "y": 1520
+          }
+        ],
+        "description": "Проверка биллинга",
+        "labelOffset": {
+          "x": -82.72989974259542,
+          "y": 124.09484961389308
+        }
+      },
+      "7c288914-f356-48d9-b9cf-8a9d64fdae7a": {
+        "id": "7c288914-f356-48d9-b9cf-8a9d64fdae7a",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "c1833e39-5f65-4e6a-963c-4f520f8d1f2b",
+        "targetId": "3718d74c-8c81-4dca-8b84-dabf4be52fa8",
+        "targetSide": "1758230c-2ecb-49ce-ab53-3f2f67c1c5fc",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -2080,
+            "y": 1648
+          },
+          {
+            "x": -2080,
+            "y": -560
+          }
+        ],
+        "description": "Создание сессии звонка от Агента\nВ Gateway service",
+        "labelOffset": {
+          "x": 605.5351705306402,
+          "y": -1119.1328606445038
+        }
+      },
+      "58be2dcb-5a77-43ce-937a-87114b309687": {
+        "id": "58be2dcb-5a77-43ce-937a-87114b309687",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
+        "targetId": "615ab8b8-86c1-468a-b230-60b0a135d46d",
+        "targetSide": "b50a79ff-fae8-42a5-a444-bf4db8981cb0",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -128,
+            "y": 1632
+          },
+          {
+            "x": -128,
+            "y": 688
+          }
+        ],
+        "description": "Агенты вызывают RAG как tool",
+        "labelOffset": {
+          "x": -118.07047577974595,
+          "y": 469.8086203222276
+        }
+      },
+      "cb0f5e0e-7308-446c-98e7-727030a53cf2": {
+        "id": "cb0f5e0e-7308-446c-98e7-727030a53cf2",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "937804c4-4f7f-4a3e-a8c0-564926b83917",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#a855f7",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
+        "labelOffset": {
+          "x": 176.46844541621215,
+          "y": -160.69329731889252
+        }
+      },
+      "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": {
+        "id": "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "0e9a119d-296f-46b6-a489-abe794e3a15b",
+        "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "targetSide": "9012489a-6da9-4172-b2f9-e36c11d09277",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Через OTEL Collector\nLF Ingress",
+        "labelOffset": {
+          "x": -257.67085421653746,
+          "y": 103.03131539501646
+        }
+      },
+      "04ff8f90-d2ed-4845-a960-a7189414c5ae": {
+        "id": "04ff8f90-d2ed-4845-a960-a7189414c5ae",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "f6ad2909-2aed-4220-a9d7-0557a650a17e",
+        "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "targetSide": "0f738ff1-e697-452b-8079-9c2ec801fc8e",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Через OTEL Collector\nArize Ingress",
+        "labelOffset": {
+          "x": -136.0980819680858,
+          "y": 102.18199893683686
+        }
+      },
+      "2f656943-8641-4cd7-9882-a33d784d524e": {
+        "id": "2f656943-8641-4cd7-9882-a33d784d524e",
+        "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+        "sourceSide": "abdb3fc9-0492-498a-b631-f5564e733630",
+        "targetId": "170d9b97-b2e2-4500-a588-5a11d63b5418",
+        "targetSide": "9df8aae3-e061-4d29-b4cc-64d1268da9f6",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -1552,
+            "y": 1632
+          }
+        ],
+        "description": "Внутренняя коммуникация",
+        "labelOffset": {
+          "x": -85.68196946464832,
+          "y": 18.781076540355798
+        }
+      },
+      "6c11bb14-2c56-4098-aed8-d2c04e87fe1d": {
+        "id": "6c11bb14-2c56-4098-aed8-d2c04e87fe1d",
+        "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+        "sourceSide": "3af68ce4-6843-4073-9be7-4693740579e5",
+        "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "targetSide": "c4c6a20e-3afe-462a-aac9-2056f03042ca",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#f43f5e",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -2192,
+            "y": 224
+          },
+          {
+            "x": -2192,
+            "y": 2160
+          }
+        ],
+        "description": "Использование \nTelementry Adapter",
+        "labelOffset": {
+          "x": 68.38553500166017,
+          "y": 677.1835905042456
+        }
+      },
+      "677ea888-027e-4e70-b6f7-a119c5407898": {
+        "id": "677ea888-027e-4e70-b6f7-a119c5407898",
+        "sourceId": "86f6dc53-a840-47bb-8c17-4c7f2450d156",
+        "sourceSide": "999bf0e2-e046-41ac-b556-20fb3723e503",
+        "targetId": "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+        "targetSide": "0524acce-14fb-4a81-9a66-1fb7a0d93899",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Сбор информации",
+        "labelOffset": {
+          "x": 57.49143755377486,
+          "y": 0
+        }
+      },
+      "41f95d0f-b33f-48b3-8d11-bb1b12312004": {
+        "id": "41f95d0f-b33f-48b3-8d11-bb1b12312004",
+        "sourceId": "b980ef13-f918-4745-9b58-0bf2a669cd03",
+        "sourceSide": "42b729d3-8aef-4c17-87e3-366f54c971fb",
+        "targetId": "374374ab-2701-4d8e-9e52-21183b441ab6",
+        "targetSide": "19050e1c-319b-49ca-b3a6-55e46a09e7be",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Запрос на агента"
+      },
+      "f800a729-1aed-4591-8631-f96bb7be15d0": {
+        "id": "f800a729-1aed-4591-8631-f96bb7be15d0",
+        "sourceId": "84fb1cc5-3001-4147-a132-2581beab47f6",
+        "sourceSide": "9063ebab-2098-4056-8128-0d1ced0c79f5",
+        "targetId": "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+        "targetSide": "c3109d68-db51-41db-aa48-4877ecb1c68e",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#ffff00",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Свободный доступ к интернету\nна основе заранее определённых правил",
+        "labelOffset": {
+          "x": 99.65074813034016,
+          "y": -23.44723485419763
+        }
       }
     },
     "groups": {
-      "d0149188-4dc0-4368-9720-cb2970ba80e4": {
-        "id": "d0149188-4dc0-4368-9720-cb2970ba80e4",
-        "name": "SD environment",
+      "119e2cf7-a428-4690-92e0-e7af91dcf809": {
+        "id": "119e2cf7-a428-4690-92e0-e7af91dcf809",
+        "name": "Agent Engines",
         "position": {
-          "x": -1968,
-          "y": 1008
+          "x": -1232,
+          "y": 1552
         },
         "size": {
-          "width": 192,
-          "height": 368
+          "width": 128,
+          "height": 112
         },
         "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
+          "borderColor": "#64748b"
         }
       },
-      "0b2aa16f-371e-494f-b0a0-40872d5c7d82": {
-        "id": "0b2aa16f-371e-494f-b0a0-40872d5c7d82",
-        "name": "Функции для Агентов",
+      "e890bc83-4561-4e61-875b-6f687e19e034": {
+        "id": "e890bc83-4561-4e61-875b-6f687e19e034",
+        "name": "Agent Engines",
         "position": {
-          "x": -1280,
-          "y": 1792
+          "x": -1232,
+          "y": 1552
         },
         "size": {
-          "width": 464,
-          "height": 176
+          "width": 128,
+          "height": 112
         },
         "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
+          "borderColor": "#64748b"
         }
       },
-      "0477c0da-a70f-460c-85ad-0d5b7593c410": {
-        "id": "0477c0da-a70f-460c-85ad-0d5b7593c410",
-        "name": "Cloud Infra",
+      "a7369b61-d281-4184-8b92-b26525f94e91": {
+        "id": "a7369b61-d281-4184-8b92-b26525f94e91",
+        "name": "Agent Engines",
         "position": {
-          "x": -2080,
-          "y": 1152
+          "x": -1232,
+          "y": 1552
         },
         "size": {
-          "width": 304,
-          "height": 288
+          "width": 128,
+          "height": 112
         },
         "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
+          "borderColor": "#64748b"
         }
       },
-      "be6ca3d8-08a2-4325-8586-ae3e04ba6c73": {
-        "id": "be6ca3d8-08a2-4325-8586-ae3e04ba6c73",
-        "name": "Интернет",
+      "2958717e-38f1-4ae5-9f34-a58f4877983a": {
+        "id": "2958717e-38f1-4ae5-9f34-a58f4877983a",
+        "name": "Agents Engines",
         "position": {
-          "x": -96,
-          "y": 1200
+          "x": -1232,
+          "y": 1552
         },
         "size": {
-          "width": 192,
-          "height": 176
+          "width": 128,
+          "height": 112
         },
         "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
+          "borderColor": "#64748b"
+        }
+      },
+      "0359d1cc-7cf4-4386-9847-5e881ae7be27": {
+        "id": "0359d1cc-7cf4-4386-9847-5e881ae7be27",
+        "name": "Agent Engines",
+        "position": {
+          "x": -1232,
+          "y": 1552
         },
-        "description": ""
+        "size": {
+          "width": 128,
+          "height": 112
+        },
+        "isCollapsed": false,
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#64748b"
+        },
+        "layerId": "ff31fd3b-6825-479f-a508-5e596cf20e89",
+        "childElementIds": {
+          "ff31fd3b-6825-479f-a508-5e596cf20e89": [
+            "374374ab-2701-4d8e-9e52-21183b441ab6",
+            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+          ]
+        }
+      },
+      "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f": {
+        "id": "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f",
+        "name": "Agent Engines",
+        "position": {
+          "x": -1232,
+          "y": 1552
+        },
+        "size": {
+          "width": 128,
+          "height": 112
+        },
+        "isCollapsed": false,
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#64748b"
+        },
+        "layerId": "d1fb4618-c52e-4232-9294-2c9afcf2a4ba",
+        "childElementIds": {
+          "d1fb4618-c52e-4232-9294-2c9afcf2a4ba": [
+            "374374ab-2701-4d8e-9e52-21183b441ab6",
+            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+          ]
+        }
+      },
+      "d4826127-e328-49ec-b60c-fe34aa20fa1f": {
+        "id": "d4826127-e328-49ec-b60c-fe34aa20fa1f",
+        "name": "Agent Engines",
+        "position": {
+          "x": -1232,
+          "y": 1552
+        },
+        "size": {
+          "width": 128,
+          "height": 112
+        },
+        "isCollapsed": false,
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#64748b"
+        },
+        "layerId": "7e350f9b-6811-431f-a397-06ef050957a7",
+        "childElementIds": {
+          "7e350f9b-6811-431f-a397-06ef050957a7": [
+            "374374ab-2701-4d8e-9e52-21183b441ab6",
+            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+          ]
+        }
+      },
+      "dc3df43b-2f3d-4cc5-9042-203883af4c25": {
+        "id": "dc3df43b-2f3d-4cc5-9042-203883af4c25",
+        "name": "Agent Engines",
+        "position": {
+          "x": -1232,
+          "y": 1440
+        },
+        "size": {
+          "width": 128,
+          "height": 224
+        },
+        "isCollapsed": false,
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#64748b"
+        },
+        "layerId": "default-layer",
+        "childElementIds": {
+          "default-layer": [
+            "374374ab-2701-4d8e-9e52-21183b441ab6",
+            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+          ]
+        }
       }
     },
     "integrationLayers": {
@@ -4951,12 +5302,10 @@
           "4ea7a942-8f7b-4da4-9653-09833fc1f806",
           "8bcd1e08-0b7a-4aa9-aa88-31569036ce1f",
           "9a7fd202-3bc7-499c-a8c5-1d1ec30b9eb9",
-          "36fa58fe-ef85-493e-8339-7a427b1917d2",
           "91409dcd-0a72-4813-92d4-a8da61a8b87a",
           "ae84dd19-d528-42bb-8e71-36624bf784d0",
           "c4383caa-48bb-4b51-8fcb-07ac26686e61",
           "4718d099-1794-40ad-b754-81aa7206a9f4",
-          "a07ba992-9157-47bc-865a-37439f57a458",
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
           "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
           "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
@@ -4964,28 +5313,17 @@
           "67df732f-a1f8-4365-9063-281c158bb32b",
           "2169b4a2-3985-4b47-b2be-0104a56dd67f",
           "b980ef13-f918-4745-9b58-0bf2a669cd03",
-          "002c4823-605a-4235-aeb0-ee6503539c50",
           "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-          "63d4e2df-5a5e-4461-886e-60d1d197fc8a",
           "1d9cfa12-7f7c-4477-a59f-720c800a770d",
           "a72dc220-b3f7-4f65-a150-6dc6cd841773",
           "9ff3b1a4-d9d9-4a4c-a1d9-11ef38db1bc4",
           "71f43604-202e-4dbb-80bf-f68f0295756e",
           "3be24adc-b12f-4b82-92b3-cd3087568929",
-          "d0149188-4dc0-4368-9720-cb2970ba80e4",
-          "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
           "b2b02043-a0cb-4d30-be6f-a899292ea73d",
           "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc",
-          "a8664bd2-c851-4564-ba2e-b882f461c138",
           "855378d3-16d8-44b3-b517-fccecea8b921",
-          "d0f0343d-6631-4fca-b19d-c761b79b317c",
           "3a902a9e-cb30-4a94-8e25-ec776a527364",
-          "9f0ce94f-7c7b-494c-a777-67bc052c1578",
-          "7dd19026-5540-4c9e-88a7-3855c7dacc90",
           "13554ba8-6bb8-4b8e-900e-a5d36112fd1d",
-          "0b2aa16f-371e-494f-b0a0-40872d5c7d82",
-          "e5bbad81-a5c4-4dd9-80b5-93512b74e2f4",
-          "b5b9142b-fd14-452e-bed3-180371e99af3",
           "a476af99-8c5c-4709-a2e0-a50d9991de9c",
           "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
           "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
@@ -5024,10 +5362,57 @@
           "33b1f582-d08d-451f-9d14-679113c49f96",
           "df96f8e4-e81d-4148-a0fb-a68350ae944e",
           "7c288914-f356-48d9-b9cf-8a9d64fdae7a",
-          "be6ca3d8-08a2-4325-8586-ae3e04ba6c73",
-          "602ae8c8-0a1c-4a90-89d0-4070bfba5955"
+          "170d9b97-b2e2-4500-a588-5a11d63b5418",
+          "79165802-40c0-4db9-80b3-33f653a2ccb8",
+          "2f656943-8641-4cd7-9882-a33d784d524e",
+          "48eba994-627c-4d5f-b3e6-7118c215079c",
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+          "54667da6-eac2-4460-bae7-1a851ae0babe",
+          "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+          "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+          "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+          "86ac50b1-6faa-4684-89d5-89091764107d",
+          "11960251-128b-487e-90af-fd106e741180",
+          "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
+          "ca09a792-070d-4d76-8e24-3ff283c89bfe",
+          "d013c485-9bde-47af-b731-04f30efe8fc6",
+          "c91f9454-5dd3-428f-bf78-33c815759f9a",
+          "5213e793-e425-4819-9d58-6fe27fac05f1",
+          "aae6dfd9-b79a-446c-9206-037a33faa14e",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "6c11bb14-2c56-4098-aed8-d2c04e87fe1d",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+          "677ea888-027e-4e70-b6f7-a119c5407898",
+          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+          "2ba8d505-27d3-491b-9cde-1326560fd12e",
+          "fd992819-d871-4577-8169-0da554ba5910",
+          "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
+          "dad041a8-ea22-45b8-8467-8e1a22f76030",
+          "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+          "be717a0c-fff2-4d1c-b04c-67073825217b",
+          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
+          "9a87da9f-33aa-4464-ac8b-84334e16eeae",
+          "ff61e7e3-9b74-4f53-b2ab-2a660890c727",
+          "72b35ea7-b0cb-42e7-b565-d2cb39995640",
+          "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
+          "37d88442-6471-4c05-8a84-5787120052d6",
+          "04ff8f90-d2ed-4845-a960-a7189414c5ae",
+          "8d9fc310-7155-41d0-9555-bb8741f442e5",
+          "b8465e48-32ec-4fca-bbae-86261ab31a6e",
+          "51e449ac-98fe-4dad-a760-4d65a32282bc",
+          "a4a34b1c-146b-48bc-b80f-4da0cfa58a5b",
+          "6df1283f-d67a-436d-a485-c8dadd37b2dd",
+          "c1840cf5-f352-4a72-9309-d0c9325d3b21",
+          "4cd777ec-1894-4c59-adcb-447477a8a373",
+          "244c7279-8bd5-433e-bb90-eac8c9c46318",
+          "119e2cf7-a428-4690-92e0-e7af91dcf809",
+          "41f95d0f-b33f-48b3-8d11-bb1b12312004",
+          "dc3df43b-2f3d-4cc5-9042-203883af4c25"
         ],
-        "hiddenElementIds": []
+        "hiddenElementIds": [
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9"
+        ]
       },
       "647d58ba-08e1-4d12-9474-40e653fc216a": {
         "id": "647d58ba-08e1-4d12-9474-40e653fc216a",
@@ -5048,12 +5433,10 @@
           "629f52ed-41c6-4bfd-85f0-242d5dd10499",
           "b3202719-2ff5-4c68-a3fa-e2a8386a0510",
           "4718d099-1794-40ad-b754-81aa7206a9f4",
-          "a07ba992-9157-47bc-865a-37439f57a458",
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
           "67df732f-a1f8-4365-9063-281c158bb32b",
           "2169b4a2-3985-4b47-b2be-0104a56dd67f",
           "b980ef13-f918-4745-9b58-0bf2a669cd03",
-          "002c4823-605a-4235-aeb0-ee6503539c50",
           "d26d8407-3602-4e2d-9f46-58d66ea27af8",
           "f0283d93-3146-4f55-970b-e6e055bb6dfd",
           "4a37a09e-6bf2-4816-920e-8d7487c4693b",
@@ -5068,12 +5451,29 @@
           "141a7ad8-219b-47b1-9461-df8e54b326b7",
           "d4bde6f3-1b08-4659-a8f6-380c81fd65b0",
           "e97476c1-f396-4668-962e-12e56dff79ab",
-          "d0149188-4dc0-4368-9720-cb2970ba80e4",
-          "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
-          "d0f0343d-6631-4fca-b19d-c761b79b317c",
-          "9f0ce94f-7c7b-494c-a777-67bc052c1578"
+          "1d9cfa12-7f7c-4477-a59f-720c800a770d",
+          "dad041a8-ea22-45b8-8467-8e1a22f76030",
+          "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+          "be717a0c-fff2-4d1c-b04c-67073825217b",
+          "b2b02043-a0cb-4d30-be6f-a899292ea73d",
+          "3a902a9e-cb30-4a94-8e25-ec776a527364",
+          "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc",
+          "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
+          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
+          "855378d3-16d8-44b3-b517-fccecea8b921",
+          "13554ba8-6bb8-4b8e-900e-a5d36112fd1d",
+          "a72dc220-b3f7-4f65-a150-6dc6cd841773",
+          "3be24adc-b12f-4b82-92b3-cd3087568929"
         ],
-        "hiddenElementIds": []
+        "hiddenElementIds": [
+          "98a889de-e021-49b5-9f93-6a10ab557230",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9"
+        ],
+        "systemVersions": {
+          "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
+          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": "latest"
+        }
       },
       "7e350f9b-6811-431f-a397-06ef050957a7": {
         "id": "7e350f9b-6811-431f-a397-06ef050957a7",
@@ -5089,14 +5489,9 @@
           "67df732f-a1f8-4365-9063-281c158bb32b",
           "2169b4a2-3985-4b47-b2be-0104a56dd67f",
           "b980ef13-f918-4745-9b58-0bf2a669cd03",
-          "002c4823-605a-4235-aeb0-ee6503539c50",
           "4718d099-1794-40ad-b754-81aa7206a9f4",
-          "a07ba992-9157-47bc-865a-37439f57a458",
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
           "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-          "d0149188-4dc0-4368-9720-cb2970ba80e4",
-          "3c79ab80-f254-4f43-8ce2-8dbf5e0c9cdb",
-          "d0f0343d-6631-4fca-b19d-c761b79b317c",
           "1eeb4ca4-99df-412f-a9c8-1f546c15f6f8",
           "c867d6c6-f522-4193-a813-6d9bca10663c",
           "14382330-bfa5-4262-9f76-83f5a6d30006",
@@ -5106,9 +5501,38 @@
           "313b4957-8e65-4425-80d9-dd826492c39a",
           "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
           "8dc1f0ff-db80-427c-88ac-d3a0e10c9c63",
-          "e97476c1-f396-4668-962e-12e56dff79ab"
+          "e97476c1-f396-4668-962e-12e56dff79ab",
+          "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+          "be717a0c-fff2-4d1c-b04c-67073825217b",
+          "dad041a8-ea22-45b8-8467-8e1a22f76030",
+          "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc",
+          "3a902a9e-cb30-4a94-8e25-ec776a527364",
+          "b2b02043-a0cb-4d30-be6f-a899292ea73d",
+          "3be24adc-b12f-4b82-92b3-cd3087568929",
+          "852849e0-37a8-4e5a-a3cb-3497cc577962",
+          "4ea7a942-8f7b-4da4-9653-09833fc1f806",
+          "33ebf154-577d-4e8d-8ad1-23a59ade8433",
+          "13554ba8-6bb8-4b8e-900e-a5d36112fd1d",
+          "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12",
+          "9a7fd202-3bc7-499c-a8c5-1d1ec30b9eb9",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "e890bc83-4561-4e61-875b-6f687e19e034",
+          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
+          "1d9cfa12-7f7c-4477-a59f-720c800a770d",
+          "a72dc220-b3f7-4f65-a150-6dc6cd841773",
+          "855378d3-16d8-44b3-b517-fccecea8b921",
+          "41f95d0f-b33f-48b3-8d11-bb1b12312004",
+          "d4826127-e328-49ec-b60c-fe34aa20fa1f"
         ],
-        "hiddenElementIds": []
+        "hiddenElementIds": [
+          "98a889de-e021-49b5-9f93-6a10ab557230",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9"
+        ],
+        "systemVersions": {
+          "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
+          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": "latest"
+        }
       },
       "ff31fd3b-6825-479f-a508-5e596cf20e89": {
         "id": "ff31fd3b-6825-479f-a508-5e596cf20e89",
@@ -5120,13 +5544,24 @@
           "84fb1cc5-3001-4147-a132-2581beab47f6",
           "67df732f-a1f8-4365-9063-281c158bb32b",
           "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-          "602ae8c8-0a1c-4a90-89d0-4070bfba5955",
           "cb0f5e0e-7308-446c-98e7-727030a53cf2",
-          "9752712e-02ea-4453-9e23-d074854fc0fa",
-          "be6ca3d8-08a2-4325-8586-ae3e04ba6c73"
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+          "f800a729-1aed-4591-8631-f96bb7be15d0",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "a7369b61-d281-4184-8b92-b26525f94e91",
+          "0359d1cc-7cf4-4386-9847-5e881ae7be27"
         ],
-        "hiddenElementIds": [],
-        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105"
+        "hiddenElementIds": [
+          "98a889de-e021-49b5-9f93-6a10ab557230",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9"
+        ],
+        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
+        "systemVersions": {
+          "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
+          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": "latest",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest"
+        }
       },
       "d6de8cdf-010b-4b33-9b53-aaed612af01d": {
         "id": "d6de8cdf-010b-4b33-9b53-aaed612af01d",
@@ -5137,14 +5572,20 @@
           "4718d099-1794-40ad-b754-81aa7206a9f4",
           "f0283d93-3146-4f55-970b-e6e055bb6dfd",
           "67df732f-a1f8-4365-9063-281c158bb32b",
-          "0477c0da-a70f-460c-85ad-0d5b7593c410",
-          "f45d28bf-5de9-42fe-b365-4242612d8e3f",
-          "06aaf106-e993-4f61-a409-77dbd4dfc278",
           "a70c2f05-c4b6-45f8-9306-d28c5233755d",
-          "6ae599b4-c6fb-483d-b71e-05c893fc8490"
+          "6ae599b4-c6fb-483d-b71e-05c893fc8490",
+          "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
+          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1"
         ],
-        "hiddenElementIds": [],
-        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105"
+        "hiddenElementIds": [
+          "98a889de-e021-49b5-9f93-6a10ab557230"
+        ],
+        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
+        "systemVersions": {
+          "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest"
+        }
       },
       "d1fb4618-c52e-4232-9294-2c9afcf2a4ba": {
         "id": "d1fb4618-c52e-4232-9294-2c9afcf2a4ba",
@@ -5180,10 +5621,21 @@
           "04ff8f90-d2ed-4845-a960-a7189414c5ae",
           "5213e793-e425-4819-9d58-6fe27fac05f1",
           "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
-          "9a87da9f-33aa-4464-ac8b-84334e16eeae"
+          "9a87da9f-33aa-4464-ac8b-84334e16eeae",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "2958717e-38f1-4ae5-9f34-a58f4877983a",
+          "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f"
         ],
-        "hiddenElementIds": [],
-        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105"
+        "hiddenElementIds": [
+          "98a889de-e021-49b5-9f93-6a10ab557230",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9"
+        ],
+        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
+        "systemVersions": {
+          "b4b6849a-e514-4e8a-b7cc-caca297bbd88": "latest",
+          "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest"
+        }
       }
     },
     "layerGroups": {
@@ -5213,10 +5665,13 @@
               "2ebe1061-7002-4510-b097-f573602902b7",
               "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6",
               "93d5f402-7f91-4cca-82bc-10b30b2c4c55",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d",
-              "be6ca3d8-08a2-4325-8586-ae3e04ba6c73"
+              "be6ca3d8-08a2-4325-8586-ae3e04ba6c73",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
             ],
-            "relationshipIds": []
+            "relationshipIds": [
+              "677ea888-027e-4e70-b6f7-a119c5407898"
+            ]
           }
         ],
         "excludedRelationshipIds": [
@@ -5515,8 +5970,9 @@
               "b5b9142b-fd14-452e-bed3-180371e99af3",
               "e97476c1-f396-4668-962e-12e56dff79ab",
               "4718d099-1794-40ad-b754-81aa7206a9f4",
-              "67df732f-a1f8-4365-9063-281c158bb32b",
-              "0b2aa16f-371e-494f-b0a0-40872d5c7d82"
+              "0b2aa16f-371e-494f-b0a0-40872d5c7d82",
+              "374374ab-2701-4d8e-9e52-21183b441ab6",
+              "67df732f-a1f8-4365-9063-281c158bb32b"
             ],
             "relationshipIds": []
           }
@@ -5576,6 +6032,59 @@
           "91d00661-3881-43a2-8064-e85985dd8276": "Генерация и транскрибация аудио"
         },
         "excludedRelationshipIds": []
+      },
+      "948a69e9-9c01-43ec-8499-28a46faf8f06": {
+        "id": "948a69e9-9c01-43ec-8499-28a46faf8f06",
+        "name": "Трассировка запросов",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "elementIds": [
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "374374ab-2701-4d8e-9e52-21183b441ab6",
+              "67df732f-a1f8-4365-9063-281c158bb32b",
+              "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+              "54667da6-eac2-4460-bae7-1a851ae0babe",
+              "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+              "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+              "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+              "11960251-128b-487e-90af-fd106e741180",
+              "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
+              "86ac50b1-6faa-4684-89d5-89091764107d",
+              "c91f9454-5dd3-428f-bf78-33c815759f9a",
+              "ca09a792-070d-4d76-8e24-3ff283c89bfe",
+              "d013c485-9bde-47af-b731-04f30efe8fc6"
+            ],
+            "relationshipIds": []
+          }
+        ],
+        "groupId": "c43046d3-6026-4127-9868-8b8a95695ec4"
+      },
+      "e92263bf-2a5f-49e5-9ac2-a1166140ab4d": {
+        "id": "e92263bf-2a5f-49e5-9ac2-a1166140ab4d",
+        "name": "Считывание логов GigaStore",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "elementIds": [
+              "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+              "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+              "5213e793-e425-4819-9d58-6fe27fac05f1",
+              "54667da6-eac2-4460-bae7-1a851ae0babe",
+              "c91f9454-5dd3-428f-bf78-33c815759f9a",
+              "ca09a792-070d-4d76-8e24-3ff283c89bfe",
+              "d013c485-9bde-47af-b731-04f30efe8fc6",
+              "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+              "86ac50b1-6faa-4684-89d5-89091764107d",
+              "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
+              "11960251-128b-487e-90af-fd106e741180"
+            ],
+            "relationshipIds": []
+          }
+        ],
+        "groupId": "c43046d3-6026-4127-9868-8b8a95695ec4"
       }
     },
     "scenarioGroups": {
