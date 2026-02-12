@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-12T14:51:23.062Z",
+  "timestamp": "2026-02-12T15:08:55.826Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -2491,7 +2491,7 @@
       "b980ef13-f918-4745-9b58-0bf2a669cd03": {
         "id": "b980ef13-f918-4745-9b58-0bf2a669cd03",
         "systemId": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "name": "Aegra API Ingress",
+        "name": "API Ingress",
         "type": "App",
         "position": {
           "x": -960,
@@ -2801,37 +2801,6 @@
           },
           {
             "id": "32204b57-1e58-462f-8643-a0b7312c9255",
-            "side": "right"
-          }
-        ]
-      },
-      "46bdb71a-f333-4882-b840-82c5a2d5f7e4": {
-        "id": "46bdb71a-f333-4882-b840-82c5a2d5f7e4",
-        "name": "ARI Admin",
-        "position": {
-          "x": -1008,
-          "y": 544
-        },
-        "size": {
-          "width": 128,
-          "height": 96
-        },
-        "color": "#f59e0b",
-        "ports": [
-          {
-            "id": "7b077ee2-ecad-4696-bc2c-b468259f45dd",
-            "side": "top"
-          },
-          {
-            "id": "048d75a7-7b6a-4567-b3d3-3e27b6493c41",
-            "side": "bottom"
-          },
-          {
-            "id": "7cf75af8-884d-4fd7-968d-68bc7c450a5d",
-            "side": "left"
-          },
-          {
-            "id": "d8313051-eb9d-47f3-bdc0-d707464b26a3",
             "side": "right"
           }
         ]
@@ -3645,25 +3614,6 @@
         "labelOffset": {
           "x": 62.732588590095475,
           "y": -2.014713135727561
-        }
-      },
-      "4cb2d99f-3339-425a-83ed-bf569b1e85b5": {
-        "id": "4cb2d99f-3339-425a-83ed-bf569b1e85b5",
-        "sourceId": "46bdb71a-f333-4882-b840-82c5a2d5f7e4",
-        "sourceSide": "048d75a7-7b6a-4567-b3d3-3e27b6493c41",
-        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "targetSide": "e92f5b17-c3dd-4f33-9d4f-23d98de021e4",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#475569",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Рабочее место администратора",
-        "labelOffset": {
-          "x": 95.79170287658008,
-          "y": -9.707772964595847
         }
       },
       "599ecf98-fead-41f3-a6fb-9bf142b5e03c": {
@@ -5309,7 +5259,6 @@
           "4147136a-02dd-475b-8e69-f25ebfd6f40f",
           "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
           "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
-          "46bdb71a-f333-4882-b840-82c5a2d5f7e4",
           "67df732f-a1f8-4365-9063-281c158bb32b",
           "2169b4a2-3985-4b47-b2be-0104a56dd67f",
           "b980ef13-f918-4745-9b58-0bf2a669cd03",
@@ -5327,7 +5276,6 @@
           "a476af99-8c5c-4709-a2e0-a50d9991de9c",
           "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
           "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
-          "4cb2d99f-3339-425a-83ed-bf569b1e85b5",
           "599ecf98-fead-41f3-a6fb-9bf142b5e03c",
           "91659662-2680-4c20-9f07-5518378a0add",
           "e48e07b0-4871-4b46-bcfd-05f28bc284bc",
