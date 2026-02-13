@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-13T09:59:06.835Z",
+  "timestamp": "2026-02-13T14:07:04.142Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -670,14 +670,10 @@
         },
         "size": {
           "width": 992,
-          "height": 896
+          "height": 864
         },
         "color": "#3b82f6",
         "ports": [
-          {
-            "id": "328bfacb-4187-40a7-be1e-b585c401f195",
-            "side": "top"
-          },
           {
             "id": "3faf20f8-7a6a-4b8e-95eb-61f27969d107",
             "side": "bottom"
@@ -2046,7 +2042,7 @@
         "type": "App",
         "position": {
           "x": -1840,
-          "y": 2224
+          "y": 2032
         },
         "size": {
           "width": 128,
@@ -2080,7 +2076,7 @@
         "type": "App",
         "position": {
           "x": -1840,
-          "y": 2336
+          "y": 2224
         },
         "size": {
           "width": 128,
@@ -2122,7 +2118,7 @@
         "type": "DB",
         "position": {
           "x": -1840,
-          "y": 2464
+          "y": 2368
         },
         "size": {
           "width": 128,
@@ -2157,7 +2153,7 @@
         "type": "App",
         "position": {
           "x": -1840,
-          "y": 2592
+          "y": 2512
         },
         "size": {
           "width": 128,
@@ -2199,7 +2195,7 @@
         "type": "DB",
         "position": {
           "x": -2048,
-          "y": 2736
+          "y": 2704
         },
         "size": {
           "width": 128,
@@ -2238,7 +2234,7 @@
         "type": "DB",
         "position": {
           "x": -1840,
-          "y": 2736
+          "y": 2704
         },
         "size": {
           "width": 128,
@@ -2273,7 +2269,7 @@
         "type": "DB",
         "position": {
           "x": -1632,
-          "y": 2736
+          "y": 2704
         },
         "size": {
           "width": 128,
@@ -2312,7 +2308,7 @@
         "type": "App",
         "position": {
           "x": -1248,
-          "y": 2336
+          "y": 2224
         },
         "size": {
           "width": 128,
@@ -2335,6 +2331,10 @@
           {
             "id": "dca65f30-9840-47a3-95cb-4bbb7762d104",
             "side": "right"
+          },
+          {
+            "id": "fa7717ed-fb20-452a-90d1-a556af66f69d",
+            "side": "left"
           }
         ],
         "systemVersion": "latest"
@@ -2346,7 +2346,7 @@
         "type": "DB",
         "position": {
           "x": -1248,
-          "y": 2464
+          "y": 2368
         },
         "size": {
           "width": 128,
@@ -2381,7 +2381,7 @@
         "type": "App",
         "position": {
           "x": -1248,
-          "y": 2224
+          "y": 2032
         },
         "size": {
           "width": 128,
@@ -4522,15 +4522,15 @@
         "controlPoints": [
           {
             "x": -2096,
-            "y": 2352
+            "y": 2240
           },
           {
             "x": -2096,
-            "y": 2848
+            "y": 2816
           },
           {
             "x": -1776,
-            "y": 2848
+            "y": 2816
           }
         ]
       },
@@ -4580,8 +4580,8 @@
         "id": "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
         "sourceId": "5213e793-e425-4819-9d58-6fe27fac05f1",
         "sourceSide": "a736edd5-80d5-4534-b37a-237023c479b1",
-        "targetId": "54667da6-eac2-4460-bae7-1a851ae0babe",
-        "targetSide": "a7a5f93a-5318-459a-9a16-d491287a9b92",
+        "targetId": "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+        "targetSide": "7d14b926-d6fe-4117-b484-422b571e342c",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4591,7 +4591,7 @@
         "controlPoints": [
           {
             "x": -1488,
-            "y": 2256
+            "y": 2240
           }
         ],
         "description": "Получение информации\nот LangFuse",
@@ -4604,8 +4604,8 @@
         "id": "9a87da9f-33aa-4464-ac8b-84334e16eeae",
         "sourceId": "5213e793-e425-4819-9d58-6fe27fac05f1",
         "sourceSide": "f6c8737b-8a13-4607-9eb1-61c5378fd048",
-        "targetId": "c91f9454-5dd3-428f-bf78-33c815759f9a",
-        "targetSide": "3598396f-88fc-4303-b958-673edddf53c7",
+        "targetId": "ca09a792-070d-4d76-8e24-3ff283c89bfe",
+        "targetSide": "fd71832b-ac81-4ea1-b762-fce3dff40d9e",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4615,7 +4615,7 @@
         "controlPoints": [
           {
             "x": -1456,
-            "y": 2256
+            "y": 2240
           }
         ],
         "description": "Получение информации\nот Arize Phoenix",
