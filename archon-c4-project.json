@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-13T06:25:24.506Z",
+  "timestamp": "2026-02-13T07:59:21.420Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -18,7 +18,6 @@
           "height": 160
         },
         "color": "#facc15",
-        "groupIds": [],
         "ports": [
           {
             "id": "ccbc763c-bc1a-4cfa-84c3-e3f805f15c27",
@@ -82,7 +81,6 @@
           "height": 704
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "fa0432da-d5af-4d27-8b56-27ff4f768a03",
@@ -129,7 +127,6 @@
           "height": 160
         },
         "color": "#facc15",
-        "groupIds": [],
         "ports": [
           {
             "id": "c89c066e-3a2a-4536-8b15-19f7a9617a4d",
@@ -171,7 +168,6 @@
           "height": 160
         },
         "color": "#facc15",
-        "groupIds": [],
         "ports": [
           {
             "id": "e6e8cd2c-0001-481f-bc6e-5913def7d594",
@@ -220,7 +216,6 @@
           "height": 432
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "ba465291-3dd5-4f01-a3ad-0bef1db8617e",
@@ -274,7 +269,6 @@
           "height": 160
         },
         "color": "#facc15",
-        "groupIds": [],
         "ports": [
           {
             "id": "1c04795a-cf85-4bdb-a5ee-9078a8041070",
@@ -312,7 +306,7 @@
       },
       "91659662-2680-4c20-9f07-5518378a0add": {
         "id": "91659662-2680-4c20-9f07-5518378a0add",
-        "name": "Управление расходами / Billing",
+        "name": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u0445\u043e\u0434\u0430\u043c\u0438 / Billing",
         "metadata": {},
         "containerIds": [],
         "position": {
@@ -324,7 +318,6 @@
           "height": 160
         },
         "color": "#facc15",
-        "groupIds": [],
         "ports": [
           {
             "id": "d7ec3a28-7bf4-493a-8a1d-a576b846cab4",
@@ -371,7 +364,6 @@
           "height": 848
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "8c428b28-1f7a-4c3f-8ffb-e28614eb0755",
@@ -409,7 +401,6 @@
           "height": 160
         },
         "color": "#facc15",
-        "groupIds": [],
         "ports": [
           {
             "id": "575815e7-dcf6-4e74-b9db-ca5615acdcdc",
@@ -447,7 +438,6 @@
           "height": 160
         },
         "color": "#f59e0b",
-        "groupIds": [],
         "ports": [
           {
             "id": "4f43ad62-abf0-4e27-bd51-18c98fef3ff0",
@@ -491,7 +481,6 @@
           "height": 848
         },
         "color": "#a855f7",
-        "groupIds": [],
         "ports": [
           {
             "id": "25a97da6-565b-4ed5-8895-b361e0faf07c",
@@ -541,7 +530,6 @@
           "height": 160
         },
         "color": "#f43f5e",
-        "groupIds": [],
         "ports": [
           {
             "id": "965bc057-974a-4486-aa81-f8d0716423fa",
@@ -579,7 +567,6 @@
           "height": 160
         },
         "color": "#f43f5e",
-        "groupIds": [],
         "ports": [
           {
             "id": "1cbff05f-633e-4fc5-9694-ba0305680086",
@@ -617,7 +604,6 @@
           "height": 160
         },
         "color": "#10b981",
-        "groupIds": [],
         "ports": [
           {
             "id": "8442ddfb-10c4-4492-9d7b-f6a49e5c4406",
@@ -669,7 +655,6 @@
           "height": 896
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "328bfacb-4187-40a7-be1e-b585c401f195",
@@ -704,7 +689,7 @@
             "side": "left"
           }
         ],
-        "description": "Трассировка вызовов, промптов, цепочек, токенов, latency, cost",
+        "description": "\u0422\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u0430 \u0432\u044b\u0437\u043e\u0432\u043e\u0432, \u043f\u0440\u043e\u043c\u043f\u0442\u043e\u0432, \u0446\u0435\u043f\u043e\u0447\u0435\u043a, \u0442\u043e\u043a\u0435\u043d\u043e\u0432, latency, cost",
         "activeVersion": "latest",
         "versions": [
           "latest"
@@ -726,7 +711,6 @@
           "height": 176
         },
         "color": "#6366f1",
-        "groupIds": [],
         "ports": [
           {
             "id": "a4b2b93e-4a2d-4e99-875b-2a32ee537e38",
@@ -771,7 +755,6 @@
           "height": 304
         },
         "color": "#a855f7",
-        "groupIds": [],
         "ports": [
           {
             "id": "c97c44bb-6d51-4411-9c83-daa44c05dc59",
@@ -805,7 +788,7 @@
       },
       "65ebd0ec-cb55-4425-9ac5-4004b82d064b": {
         "id": "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
-        "name": "Интернет",
+        "name": "\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442",
         "metadata": {},
         "containerIds": [],
         "position": {
@@ -817,7 +800,6 @@
           "height": 176
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "0524acce-14fb-4a81-9a66-1fb7a0d93899",
@@ -843,7 +825,7 @@
       },
       "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": {
         "id": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
-        "name": "Функции для Агентов",
+        "name": "\u0424\u0443\u043d\u043a\u0446\u0438\u0438 \u0434\u043b\u044f \u0410\u0433\u0435\u043d\u0442\u043e\u0432",
         "metadata": {},
         "containerIds": [
           "2ba8d505-27d3-491b-9cde-1326560fd12e",
@@ -858,7 +840,6 @@
           "height": 176
         },
         "color": "#000000",
-        "groupIds": [],
         "ports": [
           {
             "id": "817199ae-3c67-43e9-b795-133af17a32c5",
@@ -903,7 +884,6 @@
           "height": 272
         },
         "color": "#10b981",
-        "groupIds": [],
         "ports": [
           {
             "id": "bd47452f-ba82-40fc-9cb3-e007c36a7cf9",
@@ -944,7 +924,6 @@
           "height": 256
         },
         "color": "#a855f7",
-        "groupIds": [],
         "ports": [
           {
             "id": "e12471da-315f-4b23-9326-f71ac6750ffa",
@@ -988,7 +967,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "c43204d2-75fb-4fda-a814-8b8806a48d4c",
@@ -1040,7 +1018,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "7dd8beac-bfbd-490b-898a-a982d0ed8b84",
@@ -1079,7 +1056,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "4be191fb-61f6-4a8c-be8b-db2b1d2aa4da",
@@ -1126,7 +1102,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "17e2292d-b6d4-4015-ae58-98a94d2a7b9a",
@@ -1161,7 +1136,6 @@
           "height": 48
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "3337ced9-875a-49dd-9a66-ad5adc92dc9e",
@@ -1204,7 +1178,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "afbeba25-febe-4ce9-9e5f-10e81b948466",
@@ -1248,7 +1221,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "f1d44101-9e5b-4d8b-b92d-b9438f6069a3",
@@ -1284,7 +1256,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "e0252447-a550-4010-b4f3-25b46bdc6ca8",
@@ -1319,7 +1290,6 @@
           "height": 64
         },
         "color": "#3b82f6",
-        "groupIds": [],
         "ports": [
           {
             "id": "48a35ccc-93fd-4a05-9f5a-24e25c9101a8",
@@ -1354,7 +1324,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "48903ec3-76a7-4e2c-80ad-98447e30e664",
@@ -1390,7 +1359,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "40892c93-ecdf-463e-b57f-2d7bd544f657",
@@ -1426,7 +1394,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "b20c9646-bd6e-44ab-9ded-7ca71f170df9",
@@ -1473,7 +1440,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "417910ce-ee1a-4a73-bd16-37c3dab7ea7a",
@@ -1511,7 +1477,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "ddf21397-314b-4ef0-acd1-bb80d08cb1a5",
@@ -1561,7 +1526,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "58b1961f-8ed6-44d3-8108-0428d47486e3",
@@ -1604,7 +1568,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "21bcc0d3-add8-407c-b031-738998987cda",
@@ -1643,7 +1606,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "5823d41e-6007-4572-8988-a45069911b7f",
@@ -1686,7 +1648,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "4de116e5-beff-4897-bcac-b5347e0a9d3b",
@@ -1726,7 +1687,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "30447343-943b-49b2-9a94-ba9ce5ae2938",
@@ -1762,7 +1722,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "cd9c3aab-1a1a-401e-9e70-6111849d98a8",
@@ -1798,7 +1757,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "0fbf7637-691b-4132-b499-3abaf3ab0f88",
@@ -1834,7 +1792,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "c9b118a5-5493-4ed0-b3c8-472c5cc335e1",
@@ -1873,7 +1830,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "493e8884-fd29-406b-99f5-9420c056f2e5",
@@ -1908,7 +1864,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "14f59488-6db2-4b4e-9cc0-f1652ddfe9b8",
@@ -1944,7 +1899,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "bcf59897-26b2-42da-97f8-e8dc38134d5f",
@@ -1979,7 +1933,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "70fa9603-1525-4e4b-bda4-53633646bed2",
@@ -2014,7 +1967,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "ce2eda22-d8ad-4bf6-b99b-1ca55a3422e5",
@@ -2057,7 +2009,6 @@
           "height": 64
         },
         "color": "#a855f7",
-        "groupIds": [],
         "ports": [
           {
             "id": "4b6d858d-8b8b-48dc-91bd-26d3bab43518",
@@ -2092,7 +2043,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "02556dd4-50f8-4d71-a8da-aaa845ea421f",
@@ -2127,7 +2077,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "05c93703-759d-4ef1-b301-ca669244e6d9",
@@ -2170,7 +2119,6 @@
           "height": 64
         },
         "color": "#ff8000",
-        "groupIds": [],
         "ports": [
           {
             "id": "9241b162-b9c5-492b-817c-b9a6eeb86207",
@@ -2206,7 +2154,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "7f2134f0-d294-4718-8b61-601b33df667a",
@@ -2249,7 +2196,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "7a4deb31-9181-4d32-bb2b-a358e3872c44",
@@ -2289,7 +2235,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "97f83b66-4dc8-4372-b624-67fcf2770066",
@@ -2325,7 +2270,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "2f4682a3-c6f8-4090-9cf1-228f5478eaf4",
@@ -2365,7 +2309,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "dd5ac615-9c7a-47b6-ba80-452210741fdc",
@@ -2400,7 +2343,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "07477bbd-353b-4624-8040-a8b17b80ad3f",
@@ -2436,7 +2378,6 @@
           "height": 64
         },
         "color": "#6366f1",
-        "groupIds": [],
         "ports": [
           {
             "id": "17142aec-34c9-40e1-b52c-842c5f952dc8",
@@ -2471,7 +2412,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "4800f873-0ee4-485d-9829-4f2923295881",
@@ -2510,7 +2450,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "ef1fd26e-9d77-42fd-a110-4447d4ab34ea",
@@ -2546,7 +2485,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "e178756f-8251-4d0e-8392-27185bf240d8",
@@ -2594,8 +2532,6 @@
           }
         ],
         "description": "",
-        "parentGroupId": "dc3df43b-2f3d-4cc5-9042-203883af4c25",
-        "parentGroupLayerId": "default-layer",
         "systemVersion": "latest"
       },
       "b980ef13-f918-4745-9b58-0bf2a669cd03": {
@@ -2612,7 +2548,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "fa809db4-9a5e-41c5-ad67-466e1bc04dd3",
@@ -2651,7 +2586,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "1a178987-c7c1-4c0f-8a17-5a9492cd01d3",
@@ -2670,8 +2604,6 @@
             "side": "right"
           }
         ],
-        "parentGroupId": "dc3df43b-2f3d-4cc5-9042-203883af4c25",
-        "parentGroupLayerId": "default-layer",
         "systemVersion": "latest"
       },
       "2ba8d505-27d3-491b-9cde-1326560fd12e": {
@@ -2688,7 +2620,6 @@
           "height": 64
         },
         "color": "#f43f5e",
-        "groupIds": [],
         "ports": [
           {
             "id": "0438bc44-2d50-4a09-bf93-31f9473b29cb",
@@ -2723,7 +2654,6 @@
           "height": 64
         },
         "color": "#a855f7",
-        "groupIds": [],
         "ports": [
           {
             "id": "f3761308-1e89-4b2e-89d8-5e65eaedc626",
@@ -2758,7 +2688,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "44134719-0301-4f32-923c-dc77208b6402",
@@ -2794,7 +2723,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "f1c1c70a-d2e8-483d-8d35-0ab9a6f2b517",
@@ -2830,7 +2758,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "c6ddc18b-b79c-4fc5-9708-6401c2b34611",
@@ -2865,7 +2792,6 @@
           "height": 64
         },
         "color": "",
-        "groupIds": [],
         "ports": [
           {
             "id": "1f1ffe80-2059-4de3-a162-75fdf89763ee",
@@ -3014,7 +2940,7 @@
       },
       "e5e15d9b-3a7c-4973-9a73-b680c007df07": {
         "id": "e5e15d9b-3a7c-4973-9a73-b680c007df07",
-        "name": "Модератор",
+        "name": "\u041c\u043e\u0434\u0435\u0440\u0430\u0442\u043e\u0440",
         "position": {
           "x": -1808,
           "y": 0
@@ -3045,7 +2971,7 @@
       },
       "c6d50117-0d79-426a-9744-fd9deffd39c2": {
         "id": "c6d50117-0d79-426a-9744-fd9deffd39c2",
-        "name": "Провайдер агента",
+        "name": "\u041f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440 \u0430\u0433\u0435\u043d\u0442\u0430",
         "position": {
           "x": -1088,
           "y": 0
@@ -3089,7 +3015,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с backend"
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 backend"
       },
       "d9a20644-c870-4a01-b10b-6d5c37b78be5": {
         "id": "d9a20644-c870-4a01-b10b-6d5c37b78be5",
@@ -3109,7 +3035,7 @@
             "y": 464
           }
         ],
-        "description": "Загрузка файлов",
+        "description": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0444\u0430\u0439\u043b\u043e\u0432",
         "labelOffset": {
           "x": 193.08215892024532,
           "y": -54.874811811531856
@@ -3128,7 +3054,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с tenant",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 tenant",
         "labelOffset": {
           "x": -49.39637410119849,
           "y": -13.455894476066646
@@ -3156,7 +3082,7 @@
             "y": 560
           }
         ],
-        "description": "Произведение запросов\nпо RAG по tenant",
+        "description": "\u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432\n\u043f\u043e RAG \u043f\u043e tenant",
         "labelOffset": {
           "x": 42.93569702847503,
           "y": -17.31655039152372
@@ -3175,7 +3101,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Обработка метаданных\nпо tenant",
+        "description": "\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445\n\u043f\u043e tenant",
         "labelOffset": {
           "x": 1.116398991639926,
           "y": -15.62958588295794
@@ -3199,7 +3125,7 @@
             "y": 960
           }
         ],
-        "description": "Сохранение embeddings \nпо tenant",
+        "description": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 embeddings \n\u043f\u043e tenant",
         "labelOffset": {
           "x": -125.34306460798575,
           "y": 38.56709680245706
@@ -3227,7 +3153,7 @@
             "y": 736
           }
         ],
-        "description": "Работа с \nбазой данных",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \n\u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445",
         "labelOffset": {
           "x": 13.396787899678202,
           "y": -13.396787899678202
@@ -3246,7 +3172,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Сохранение метаданных\nпо tenant",
+        "description": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445\n\u043f\u043e tenant",
         "labelOffset": {
           "x": 76.37351920340507,
           "y": 28.452879703229428
@@ -3274,7 +3200,7 @@
             "y": 736
           }
         ],
-        "description": "Генерация евентов"
+        "description": "\u0413\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u0435\u0432\u0435\u043d\u0442\u043e\u0432"
       },
       "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": {
         "id": "18e542a1-5c67-4f69-b82e-d3ebfbe824ca",
@@ -3289,7 +3215,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Обработка документов \nпо tenant",
+        "description": "\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \n\u043f\u043e tenant",
         "labelOffset": {
           "x": -73.6823334482304,
           "y": 26.793575799356518
@@ -3317,7 +3243,7 @@
             "y": 896
           }
         ],
-        "description": "Подписка на евенты"
+        "description": "\u041f\u043e\u0434\u043f\u0438\u0441\u043a\u0430 \u043d\u0430 \u0435\u0432\u0435\u043d\u0442\u044b"
       },
       "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50": {
         "id": "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50",
@@ -3341,7 +3267,7 @@
             "y": 736
           }
         ],
-        "description": "Генерация евентов",
+        "description": "\u0413\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u0435\u0432\u0435\u043d\u0442\u043e\u0432",
         "labelOffset": {
           "x": -2.232797983279852,
           "y": -1.1163989916398123
@@ -3360,7 +3286,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Загрузка файлов",
+        "description": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0444\u0430\u0439\u043b\u043e\u0432",
         "labelOffset": {
           "x": 1.1512146473605753,
           "y": 43.74615659970016
@@ -3388,7 +3314,7 @@
             "y": 560
           }
         ],
-        "description": "Получение правил\nпо синхронизации\nресурсов",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\n\u043f\u043e \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u0438\n\u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432",
         "labelOffset": {
           "x": 43.77162651609035,
           "y": -29.010902726493782
@@ -3426,7 +3352,7 @@
             "y": 176
           }
         ],
-        "description": "Произведение запросов \nпо RAG по tenant",
+        "description": "\u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \n\u043f\u043e RAG \u043f\u043e tenant",
         "labelOffset": {
           "x": -13.357724474588963,
           "y": -96.23407835195349
@@ -3454,7 +3380,7 @@
             "y": 192
           }
         ],
-        "description": "Вызов LLM с нашими embeddings",
+        "description": "\u0412\u044b\u0437\u043e\u0432 LLM \u0441 \u043d\u0430\u0448\u0438\u043c\u0438 embeddings",
         "labelOffset": {
           "x": -156.67883075998202,
           "y": 236.22346791504992
@@ -3473,7 +3399,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с RAG UI",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 RAG UI",
         "labelOffset": {
           "x": 44.12430711905063,
           "y": 46.531087507362486
@@ -3492,7 +3418,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Запрос на поиск",
+        "description": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u043f\u043e\u0438\u0441\u043a",
         "labelOffset": {
           "x": 51,
           "y": 19.26666666666665
@@ -3511,7 +3437,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Получение метаданных\nпо tenant",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445\n\u043f\u043e tenant",
         "labelOffset": {
           "x": 25.225462032099017,
           "y": -14.072206225114428
@@ -3535,7 +3461,7 @@
             "y": 240
           }
         ],
-        "description": "Получение всех tenant \nпо пользователю",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0432\u0441\u0435\u0445 tenant \n\u043f\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e",
         "labelOffset": {
           "x": -172.97917253262324,
           "y": -63.56624695475173
@@ -3563,7 +3489,7 @@
             "y": 144
           }
         ],
-        "description": "Вызов расчета embeddings",
+        "description": "\u0412\u044b\u0437\u043e\u0432 \u0440\u0430\u0441\u0447\u0435\u0442\u0430 embeddings",
         "labelOffset": {
           "x": -212.06502528579813,
           "y": 411.7367250892113
@@ -3582,7 +3508,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Аутентификация / Авторизация\ntenant",
+        "description": "\u0410\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f / \u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f\ntenant",
         "labelOffset": {
           "x": -12.888709048907344,
           "y": -16.110886311134152
@@ -3601,7 +3527,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Взаимодействие с контроллером",
+        "description": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440\u043e\u043c",
         "labelOffset": {
           "x": 108.49429332141062,
           "y": 26.818814079449567
@@ -3625,7 +3551,7 @@
             "y": 400
           }
         ],
-        "description": "Аутентификация / Авторизация"
+        "description": "\u0410\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f / \u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f"
       },
       "3be24adc-b12f-4b82-92b3-cd3087568929": {
         "id": "3be24adc-b12f-4b82-92b3-cd3087568929",
@@ -3649,7 +3575,7 @@
             "y": 832
           }
         ],
-        "description": "Работа с ARI",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 ARI",
         "labelOffset": {
           "x": -49.663515302644555,
           "y": 10.76042831557288
@@ -3668,7 +3594,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Скачивание агента из GigaStore's S3 Bucket",
+        "description": "\u0421\u043a\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u0435 \u0430\u0433\u0435\u043d\u0442\u0430 \u0438\u0437 GigaStore's S3 Bucket",
         "labelOffset": {
           "x": -32.87077015362388,
           "y": -7.640147140944464
@@ -3692,7 +3618,7 @@
             "y": 304
           }
         ],
-        "description": "Сохранение артефактов агентов",
+        "description": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u043e\u0432 \u0430\u0433\u0435\u043d\u0442\u043e\u0432",
         "labelOffset": {
           "x": 207.17252998963568,
           "y": -336.9426426835142
@@ -3724,7 +3650,7 @@
             "y": 1280
           }
         ],
-        "description": "Получение секретов",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u0432",
         "labelOffset": {
           "x": 62.732588590095475,
           "y": -2.014713135727561
@@ -3743,7 +3669,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с контроллером\nАгентом",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440\u043e\u043c\n\u0410\u0433\u0435\u043d\u0442\u043e\u043c",
         "labelOffset": {
           "x": -121.96040535731356,
           "y": -14.314386991390847
@@ -3767,7 +3693,7 @@
             "y": -96
           }
         ],
-        "description": "Работа с GigaChat, транскрибация, генерация голоса",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 GigaChat, \u0442\u0440\u0430\u043d\u0441\u043a\u0440\u0438\u0431\u0430\u0446\u0438\u044f, \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u0433\u043e\u043b\u043e\u0441\u0430",
         "labelOffset": {
           "x": -180.1821497411829,
           "y": -86.2292719244623
@@ -3791,7 +3717,7 @@
             "y": -96
           }
         ],
-        "description": "Голосовое обращение",
+        "description": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0435 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
         "labelOffset": {
           "x": 4.643893892027052,
           "y": -2.4145966994797163
@@ -3819,7 +3745,7 @@
             "y": -96
           }
         ],
-        "description": "Обновление сессии звонка",
+        "description": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0435\u0441\u0441\u0438\u0438 \u0437\u0432\u043e\u043d\u043a\u0430",
         "labelOffset": {
           "x": 245.85375400469627,
           "y": -0.2184697420913153
@@ -3838,7 +3764,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с \nартефактами звонков",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \n\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430\u043c\u0438 \u0437\u0432\u043e\u043d\u043a\u043e\u0432",
         "labelOffset": {
           "x": 170.14400002496552,
           "y": 38.472733394944726
@@ -3857,7 +3783,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с сессией звонка",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u0441\u0435\u0441\u0441\u0438\u0435\u0439 \u0437\u0432\u043e\u043d\u043a\u0430",
         "labelOffset": {
           "x": -3.8163112648020387,
           "y": 55.07751202065646
@@ -3876,7 +3802,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Хранилище связей",
+        "description": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0441\u0432\u044f\u0437\u0435\u0439",
         "labelOffset": {
           "x": 64.98217024568976,
           "y": 52.83229389958137
@@ -3895,7 +3821,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с backend",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 backend",
         "labelOffset": {
           "x": 62.85197110064587,
           "y": 25.533613259637377
@@ -3919,7 +3845,7 @@
             "y": -656
           }
         ],
-        "description": "Обновление сессии звонка",
+        "description": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0435\u0441\u0441\u0438\u0438 \u0437\u0432\u043e\u043d\u043a\u0430",
         "labelOffset": {
           "x": 88.18681020773147,
           "y": -2.6219730699319825
@@ -3938,7 +3864,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Информация о звонке \nдля трассировкм",
+        "description": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0437\u0432\u043e\u043d\u043a\u0435 \n\u0434\u043b\u044f \u0442\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u043c",
         "labelOffset": {
           "x": 74.93884002939967,
           "y": -4.220620435697356
@@ -3962,7 +3888,7 @@
             "y": -448
           }
         ],
-        "description": "Получение информации о звонке\nтекст / аудио",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0437\u0432\u043e\u043d\u043a\u0435\n\u0442\u0435\u043a\u0441\u0442 / \u0430\u0443\u0434\u0438\u043e",
         "labelOffset": {
           "x": -232.6022021559794,
           "y": 67.66885062984909
@@ -3981,7 +3907,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Инициализация звонка",
+        "description": "\u0418\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0432\u043e\u043d\u043a\u0430",
         "labelOffset": {
           "x": 4.554782309434017,
           "y": -2.10937890220265
@@ -4000,7 +3926,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Информация о звонке\nПодписка на инициализацию звонка",
+        "description": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0437\u0432\u043e\u043d\u043a\u0435\n\u041f\u043e\u0434\u043f\u0438\u0441\u043a\u0430 \u043d\u0430 \u0438\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044e \u0437\u0432\u043e\u043d\u043a\u0430",
         "labelOffset": {
           "x": -6.828441241524729,
           "y": -13.228087406748955
@@ -4019,7 +3945,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Установка голосового вызова",
+        "description": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0433\u043e \u0432\u044b\u0437\u043e\u0432\u0430",
         "labelOffset": {
           "x": -1.5987041390637842,
           "y": -3.1974082781274547
@@ -4038,7 +3964,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с UI"
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 UI"
       },
       "33b1f582-d08d-451f-9d14-679113c49f96": {
         "id": "33b1f582-d08d-451f-9d14-679113c49f96",
@@ -4053,7 +3979,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с UI"
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 UI"
       },
       "df96f8e4-e81d-4148-a0fb-a68350ae944e": {
         "id": "df96f8e4-e81d-4148-a0fb-a68350ae944e",
@@ -4068,7 +3994,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Работа с UI"
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 UI"
       },
       "6916c734-0bb2-4e27-ad39-556b6ad8c5fd": {
         "id": "6916c734-0bb2-4e27-ad39-556b6ad8c5fd",
@@ -4195,7 +4121,7 @@
             "y": 896
           }
         ],
-        "description": "Работа с агентами",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u0430\u0433\u0435\u043d\u0442\u0430\u043c\u0438",
         "labelOffset": {
           "x": -129.93868476722832,
           "y": -51.28744805439874
@@ -4228,7 +4154,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Предоставление конфигураций / Обновлений агентов\n\nПредоставление отзывов для аналитики",
+        "description": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0439 / \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0439 \u0430\u0433\u0435\u043d\u0442\u043e\u0432\n\n\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043e\u0442\u0437\u044b\u0432\u043e\u0432 \u0434\u043b\u044f \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0438",
         "labelOffset": {
           "x": 151.34134429625965,
           "y": -28.376975939186764
@@ -4289,7 +4215,7 @@
             "y": 48
           }
         ],
-        "description": "Заполнение информации об Агенте\nЗапуск агентов в Sandbox",
+        "description": "\u0417\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431 \u0410\u0433\u0435\u043d\u0442\u0435\n\u0417\u0430\u043f\u0443\u0441\u043a \u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u0432 Sandbox",
         "labelOffset": {
           "x": 115.74151730445101,
           "y": -85.77273157383445
@@ -4313,7 +4239,7 @@
             "y": 48
           }
         ],
-        "description": "Проверка агента\nПредоставление \"зеленого\" света",
+        "description": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u0433\u0435\u043d\u0442\u0430\n\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \"\u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e\" \u0441\u0432\u0435\u0442\u0430",
         "labelOffset": {
           "x": -139.50986460804415,
           "y": -84.73932516933036
@@ -4332,7 +4258,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Получение списков агентов пользователя",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u043e\u0432 \u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
         "labelOffset": {
           "x": 0,
           "y": -5.394275271133324
@@ -4351,7 +4277,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Создание агентов через конструктор"
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u0447\u0435\u0440\u0435\u0437 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440"
       },
       "14382330-bfa5-4262-9f76-83f5a6d30006": {
         "id": "14382330-bfa5-4262-9f76-83f5a6d30006",
@@ -4375,7 +4301,7 @@
             "y": 496
           }
         ],
-        "description": "Вызов агентов напрямую из UI",
+        "description": "\u0412\u044b\u0437\u043e\u0432 \u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0438\u0437 UI",
         "labelOffset": {
           "x": -21.523854736446538,
           "y": -2.1645611058469854
@@ -4403,7 +4329,7 @@
             "y": 544
           }
         ],
-        "description": "Работа с sandbox агентами\nдля тестирования",
+        "description": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 sandbox \u0430\u0433\u0435\u043d\u0442\u0430\u043c\u0438\n\u0434\u043b\u044f \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
         "labelOffset": {
           "x": 320.94076367605237,
           "y": -92.25858880418474
@@ -4431,7 +4357,7 @@
             "y": 1120
           }
         ],
-        "description": "Сохранение секретов в нужный engine",
+        "description": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u0432 \u0432 \u043d\u0443\u0436\u043d\u044b\u0439 engine",
         "labelOffset": {
           "x": 144.54131642133598,
           "y": -439.6912976585799
@@ -4459,7 +4385,7 @@
             "y": 96
           }
         ],
-        "description": "Регистрация агента для деплоя в PROD"
+        "description": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0430\u0433\u0435\u043d\u0442\u0430 \u0434\u043b\u044f \u0434\u0435\u043f\u043b\u043e\u044f \u0432 PROD"
       },
       "a70c2f05-c4b6-45f8-9306-d28c5233755d": {
         "id": "a70c2f05-c4b6-45f8-9306-d28c5233755d",
@@ -4474,7 +4400,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Создание network policy",
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 network policy",
         "labelOffset": {
           "x": -96.88977655864983,
           "y": 20.669818999178915
@@ -4493,7 +4419,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Создание namespaces",
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 namespaces",
         "labelOffset": {
           "x": 78.8036849343689,
           "y": 23.253546374075995
@@ -4684,7 +4610,7 @@
             "y": 2256
           }
         ],
-        "description": "Получение информации\nот LangFuse",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438\n\u043e\u0442 LangFuse",
         "labelOffset": {
           "x": 29.394938295068414,
           "y": -23.32807254803538
@@ -4708,7 +4634,7 @@
             "y": 2256
           }
         ],
-        "description": "Получение информации\nот Arize Phoenix",
+        "description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438\n\u043e\u0442 Arize Phoenix",
         "labelOffset": {
           "x": -12.825357433113822,
           "y": -23.15719055216232
@@ -4736,7 +4662,7 @@
             "y": 1344
           }
         ],
-        "description": "Создание namespace / DB\nдля Агентов",
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 namespace / DB\n\u0434\u043b\u044f \u0410\u0433\u0435\u043d\u0442\u043e\u0432",
         "labelOffset": {
           "x": -5.098794909325079,
           "y": -14.096888486776606
@@ -4760,7 +4686,7 @@
             "y": 912
           }
         ],
-        "description": "Роутинг на агента",
+        "description": "\u0420\u043e\u0443\u0442\u0438\u043d\u0433 \u043d\u0430 \u0430\u0433\u0435\u043d\u0442\u0430",
         "labelOffset": {
           "x": 65.52493037274337,
           "y": 175.1144904203261
@@ -4788,7 +4714,7 @@
             "y": 464
           }
         ],
-        "description": "Аутентификация / Авторизация",
+        "description": "\u0410\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f / \u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f",
         "labelOffset": {
           "x": -121.9648548031488,
           "y": 512.8079493395628
@@ -4812,7 +4738,7 @@
             "y": 1616
           }
         ],
-        "description": "Запрос на агента",
+        "description": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0430\u0433\u0435\u043d\u0442\u0430",
         "labelOffset": {
           "x": 1.0494669244724264,
           "y": 1.7465637782104295
@@ -4854,7 +4780,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Вызов внутренних Tools",
+        "description": "\u0412\u044b\u0437\u043e\u0432 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0445 Tools",
         "labelOffset": {
           "x": 317.20537296157204,
           "y": 115.91633639627662
@@ -4873,7 +4799,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Вызов внешних Tools",
+        "description": "\u0412\u044b\u0437\u043e\u0432 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 Tools",
         "labelOffset": {
           "x": 86.82279028669132,
           "y": 117.83705929143593
@@ -4901,7 +4827,7 @@
             "y": 1344
           }
         ],
-        "description": "Создание / удаление namespace с Агентом",
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 / \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435 namespace \u0441 \u0410\u0433\u0435\u043d\u0442\u043e\u043c",
         "labelOffset": {
           "x": 11.860201938764476,
           "y": -4.081406400786818
@@ -4925,7 +4851,7 @@
             "y": 1520
           }
         ],
-        "description": "Проверка биллинга",
+        "description": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0431\u0438\u043b\u043b\u0438\u043d\u0433\u0430",
         "labelOffset": {
           "x": -82.72989974259542,
           "y": 124.09484961389308
@@ -4953,7 +4879,7 @@
             "y": -560
           }
         ],
-        "description": "Создание сессии звонка от Агента\nВ Gateway service",
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0441\u0435\u0441\u0441\u0438\u0438 \u0437\u0432\u043e\u043d\u043a\u0430 \u043e\u0442 \u0410\u0433\u0435\u043d\u0442\u0430\n\u0412 Gateway service",
         "labelOffset": {
           "x": 605.5351705306402,
           "y": -1119.1328606445038
@@ -4981,7 +4907,7 @@
             "y": 688
           }
         ],
-        "description": "Агенты вызывают RAG как tool",
+        "description": "\u0410\u0433\u0435\u043d\u0442\u044b \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442 RAG \u043a\u0430\u043a tool",
         "labelOffset": {
           "x": -118.07047577974595,
           "y": 469.8086203222276
@@ -5000,7 +4926,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
+        "description": "\u0417\u0430\u0440\u0430\u043d\u0435\u0435 \u043f\u0440\u043e\u043f\u0438\u0441\u0430\u043d\u043d\u044b\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\nNetwork Policy",
         "labelOffset": {
           "x": 176.46844541621215,
           "y": -160.69329731889252
@@ -5019,7 +4945,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Через OTEL Collector\nLF Ingress",
+        "description": "\u0427\u0435\u0440\u0435\u0437 OTEL Collector\nLF Ingress",
         "labelOffset": {
           "x": -257.67085421653746,
           "y": 103.03131539501646
@@ -5038,7 +4964,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Через OTEL Collector\nArize Ingress",
+        "description": "\u0427\u0435\u0440\u0435\u0437 OTEL Collector\nArize Ingress",
         "labelOffset": {
           "x": -136.0980819680858,
           "y": 102.18199893683686
@@ -5062,7 +4988,7 @@
             "y": 1632
           }
         ],
-        "description": "Внутренняя коммуникация",
+        "description": "\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u044f",
         "labelOffset": {
           "x": -85.68196946464832,
           "y": 18.781076540355798
@@ -5090,7 +5016,7 @@
             "y": 2160
           }
         ],
-        "description": "Использование \nTelementry Adapter",
+        "description": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \nTelementry Adapter",
         "labelOffset": {
           "x": 68.38553500166017,
           "y": 677.1835905042456
@@ -5109,7 +5035,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Сбор информации",
+        "description": "\u0421\u0431\u043e\u0440 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438",
         "labelOffset": {
           "x": 57.49143755377486,
           "y": 0
@@ -5128,7 +5054,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Запрос на агента"
+        "description": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0430\u0433\u0435\u043d\u0442\u0430"
       },
       "f800a729-1aed-4591-8631-f96bb7be15d0": {
         "id": "f800a729-1aed-4591-8631-f96bb7be15d0",
@@ -5143,7 +5069,7 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Свободный доступ к интернету\nна основе заранее определённых правил",
+        "description": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443\n\u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0437\u0430\u0440\u0430\u043d\u0435\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u044b\u0445 \u043f\u0440\u0430\u0432\u0438\u043b",
         "labelOffset": {
           "x": 99.65074813034016,
           "y": -23.44723485419763
@@ -5156,75 +5082,66 @@
         "name": "Agent Engines",
         "position": {
           "x": -1232,
-          "y": 1552
+          "y": 1440
         },
         "size": {
           "width": 128,
-          "height": 112
+          "height": 224
         },
-        "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
           "borderColor": "#64748b"
         },
         "layerId": "ff31fd3b-6825-479f-a508-5e596cf20e89",
-        "childElementIds": {
-          "ff31fd3b-6825-479f-a508-5e596cf20e89": [
-            "374374ab-2701-4d8e-9e52-21183b441ab6",
-            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
-          ]
-        }
+        "childElementIds": [
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+        ]
       },
       "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f": {
         "id": "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f",
         "name": "Agent Engines",
         "position": {
           "x": -1232,
-          "y": 1552
+          "y": 1440
         },
         "size": {
           "width": 128,
-          "height": 112
+          "height": 224
         },
-        "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
           "borderColor": "#64748b"
         },
         "layerId": "d1fb4618-c52e-4232-9294-2c9afcf2a4ba",
-        "childElementIds": {
-          "d1fb4618-c52e-4232-9294-2c9afcf2a4ba": [
-            "374374ab-2701-4d8e-9e52-21183b441ab6",
-            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
-          ]
-        }
+        "childElementIds": [
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+        ]
       },
       "d4826127-e328-49ec-b60c-fe34aa20fa1f": {
         "id": "d4826127-e328-49ec-b60c-fe34aa20fa1f",
         "name": "Agent Engines",
         "position": {
           "x": -1232,
-          "y": 1552
+          "y": 1440
         },
         "size": {
           "width": 128,
-          "height": 112
+          "height": 224
         },
-        "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
           "borderColor": "#64748b"
         },
         "layerId": "7e350f9b-6811-431f-a397-06ef050957a7",
-        "childElementIds": {
-          "7e350f9b-6811-431f-a397-06ef050957a7": [
-            "374374ab-2701-4d8e-9e52-21183b441ab6",
-            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
-          ]
-        }
+        "childElementIds": [
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+        ]
       },
       "dc3df43b-2f3d-4cc5-9042-203883af4c25": {
         "id": "dc3df43b-2f3d-4cc5-9042-203883af4c25",
@@ -5237,19 +5154,16 @@
           "width": 128,
           "height": 224
         },
-        "isCollapsed": false,
         "ports": [],
         "style": {
           "borderStyle": "dashed",
           "borderColor": "#64748b"
         },
         "layerId": "default-layer",
-        "childElementIds": {
-          "default-layer": [
-            "374374ab-2701-4d8e-9e52-21183b441ab6",
-            "2169b4a2-3985-4b47-b2be-0104a56dd67f"
-          ]
-        }
+        "childElementIds": [
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+        ]
       }
     },
     "integrationLayers": {
@@ -5635,7 +5549,7 @@
     "businessScenarios": {
       "a0c3756c-1b0b-4175-91ca-fe37fc6f87ec": {
         "id": "a0c3756c-1b0b-4175-91ca-fe37fc6f87ec",
-        "name": "Выгрузка внешних ресурсов по CRON",
+        "name": "\u0412\u044b\u0433\u0440\u0443\u0437\u043a\u0430 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432 \u043f\u043e CRON",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5668,32 +5582,32 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "86f6dc53-a840-47bb-8c17-4c7f2450d156": "Сервис выгрузки внешних ресурсов",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6": "UI для пользователя"
+          "ae84dd19-d528-42bb-8e71-36624bf784d0": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f RAG \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0444\u0430\u0439\u043b\u0430\u043c\u0438",
+          "86f6dc53-a840-47bb-8c17-4c7f2450d156": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0438 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432",
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432",
+          "2ebe1061-7002-4510-b097-f573602902b7": "\u0428\u0438\u043d\u0430 \u043f\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044e \u0438\u0432\u0435\u043d\u0442\u043e\u0432 \u0432 RAG \u0441\u0438\u0441\u0442\u0435\u043c\u0435",
+          "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6": "UI \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f"
         },
         "relationshipComments": {
-          "36fa58fe-ef85-493e-8339-7a427b1917d2": "Считывание внешних ресурсов по правилу",
-          "6518a1de-123c-4f35-9549-d1ca894cc044": "Загрузка файлов для tenant от внешних ресурсов",
-          "41570909-5ec7-4c0d-94d0-50b613dd0c70": "Получение правил по синхронизации",
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "73cabed4-ad88-49c8-82dd-d80884dde065": "Загрузка правил для crawler",
-          "1c49a32e-5596-4272-b566-71acb78b00c3": "Работа с backend",
-          "c08ab758-2781-423b-8603-6f24b50b2703": "Работа с UI",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
+          "36fa58fe-ef85-493e-8339-7a427b1917d2": "\u0421\u0447\u0438\u0442\u044b\u0432\u0430\u043d\u0438\u0435 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432 \u043f\u043e \u043f\u0440\u0430\u0432\u0438\u043b\u0443",
+          "6518a1de-123c-4f35-9549-d1ca894cc044": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f tenant \u043e\u0442 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432",
+          "41570909-5ec7-4c0d-94d0-50b613dd0c70": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u0430\u0432\u0438\u043b \u043f\u043e \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u0438",
+          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432 / \u0440\u043e\u043b\u0435\u0439",
+          "73cabed4-ad88-49c8-82dd-d80884dde065": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u043f\u0440\u0430\u0432\u0438\u043b \u0434\u043b\u044f crawler",
+          "1c49a32e-5596-4272-b566-71acb78b00c3": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 backend",
+          "c08ab758-2781-423b-8603-6f24b50b2703": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 UI",
+          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0432 S3",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414",
+          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "\u0418\u0432\u0435\u043d\u0442 \u043d\u0430 \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0443 \u0444\u0430\u0439\u043b\u0430"
         }
       },
       "af64dbc6-d17f-49f5-b315-39c62271ffbb": {
         "id": "af64dbc6-d17f-49f5-b315-39c62271ffbb",
-        "name": "Загрузка файла от агента",
+        "name": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0444\u0430\u0439\u043b\u0430 \u043e\u0442 \u0430\u0433\u0435\u043d\u0442\u0430",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5718,26 +5632,26 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
+          "ae84dd19-d528-42bb-8e71-36624bf784d0": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f RAG \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0444\u0430\u0439\u043b\u0430\u043c\u0438",
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432",
+          "2ebe1061-7002-4510-b097-f573602902b7": "\u0428\u0438\u043d\u0430 \u043f\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044e \u0438\u0432\u0435\u043d\u0442\u043e\u0432 \u0432 RAG \u0441\u0438\u0441\u0442\u0435\u043c\u0435",
+          "e97476c1-f396-4668-962e-12e56dff79ab": "\u041e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441 LLM"
         },
         "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на загрузку файлов",
-          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
+          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432 / \u0440\u043e\u043b\u0435\u0439",
+          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0432 S3",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414",
+          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u043d\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0443 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "\u0418\u0432\u0435\u043d\u0442 \u043d\u0430 \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0443 \u0444\u0430\u0439\u043b\u0430"
         }
       },
       "7eb0c66c-4bf6-4f23-a3b7-654d1839fe6a": {
         "id": "7eb0c66c-4bf6-4f23-a3b7-654d1839fe6a",
-        "name": "Обработка загруженного файла",
+        "name": "\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5762,22 +5676,22 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "cc33dcf4-97d5-4e59-8665-b6a750971a54": "Сервис для работы с загруженными файлами\nИндексация",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM",
-          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7": "Векторное хранилище"
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432",
+          "2ebe1061-7002-4510-b097-f573602902b7": "\u0428\u0438\u043d\u0430 \u043f\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044e \u0438\u0432\u0435\u043d\u0442\u043e\u0432 \u0432 RAG \u0441\u0438\u0441\u0442\u0435\u043c\u0435",
+          "cc33dcf4-97d5-4e59-8665-b6a750971a54": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u043c\u0438 \u0444\u0430\u0439\u043b\u0430\u043c\u0438\n\u0418\u043d\u0434\u0435\u043a\u0441\u0430\u0446\u0438\u044f",
+          "e97476c1-f396-4668-962e-12e56dff79ab": "\u041e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441 LLM",
+          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7": "\u0412\u0435\u043a\u0442\u043e\u0440\u043d\u043e\u0435 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435"
         },
         "relationshipComments": {
-          "91409dcd-0a72-4813-92d4-a8da61a8b87a": "Обработка chunks для создания embeddings",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД"
+          "91409dcd-0a72-4813-92d4-a8da61a8b87a": "\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 chunks \u0434\u043b\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f embeddings",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414"
         }
       },
       "ce0a8de9-c905-46a9-bed1-4ce1f5cd9500": {
         "id": "ce0a8de9-c905-46a9-bed1-4ce1f5cd9500",
-        "name": "Скачивание файлов от агента",
+        "name": "\u0421\u043a\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432 \u043e\u0442 \u0430\u0433\u0435\u043d\u0442\u0430",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5800,24 +5714,24 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
+          "ae84dd19-d528-42bb-8e71-36624bf784d0": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f RAG \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0444\u0430\u0439\u043b\u0430\u043c\u0438",
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432",
+          "e97476c1-f396-4668-962e-12e56dff79ab": "\u041e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441 LLM"
         },
         "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для загрузки документов напрямую из S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на скачивание файлов"
+          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432 / \u0440\u043e\u043b\u0435\u0439",
+          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0438\u0437 S3",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414",
+          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u043d\u0430 \u0441\u043a\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432"
         }
       },
       "efe59249-dd62-4032-a8b8-8461b1e02302": {
         "id": "efe59249-dd62-4032-a8b8-8461b1e02302",
-        "name": "Текстовый запрос по файлам",
+        "name": "\u0422\u0435\u043a\u0441\u0442\u043e\u0432\u044b\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u043e \u0444\u0430\u0439\u043b\u0430\u043c",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5840,23 +5754,23 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM",
-          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7": "Векторное хранилище"
+          "ae84dd19-d528-42bb-8e71-36624bf784d0": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f RAG \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "e97476c1-f396-4668-962e-12e56dff79ab": "\u041e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441 LLM",
+          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7": "\u0412\u0435\u043a\u0442\u043e\u0440\u043d\u043e\u0435 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435"
         },
         "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "33ebf154-577d-4e8d-8ad1-23a59ade8433": "Рассчет embeddings по текущему запросу",
-          "4ea7a942-8f7b-4da4-9653-09833fc1f806": "Поиск информации \nпо векторному хранилищу",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД"
+          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432 / \u0440\u043e\u043b\u0435\u0439",
+          "33ebf154-577d-4e8d-8ad1-23a59ade8433": "\u0420\u0430\u0441\u0441\u0447\u0435\u0442 embeddings \u043f\u043e \u0442\u0435\u043a\u0443\u0449\u0435\u043c\u0443 \u0437\u0430\u043f\u0440\u043e\u0441\u0443",
+          "4ea7a942-8f7b-4da4-9653-09833fc1f806": "\u041f\u043e\u0438\u0441\u043a \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \n\u043f\u043e \u0432\u0435\u043a\u0442\u043e\u0440\u043d\u043e\u043c\u0443 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0443",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414"
         }
       },
       "c7a2ac5c-d981-4db2-b5af-5e908985fd1c": {
         "id": "c7a2ac5c-d981-4db2-b5af-5e908985fd1c",
-        "name": "Удаление файлов от агента",
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432 \u043e\u0442 \u0430\u0433\u0435\u043d\u0442\u0430",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5879,24 +5793,24 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
+          "ae84dd19-d528-42bb-8e71-36624bf784d0": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f RAG \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0444\u0430\u0439\u043b\u0430\u043c\u0438",
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432",
+          "e97476c1-f396-4668-962e-12e56dff79ab": "\u041e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441 LLM"
         },
         "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Удаление файлов",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Запрос на удаление файлов"
+          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432 / \u0440\u043e\u043b\u0435\u0439",
+          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414",
+          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432"
         }
       },
       "417fa452-107b-44dc-887b-100c996b3d8f": {
         "id": "417fa452-107b-44dc-887b-100c996b3d8f",
-        "name": "Загрузка файлов пользователем",
+        "name": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0444\u0430\u0439\u043b\u043e\u0432 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5918,23 +5832,23 @@
         ],
         "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
         "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6": "UI для пользователя"
+          "ae84dd19-d528-42bb-8e71-36624bf784d0": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438",
+          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0437\u0435\u043b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f RAG \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0444\u0430\u0439\u043b\u0430\u043c\u0438",
+          "13938655-f290-44fb-9455-8c0b9cdcaf92": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u043e\u0439 \u0434\u0430\u043d\u043d\u044b\u0445 tenant, \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "508217e4-17d3-4ce9-a715-57d3e6804f15": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0445 \u0438 tenant",
+          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432",
+          "2ebe1061-7002-4510-b097-f573602902b7": "\u0428\u0438\u043d\u0430 \u043f\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044e \u0438\u0432\u0435\u043d\u0442\u043e\u0432 \u0432 RAG \u0441\u0438\u0441\u0442\u0435\u043c\u0435",
+          "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6": "UI \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f"
         },
         "relationshipComments": {
-          "1c49a32e-5596-4272-b566-71acb78b00c3": "Работа с backend",
-          "c08ab758-2781-423b-8603-6f24b50b2703": "Работа с UI",
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на загрузку файлов",
-          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
+          "1c49a32e-5596-4272-b566-71acb78b00c3": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 backend",
+          "c08ab758-2781-423b-8603-6f24b50b2703": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 UI",
+          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432 / \u0440\u043e\u043b\u0435\u0439",
+          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u043d\u0430\u043f\u0440\u044f\u043c\u0443\u044e \u0432 S3",
+          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0411\u0414",
+          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u043d\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0443 \u0444\u0430\u0439\u043b\u043e\u0432",
+          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "\u0418\u0432\u0435\u043d\u0442 \u043d\u0430 \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0443 \u0444\u0430\u0439\u043b\u0430"
         },
         "excludedRelationshipIds": [
           "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50"
@@ -5942,7 +5856,7 @@
       },
       "75b8ef0d-15d1-4541-a5aa-cde5403b5ec6": {
         "id": "75b8ef0d-15d1-4541-a5aa-cde5403b5ec6",
-        "name": "Админ вызов агента",
+        "name": "\u0410\u0434\u043c\u0438\u043d \u0432\u044b\u0437\u043e\u0432 \u0430\u0433\u0435\u043d\u0442\u0430",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5972,7 +5886,7 @@
       },
       "824143ea-5656-468a-9b06-502c359c629f": {
         "id": "824143ea-5656-468a-9b06-502c359c629f",
-        "name": "Инициализация звонка агентом",
+        "name": "\u0418\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0432\u043e\u043d\u043a\u0430 \u0430\u0433\u0435\u043d\u0442\u043e\u043c",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -5996,34 +5910,34 @@
         ],
         "groupId": "1c660a0f-8b3d-4c85-8144-acbee949ac11",
         "relationshipComments": {
-          "7c288914-f356-48d9-b9cf-8a9d64fdae7a": "Агент вызывает функцию GigaCaller\nдля инициализации звонка",
-          "4dda8113-fe0f-464e-86ee-dbc5d65fdac8": "Проверка black / white списков",
-          "e178b903-61c4-4e30-99c7-4ac7f6570e18": "Пересылка метаданных по звонку",
-          "94a913c5-6451-4210-9e75-8b56d59d8325": "Проверка ID для WS сессии",
-          "6a4e9b71-0410-4897-a419-fc6bfdbeef9d": "Аутентификация\nСистемный промпт, настройки, модель, чат",
-          "d31089cd-5048-4206-bbe7-1d2a685bd0dc": "Произведение звонка, получение / передача аудио",
-          "a858a206-cfcf-4b63-900c-34af16f3cbe3": "Передача текст + аудио",
-          "582577ad-a0ff-44ee-a3fa-6e77dffae5b9": "Сохранение termination_id по звонку",
-          "82f8cdab-e53f-4067-9ee1-afa8bc75300b": "Получение логов о звонке",
-          "e922faf9-1bd7-45c2-a38b-7b5664bc400f": "Сохранение аудио",
-          "b825451d-9bdb-49b0-b7fd-a1921cceb26d": "Работа с black / white списков",
-          "ecfd658e-80d2-4b9b-819b-70fb9ab51222": "Сохранение метаданных и \nтекст звонка"
+          "7c288914-f356-48d9-b9cf-8a9d64fdae7a": "\u0410\u0433\u0435\u043d\u0442 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u0442 \u0444\u0443\u043d\u043a\u0446\u0438\u044e GigaCaller\n\u0434\u043b\u044f \u0438\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u0437\u0432\u043e\u043d\u043a\u0430",
+          "4dda8113-fe0f-464e-86ee-dbc5d65fdac8": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 black / white \u0441\u043f\u0438\u0441\u043a\u043e\u0432",
+          "e178b903-61c4-4e30-99c7-4ac7f6570e18": "\u041f\u0435\u0440\u0435\u0441\u044b\u043b\u043a\u0430 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u0437\u0432\u043e\u043d\u043a\u0443",
+          "94a913c5-6451-4210-9e75-8b56d59d8325": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 ID \u0434\u043b\u044f WS \u0441\u0435\u0441\u0441\u0438\u0438",
+          "6a4e9b71-0410-4897-a419-fc6bfdbeef9d": "\u0410\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f\n\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u043f\u0440\u043e\u043c\u043f\u0442, \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u043c\u043e\u0434\u0435\u043b\u044c, \u0447\u0430\u0442",
+          "d31089cd-5048-4206-bbe7-1d2a685bd0dc": "\u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0437\u0432\u043e\u043d\u043a\u0430, \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 / \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0430 \u0430\u0443\u0434\u0438\u043e",
+          "a858a206-cfcf-4b63-900c-34af16f3cbe3": "\u041f\u0435\u0440\u0435\u0434\u0430\u0447\u0430 \u0442\u0435\u043a\u0441\u0442 + \u0430\u0443\u0434\u0438\u043e",
+          "582577ad-a0ff-44ee-a3fa-6e77dffae5b9": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 termination_id \u043f\u043e \u0437\u0432\u043e\u043d\u043a\u0443",
+          "82f8cdab-e53f-4067-9ee1-afa8bc75300b": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043b\u043e\u0433\u043e\u0432 \u043e \u0437\u0432\u043e\u043d\u043a\u0435",
+          "e922faf9-1bd7-45c2-a38b-7b5664bc400f": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0430\u0443\u0434\u0438\u043e",
+          "b825451d-9bdb-49b0-b7fd-a1921cceb26d": "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 black / white \u0441\u043f\u0438\u0441\u043a\u043e\u0432",
+          "ecfd658e-80d2-4b9b-819b-70fb9ab51222": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \n\u0442\u0435\u043a\u0441\u0442 \u0437\u0432\u043e\u043d\u043a\u0430"
         },
         "elementComments": {
-          "614b4ded-8311-4bce-a105-88ec8ba0cd3a": "Маршрутизатор WS",
-          "c07ea25d-f8f1-421c-b7d6-b656308d9369": "Сбор логов, трейсов, статистика, \nтекст, аудио звонка",
-          "6445e778-96a4-497a-a6fb-83615e0da860": "Состояние звонка / списков",
-          "80893243-5b05-48a0-bbfe-f820fe9d3170": "Хранилище текстов, аудио",
-          "a179f2bf-cf6a-497e-9b7f-75c9e2895233": "Метаданные о звонке",
-          "75773706-eb28-48ed-805d-f7d176166836": "Сервис для обработки и создания звонка",
-          "1e1e9564-e46c-41b1-85b6-8fee915037b2": "Шина для операций по звонку",
-          "91d00661-3881-43a2-8064-e85985dd8276": "Генерация и транскрибация аудио"
+          "614b4ded-8311-4bce-a105-88ec8ba0cd3a": "\u041c\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0442\u043e\u0440 WS",
+          "c07ea25d-f8f1-421c-b7d6-b656308d9369": "\u0421\u0431\u043e\u0440 \u043b\u043e\u0433\u043e\u0432, \u0442\u0440\u0435\u0439\u0441\u043e\u0432, \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430, \n\u0442\u0435\u043a\u0441\u0442, \u0430\u0443\u0434\u0438\u043e \u0437\u0432\u043e\u043d\u043a\u0430",
+          "6445e778-96a4-497a-a6fb-83615e0da860": "\u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0437\u0432\u043e\u043d\u043a\u0430 / \u0441\u043f\u0438\u0441\u043a\u043e\u0432",
+          "80893243-5b05-48a0-bbfe-f820fe9d3170": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0442\u0435\u043a\u0441\u0442\u043e\u0432, \u0430\u0443\u0434\u0438\u043e",
+          "a179f2bf-cf6a-497e-9b7f-75c9e2895233": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435 \u043e \u0437\u0432\u043e\u043d\u043a\u0435",
+          "75773706-eb28-48ed-805d-f7d176166836": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0434\u043b\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0437\u0432\u043e\u043d\u043a\u0430",
+          "1e1e9564-e46c-41b1-85b6-8fee915037b2": "\u0428\u0438\u043d\u0430 \u0434\u043b\u044f \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439 \u043f\u043e \u0437\u0432\u043e\u043d\u043a\u0443",
+          "91d00661-3881-43a2-8064-e85985dd8276": "\u0413\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u0438 \u0442\u0440\u0430\u043d\u0441\u043a\u0440\u0438\u0431\u0430\u0446\u0438\u044f \u0430\u0443\u0434\u0438\u043e"
         },
         "excludedRelationshipIds": []
       },
       "948a69e9-9c01-43ec-8499-28a46faf8f06": {
         "id": "948a69e9-9c01-43ec-8499-28a46faf8f06",
-        "name": "Трассировка запросов",
+        "name": "\u0422\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u0430 \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432",
         "integrationLayerId": "default-layer",
         "steps": [
           {
@@ -6054,7 +5968,7 @@
       },
       "e92263bf-2a5f-49e5-9ac2-a1166140ab4d": {
         "id": "e92263bf-2a5f-49e5-9ac2-a1166140ab4d",
-        "name": "Считывание логов GigaStore",
+        "name": "\u0421\u0447\u0438\u0442\u044b\u0432\u0430\u043d\u0438\u0435 \u043b\u043e\u0433\u043e\u0432 GigaStore",
         "integrationLayerId": "default-layer",
         "steps": [
           {
