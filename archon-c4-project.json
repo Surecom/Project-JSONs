@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-13T08:39:00.941Z",
+  "timestamp": "2026-02-13T08:46:03.209Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -212,11 +212,11 @@
           "84fb1cc5-3001-4147-a132-2581beab47f6"
         ],
         "position": {
-          "x": -1488,
+          "x": -1456,
           "y": 768
         },
         "size": {
-          "width": 816,
+          "width": 784,
           "height": 432
         },
         "color": "#3b82f6",
@@ -252,6 +252,14 @@
           {
             "id": "244d7941-0e30-4cc2-a2ea-e6784a9bc28f",
             "side": "left"
+          },
+          {
+            "id": "7b993118-844d-4209-aa67-c7cf6199ec79",
+            "side": "top"
+          },
+          {
+            "id": "26c75d0c-88df-40f7-a426-e50184485419",
+            "side": "bottom"
           }
         ],
         "activeVersion": "latest",
@@ -956,10 +964,6 @@
           {
             "id": "feea974e-c62a-463d-ae4d-4d2177fd8f39",
             "side": "right"
-          },
-          {
-            "id": "809a6f7e-fc79-4241-ad96-cee928422ec5",
-            "side": "right"
           }
         ],
         "activeVersion": "latest",
@@ -1414,7 +1418,7 @@
         "name": "Controller / Agent Ingress",
         "type": "App",
         "position": {
-          "x": -1456,
+          "x": -1216,
           "y": 864
         },
         "size": {
@@ -3575,16 +3579,21 @@
       "1d9cfa12-7f7c-4477-a59f-720c800a770d": {
         "id": "1d9cfa12-7f7c-4477-a59f-720c800a770d",
         "sourceId": "4147136a-02dd-475b-8e69-f25ebfd6f40f",
-        "sourceSide": "4f6bd715-3448-493b-9ab2-869be859afa6",
+        "sourceSide": "202a8595-8ae6-44e1-9ad1-12d693e51eee",
         "targetId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "targetSide": "ddf21397-314b-4ef0-acd1-bb80d08cb1a5",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [],
+        "controlPoints": [
+          {
+            "x": -1360,
+            "y": 896
+          }
+        ],
         "description": "Взаимодействие с контроллером",
         "labelOffset": {
           "x": 108.49429332141062,
@@ -3605,7 +3614,7 @@
         },
         "controlPoints": [
           {
-            "x": -1360,
+            "x": -1120,
             "y": 400
           }
         ],
@@ -3616,7 +3625,7 @@
         "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
         "sourceSide": "cf07a5bc-fc13-44ce-902f-831ce7e899ac",
         "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "targetSide": "3d289b0e-97dc-480e-a8f0-3e507a6785c8",
+        "targetSide": "ba465291-3dd5-4f01-a3ad-0bef1db8617e",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -3625,18 +3634,14 @@
         },
         "controlPoints": [
           {
-            "x": -1536,
-            "y": 464
-          },
-          {
-            "x": -1536,
-            "y": 832
+            "x": -1392,
+            "y": 576
           }
         ],
         "description": "Работа с ARI",
         "labelOffset": {
-          "x": -49.663515302644555,
-          "y": 10.76042831557288
+          "x": -4.585661591686176,
+          "y": -88.87032681025926
         }
       },
       "b2b02043-a0cb-4d30-be6f-a899292ea73d": {
@@ -3729,8 +3734,8 @@
         "controlPoints": [],
         "description": "Работа с контроллером\nАгентом",
         "labelOffset": {
-          "x": -121.96040535731356,
-          "y": -14.314386991390847
+          "x": 15.825565554071432,
+          "y": -18.447966118732325
         }
       },
       "37b546d0-432f-4125-83af-18efc0c357c1": {
@@ -4342,7 +4347,7 @@
         "sourceId": "3943f54c-99ff-49eb-9340-4527c346e500",
         "sourceSide": "0592c395-5781-4047-846d-f997a43aa102",
         "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "targetSide": "ba465291-3dd5-4f01-a3ad-0bef1db8617e",
+        "targetSide": "e92f5b17-c3dd-4f33-9d4f-23d98de021e4",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4355,7 +4360,7 @@
             "y": 496
           },
           {
-            "x": -1216,
+            "x": -1056,
             "y": 496
           }
         ],
@@ -4368,9 +4373,9 @@
       "313b4957-8e65-4425-80d9-dd826492c39a": {
         "id": "313b4957-8e65-4425-80d9-dd826492c39a",
         "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
-        "sourceSide": "fc74a4ed-8af5-4275-9ea1-e9a958795b42",
+        "sourceSide": "da1dc553-8388-4b61-8817-c5a15e253baa",
         "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "targetSide": "e92f5b17-c3dd-4f33-9d4f-23d98de021e4",
+        "targetSide": "7b993118-844d-4209-aa67-c7cf6199ec79",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -4379,18 +4384,18 @@
         },
         "controlPoints": [
           {
-            "x": -848,
+            "x": -304,
             "y": 544
           },
           {
-            "x": -944,
+            "x": -864,
             "y": 544
           }
         ],
         "description": "Работа с sandbox агентами\nдля тестирования",
         "labelOffset": {
-          "x": 320.94076367605237,
-          "y": -92.25858880418474
+          "x": 186.63563833636783,
+          "y": -17.357653518591462
         }
       },
       "68c33c5c-66ac-4a34-ae35-4c70100bc19e": {
@@ -4417,8 +4422,8 @@
         ],
         "description": "Сохранение секретов в нужный engine",
         "labelOffset": {
-          "x": 144.54131642133598,
-          "y": -439.6912976585799
+          "x": 128.3758447497055,
+          "y": -430.7104800632297
         }
       },
       "8dc1f0ff-db80-427c-88ac-d3a0e10c9c63": {
@@ -4458,29 +4463,10 @@
           "arrow": true
         },
         "controlPoints": [],
-        "description": "Создание network policy",
+        "description": "Создание network policy\nСоздание namespaces",
         "labelOffset": {
-          "x": -96.88977655864983,
-          "y": 20.669818999178915
-        }
-      },
-      "6ae599b4-c6fb-483d-b71e-05c893fc8490": {
-        "id": "6ae599b4-c6fb-483d-b71e-05c893fc8490",
-        "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-        "sourceSide": "bba2a2a2-0ea1-45e5-a863-e010165e94bd",
-        "targetId": "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
-        "targetSide": "809a6f7e-fc79-4241-ad96-cee928422ec5",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#a855f7",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Создание namespaces",
-        "labelOffset": {
-          "x": 78.8036849343689,
-          "y": 23.253546374075995
+          "x": -74.40640729704296,
+          "y": -16.80246310349935
         }
       },
       "ff61e7e3-9b74-4f53-b2ab-2a660890c727": {
@@ -4957,7 +4943,7 @@
         "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
         "sourceSide": "6f08db87-927f-401a-9fb7-7d20bceaf693",
         "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
-        "targetSide": "937804c4-4f7f-4a3e-a8c0-564926b83917",
+        "targetSide": "26c75d0c-88df-40f7-a426-e50184485419",
         "endpoints": [],
         "style": {
           "type": "bezier",
@@ -4967,7 +4953,7 @@
         "controlPoints": [],
         "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
         "labelOffset": {
-          "x": 176.46844541621215,
+          "x": 201.70221829435047,
           "y": -160.69329731889252
         }
       },
@@ -4976,7 +4962,7 @@
         "sourceId": "2169b4a2-3985-4b47-b2be-0104a56dd67f",
         "sourceSide": "0e9a119d-296f-46b6-a489-abe794e3a15b",
         "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
-        "targetSide": "9012489a-6da9-4172-b2f9-e36c11d09277",
+        "targetSide": "0f738ff1-e697-452b-8079-9c2ec801fc8e",
         "endpoints": [],
         "style": {
           "type": "bezier",
@@ -4986,8 +4972,8 @@
         "controlPoints": [],
         "description": "Через OTEL Collector\nLF Ingress\nArize Ingress",
         "labelOffset": {
-          "x": -257.67085421653746,
-          "y": 103.03131539501646
+          "x": -125.03811731686619,
+          "y": 52.31879834514211
         }
       },
       "2f656943-8641-4cd7-9882-a33d784d524e": {
@@ -5093,6 +5079,44 @@
         "labelOffset": {
           "x": 99.65074813034016,
           "y": -23.44723485419763
+        }
+      },
+      "a5deb5c9-0bc8-4535-9902-5a42676cd4d8": {
+        "id": "a5deb5c9-0bc8-4535-9902-5a42676cd4d8",
+        "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
+        "sourceSide": "19050e1c-319b-49ca-b3a6-55e46a09e7be",
+        "targetId": "4718d099-1794-40ad-b754-81aa7206a9f4",
+        "targetSide": "937804c4-4f7f-4a3e-a8c0-564926b83917",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#a855f7",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
+        "labelOffset": {
+          "x": -167.02354428862884,
+          "y": -82.91096802816833
+        }
+      },
+      "375c91c3-6b82-4993-a84a-ae2dddded8e3": {
+        "id": "375c91c3-6b82-4993-a84a-ae2dddded8e3",
+        "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
+        "sourceSide": "841d735a-3842-4e01-8f15-d99af409d53a",
+        "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "targetSide": "9012489a-6da9-4172-b2f9-e36c11d09277",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Через OTEL Collector\nLF Ingress\nArize Ingress",
+        "labelOffset": {
+          "x": -115.07840407471485,
+          "y": 48.76203562487922
         }
       }
     },
@@ -5470,7 +5494,8 @@
           "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
           "f800a729-1aed-4591-8631-f96bb7be15d0",
           "374374ab-2701-4d8e-9e52-21183b441ab6",
-          "0359d1cc-7cf4-4386-9847-5e881ae7be27"
+          "0359d1cc-7cf4-4386-9847-5e881ae7be27",
+          "a5deb5c9-0bc8-4535-9902-5a42676cd4d8"
         ],
         "hiddenElementIds": [
           "98a889de-e021-49b5-9f93-6a10ab557230",
@@ -5494,7 +5519,6 @@
           "f0283d93-3146-4f55-970b-e6e055bb6dfd",
           "67df732f-a1f8-4365-9063-281c158bb32b",
           "a70c2f05-c4b6-45f8-9306-d28c5233755d",
-          "6ae599b4-c6fb-483d-b71e-05c893fc8490",
           "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
           "215d803d-cd18-450b-bdcd-ecd350532a83",
           "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
@@ -5543,7 +5567,8 @@
           "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
           "9a87da9f-33aa-4464-ac8b-84334e16eeae",
           "374374ab-2701-4d8e-9e52-21183b441ab6",
-          "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f"
+          "e0850e49-17f9-43cd-8381-d3b0a3f2ab7f",
+          "375c91c3-6b82-4993-a84a-ae2dddded8e3"
         ],
         "hiddenElementIds": [
           "98a889de-e021-49b5-9f93-6a10ab557230",
