@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-18T12:58:23.872Z",
+  "timestamp": "2026-02-18T13:56:44.474Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -534,6 +534,26 @@
           {
             "id": "01843b15-0267-44c4-91ab-5051642350c0",
             "side": "top"
+          },
+          {
+            "id": "4de1b6d7-1995-41dc-bcab-1d07a60d4366",
+            "side": "right"
+          },
+          {
+            "id": "980ba41f-9574-4d36-b03b-d91a75d721c1",
+            "side": "right"
+          },
+          {
+            "id": "9590b7e5-ce73-4108-bf39-56e7a43dc75e",
+            "side": "right"
+          },
+          {
+            "id": "b0db0e9f-1a16-490b-a398-fd008d3af423",
+            "side": "right"
+          },
+          {
+            "id": "bf7054c8-1cd6-4327-a3e8-b970a04e2423",
+            "side": "right"
           }
         ],
         "activeVersion": "latest",
@@ -4215,8 +4235,8 @@
         "id": "b7e1c146-6970-4e3b-b155-0e1e68aa4ffd",
         "sourceId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
         "sourceSide": "3af68ce4-6843-4073-9be7-4693740579e5",
-        "targetId": "aa49bc9e-ede2-4803-b076-c918d842747a",
-        "targetSide": "67fae1f9-573c-4f47-8f5e-1171b13889b0",
+        "targetId": "435e177b-0681-47e6-9e3e-2751093222f2",
+        "targetSide": "f186c480-59ec-41af-831d-a709112887b0",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -6358,7 +6378,8 @@
             "elementIds": [
               "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
               "aa49bc9e-ede2-4803-b076-c918d842747a",
-              "67c4336a-eabe-4eee-802c-d41d8ffaadc4"
+              "67c4336a-eabe-4eee-802c-d41d8ffaadc4",
+              "435e177b-0681-47e6-9e3e-2751093222f2"
             ],
             "relationshipIds": []
           }
