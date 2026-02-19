@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-18T14:05:53.544Z",
+  "timestamp": "2026-02-19T08:07:30.905Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -1506,7 +1506,10 @@
         ],
         "systemVersion": "latest",
         "sideCars": [],
-        "showSideCars": false
+        "showSideCars": false,
+        "technologies": [
+          ""
+        ]
       },
       "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4": {
         "id": "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
@@ -3603,8 +3606,8 @@
         ],
         "description": "Взаимодействие с контроллером",
         "labelOffset": {
-          "x": 108.49429332141062,
-          "y": 26.818814079449567
+          "x": 103.81971521956075,
+          "y": 11.626435248437588
         }
       },
       "71f43604-202e-4dbb-80bf-f68f0295756e": {
@@ -4767,8 +4770,8 @@
         ],
         "description": "Использование LLM",
         "labelOffset": {
-          "x": -1203.8919489053865,
-          "y": 726.0869865992161
+          "x": -2154.310422708552,
+          "y": 764.2159368134724
         }
       },
       "b1f226fd-3ebc-440f-86ba-7d1e41391c5a": {
@@ -4906,15 +4909,24 @@
         "targetSide": "26c75d0c-88df-40f7-a426-e50184485419",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#a855f7",
           "arrow": true
         },
-        "controlPoints": [],
+        "controlPoints": [
+          {
+            "x": -736,
+            "y": 1632
+          },
+          {
+            "x": -736,
+            "y": 1376
+          }
+        ],
         "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
         "labelOffset": {
-          "x": 201.70221829435047,
-          "y": -160.69329731889252
+          "x": 150.3175451483911,
+          "y": -12.831278674396799
         },
         "technology": "technology relationship"
       },
@@ -5353,28 +5365,6 @@
           "79165802-40c0-4db9-80b3-33f653a2ccb8",
           "170d9b97-b2e2-4500-a588-5a11d63b5418"
         ]
-      },
-      "e359d045-0000-41d2-8f48-35cd1e74aa11": {
-        "id": "e359d045-0000-41d2-8f48-35cd1e74aa11",
-        "name": "New Group",
-        "layerId": "647d58ba-08e1-4d12-9474-40e653fc216a",
-        "childElementIds": [
-          "b980ef13-f918-4745-9b58-0bf2a669cd03"
-        ],
-        "position": {
-          "x": -960,
-          "y": 1424
-        },
-        "size": {
-          "width": 128,
-          "height": 128
-        },
-        "ports": [],
-        "style": {
-          "borderStyle": "solid",
-          "borderColor": "#a855f7"
-        },
-        "description": "123"
       }
     },
     "integrationLayers": {
@@ -5599,7 +5589,6 @@
           "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
           "f800a729-1aed-4591-8631-f96bb7be15d0",
           "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0",
-          "e359d045-0000-41d2-8f48-35cd1e74aa11",
           "48eba994-627c-4d5f-b3e6-7118c215079c",
           "5213e793-e425-4819-9d58-6fe27fac05f1",
           "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a"
@@ -5861,7 +5850,9 @@
           "14382330-bfa5-4262-9f76-83f5a6d30006",
           "575dd4ff-273f-4a8f-b909-6507010ce258",
           "5213e793-e425-4819-9d58-6fe27fac05f1",
-          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a"
+          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
+          "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
+          "f0283d93-3146-4f55-970b-e6e055bb6dfd"
         ],
         "hiddenElementIds": [],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
@@ -6208,7 +6199,9 @@
         ],
         "groupId": "c43046d3-6026-4127-9868-8b8a95695ec4",
         "elementComments": {},
-        "relationshipComments": {},
+        "relationshipComments": {
+          "855378d3-16d8-44b3-b517-fccecea8b921": ""
+        },
         "excludedRelationshipIds": []
       },
       "824143ea-5656-468a-9b06-502c359c629f": {
@@ -6287,7 +6280,9 @@
         ],
         "groupId": "c43046d3-6026-4127-9868-8b8a95695ec4",
         "elementComments": {},
-        "relationshipComments": {},
+        "relationshipComments": {
+          "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Трассировка действий от Агента"
+        },
         "excludedRelationshipIds": []
       },
       "e92263bf-2a5f-49e5-9ac2-a1166140ab4d": {
@@ -6346,7 +6341,21 @@
           "cb0f5e0e-7308-446c-98e7-727030a53cf2"
         ],
         "elementComments": {},
-        "relationshipComments": {}
+        "relationshipComments": {
+          "141a7ad8-219b-47b1-9461-df8e54b326b7": "1.",
+          "3be24adc-b12f-4b82-92b3-cd3087568929": "4. Создание Агента и Предоставление параметров Агента\n11. Вызов Агента",
+          "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc": "2.",
+          "68c33c5c-66ac-4a34-ae35-4c70100bc19e": "3.",
+          "1d9cfa12-7f7c-4477-a59f-720c800a770d": "5. Маршрутизация запроса",
+          "b2b02043-a0cb-4d30-be6f-a899292ea73d": "6.",
+          "3a902a9e-cb30-4a94-8e25-ec776a527364": "7.",
+          "48eba994-627c-4d5f-b3e6-7118c215079c": "8.",
+          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1": "9.",
+          "d4bde6f3-1b08-4659-a8f6-380c81fd65b0": "10.",
+          "a72dc220-b3f7-4f65-a150-6dc6cd841773": "12. Маршрутизация вызова Агента",
+          "855378d3-16d8-44b3-b517-fccecea8b921": "13. Маршрутизация на POD",
+          "2f656943-8641-4cd7-9882-a33d784d524e": "14. Использование эфемерной базы данных"
+        }
       },
       "94b1c911-3c63-4e05-82f8-f65402ca061b": {
         "id": "94b1c911-3c63-4e05-82f8-f65402ca061b",
@@ -6366,8 +6375,13 @@
         ],
         "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
         "excludedRelationshipIds": [],
-        "elementComments": {},
-        "relationshipComments": {}
+        "elementComments": {
+          "aa49bc9e-ede2-4803-b076-c918d842747a": "Общая шина в GigaBack"
+        },
+        "relationshipComments": {
+          "b7e1c146-6970-4e3b-b155-0e1e68aa4ffd": "1. После публикации агента - предоставляем настройки его использования",
+          "8479109b-e5f1-4aac-8fd8-38e33cf4a9f5": "2. Обновление настроек вызова Агента"
+        }
       },
       "5e3a6554-84cc-4b86-ad24-e78807f1eda1": {
         "id": "5e3a6554-84cc-4b86-ad24-e78807f1eda1",
@@ -6399,7 +6413,15 @@
         "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
         "excludedRelationshipIds": [],
         "elementComments": {},
-        "relationshipComments": {}
+        "relationshipComments": {
+          "d26d8407-3602-4e2d-9f46-58d66ea27af8": "1. Вызов Агента в ARI",
+          "a72dc220-b3f7-4f65-a150-6dc6cd841773": "2. Маршрутизация вызова Агента",
+          "855378d3-16d8-44b3-b517-fccecea8b921": "3. Маршрутизация на POD",
+          "13554ba8-6bb8-4b8e-900e-a5d36112fd1d": "4. Использование LLM GigaChat",
+          "cb0f5e0e-7308-446c-98e7-727030a53cf2": "5. Если нужен интернет - работаем через NAT GW",
+          "f800a729-1aed-4591-8631-f96bb7be15d0": "6. Выход в интернет через KWTS",
+          "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0": "7. Выход в дикий интернет"
+        }
       }
     },
     "scenarioGroups": {
