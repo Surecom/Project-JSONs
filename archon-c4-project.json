@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-20T08:18:15.757Z",
+  "timestamp": "2026-02-20T08:48:30.648Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -154,6 +154,10 @@
           {
             "id": "fc74a4ed-8af5-4275-9ea1-e9a958795b42",
             "side": "left"
+          },
+          {
+            "id": "5839a25e-3789-4372-97f7-65ce1f063b42",
+            "side": "top"
           }
         ],
         "activeVersion": "latest",
@@ -1073,6 +1077,10 @@
           {
             "id": "460401c7-8c53-4ef4-8052-980a7592dcf8",
             "side": "bottom"
+          },
+          {
+            "id": "08ebcb33-6237-401e-8317-09e4b0ce39f0",
+            "side": "top"
           }
         ],
         "activeVersion": "latest",
@@ -2622,6 +2630,14 @@
           },
           {
             "id": "7f731879-fdf1-4edf-b75e-94c024273541",
+            "side": "bottom"
+          },
+          {
+            "id": "13f3efce-ff52-4798-a0cd-1aea3e34acb7",
+            "side": "bottom"
+          },
+          {
+            "id": "9a219873-f861-4c83-8c11-4e5910fdb702",
             "side": "bottom"
           }
         ],
@@ -4374,7 +4390,7 @@
             "y": 496
           }
         ],
-        "description": "Вызов агентов напрямую из UI",
+        "description": "Создание Агентов",
         "labelOffset": {
           "x": -50.08622754853309,
           "y": -4.544758840187399
@@ -4402,10 +4418,10 @@
             "y": 544
           }
         ],
-        "description": "Работа с sandbox агентами\nдля тестирования",
+        "description": "Создание Агентов",
         "labelOffset": {
-          "x": 186.63563833636783,
-          "y": -17.357653518591462
+          "x": 182.7163396617958,
+          "y": -1.6804588203039543
         }
       },
       "68c33c5c-66ac-4a34-ae35-4c70100bc19e": {
@@ -4450,7 +4466,7 @@
         },
         "controlPoints": [
           {
-            "x": -304,
+            "x": -336,
             "y": 96
           },
           {
@@ -4458,7 +4474,11 @@
             "y": 96
           }
         ],
-        "description": "Регистрация агента для деплоя в PROD"
+        "description": "Регистрация агента для деплоя в PROD",
+        "labelOffset": {
+          "x": 99.9421162015824,
+          "y": -5.878948011857773
+        }
       },
       "a70c2f05-c4b6-45f8-9306-d28c5233755d": {
         "id": "a70c2f05-c4b6-45f8-9306-d28c5233755d",
@@ -4812,15 +4832,24 @@
         "targetSide": "0f738ff1-e697-452b-8079-9c2ec801fc8e",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
-        "controlPoints": [],
+        "controlPoints": [
+          {
+            "x": -1168,
+            "y": 2016
+          },
+          {
+            "x": -1776,
+            "y": 2016
+          }
+        ],
         "description": "Через OTEL Collector\nLF Ingress\nArize Ingress",
         "labelOffset": {
-          "x": -152.50812574535325,
-          "y": -11.765753432970541
+          "x": -13.054120588298247,
+          "y": 36.131727891951414
         }
       },
       "2f656943-8641-4cd7-9882-a33d784d524e": {
@@ -4935,33 +4964,29 @@
       "375c91c3-6b82-4993-a84a-ae2dddded8e3": {
         "id": "375c91c3-6b82-4993-a84a-ae2dddded8e3",
         "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
-        "sourceSide": "841d735a-3842-4e01-8f15-d99af409d53a",
+        "sourceSide": "485c1dc0-c283-4906-b9d2-b8ea83a5aafa",
         "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
         "targetSide": "9012489a-6da9-4172-b2f9-e36c11d09277",
         "endpoints": [],
         "style": {
-          "type": "bezier",
+          "type": "polyline",
           "color": "#475569",
           "arrow": true
         },
         "controlPoints": [
           {
-            "x": -1312,
-            "y": 1792
+            "x": -1184,
+            "y": 2000
           },
           {
-            "x": -1504,
-            "y": 2064
-          },
-          {
-            "x": -1936,
-            "y": 2160
+            "x": -2000,
+            "y": 2000
           }
         ],
         "description": "Через OTEL Collector\nLF Ingress\nArize Ingress",
         "labelOffset": {
-          "x": -125.86492317478269,
-          "y": 3.2189549801476005
+          "x": -480.35092807538854,
+          "y": 136.98725871622514
         }
       },
       "575dd4ff-273f-4a8f-b909-6507010ce258": {
@@ -5009,7 +5034,7 @@
       "a99c9318-21d5-4652-aac8-82c6928a5f7c": {
         "id": "a99c9318-21d5-4652-aac8-82c6928a5f7c",
         "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
-        "sourceSide": "485c1dc0-c283-4906-b9d2-b8ea83a5aafa",
+        "sourceSide": "7f731879-fdf1-4edf-b75e-94c024273541",
         "targetId": "e97476c1-f396-4668-962e-12e56dff79ab",
         "targetSide": "f0e41925-6ded-4d3a-900b-f2db3381e4dc",
         "endpoints": [],
@@ -5020,7 +5045,7 @@
         },
         "controlPoints": [
           {
-            "x": -1152,
+            "x": -1104,
             "y": 1888
           },
           {
@@ -5041,7 +5066,7 @@
       "56dd3dbd-60e8-4312-9ee1-3835e7e818c6": {
         "id": "56dd3dbd-60e8-4312-9ee1-3835e7e818c6",
         "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
-        "sourceSide": "f0d671fc-dcb6-4ebd-afc5-534df971cce0",
+        "sourceSide": "13f3efce-ff52-4798-a0cd-1aea3e34acb7",
         "targetId": "615ab8b8-86c1-468a-b230-60b0a135d46d",
         "targetSide": "94e4173d-b609-4a2a-ab2a-e72ed8b6f9fb",
         "endpoints": [],
@@ -5052,7 +5077,7 @@
         },
         "controlPoints": [
           {
-            "x": -1088,
+            "x": -1056,
             "y": 1872
           },
           {
@@ -5069,7 +5094,7 @@
       "4678048c-59de-48de-a691-e3b8b0faed25": {
         "id": "4678048c-59de-48de-a691-e3b8b0faed25",
         "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
-        "sourceSide": "7f731879-fdf1-4edf-b75e-94c024273541",
+        "sourceSide": "9a219873-f861-4c83-8c11-4e5910fdb702",
         "targetId": "6542b468-d955-4380-93a2-8a60bfade64e",
         "targetSide": "fa065df8-e343-4529-a5bd-1683078fda90",
         "endpoints": [],
@@ -5080,7 +5105,7 @@
         },
         "controlPoints": [
           {
-            "x": -1040,
+            "x": -1024,
             "y": 1840
           },
           {
@@ -5097,7 +5122,7 @@
       "3d082a7f-b618-49a8-9318-c2374f998283": {
         "id": "3d082a7f-b618-49a8-9318-c2374f998283",
         "sourceId": "374374ab-2701-4d8e-9e52-21183b441ab6",
-        "sourceSide": "85e84022-8232-4b6f-b2b8-f78bb9a7180b",
+        "sourceSide": "f0d671fc-dcb6-4ebd-afc5-534df971cce0",
         "targetId": "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
         "targetSide": "8ecf937c-659c-4cff-99e0-733c0224c972",
         "endpoints": [],
@@ -5202,7 +5227,7 @@
         "sourceId": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
         "sourceSide": "4fed03a5-5580-4b0e-b616-20f2a1b44ca1",
         "targetId": "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
-        "targetSide": "f81ad842-d75a-42e4-b552-b40def4d1d1e",
+        "targetSide": "08ebcb33-6237-401e-8317-09e4b0ce39f0",
         "endpoints": [],
         "style": {
           "type": "polyline",
@@ -5215,7 +5240,7 @@
             "y": 1584
           },
           {
-            "x": -1760,
+            "x": -1712,
             "y": 1584
           }
         ],
@@ -5223,6 +5248,70 @@
         "labelOffset": {
           "x": 1.230500609926139,
           "y": -14.766007319115033
+        }
+      },
+      "ed8f01f4-ee61-4815-8697-f9222cd27e0f": {
+        "id": "ed8f01f4-ee61-4815-8697-f9222cd27e0f",
+        "sourceId": "3943f54c-99ff-49eb-9340-4527c346e500",
+        "sourceSide": "8442ddfb-10c4-4492-9d7b-f6a49e5c4406",
+        "targetId": "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+        "targetSide": "c0e6af45-d34a-4966-9535-ea8a60461258",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#a855f7",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -896,
+            "y": 0
+          },
+          {
+            "x": -2160,
+            "y": 0
+          },
+          {
+            "x": -2176,
+            "y": 1728
+          }
+        ],
+        "description": "Вызов агентов напрямую из UI",
+        "labelOffset": {
+          "x": 756.1407247662692,
+          "y": -866.6990393154806
+        }
+      },
+      "784ac2dc-7604-404a-bf9c-aa3a0b293bab": {
+        "id": "784ac2dc-7604-404a-bf9c-aa3a0b293bab",
+        "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
+        "sourceSide": "5839a25e-3789-4372-97f7-65ce1f063b42",
+        "targetId": "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+        "targetSide": "dd6af89f-826a-49fb-9947-59d55325b29c",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#a855f7",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -272,
+            "y": -112
+          },
+          {
+            "x": -2240,
+            "y": -112
+          },
+          {
+            "x": -2256,
+            "y": 1776
+          }
+        ],
+        "description": "Вызов агентов",
+        "labelOffset": {
+          "x": 1144.2709120396516,
+          "y": -946.377476763617
         }
       }
     },
@@ -5313,42 +5402,6 @@
         "childElementIds": [
           "374374ab-2701-4d8e-9e52-21183b441ab6",
           "2169b4a2-3985-4b47-b2be-0104a56dd67f"
-        ]
-      },
-      "4665ec72-84e8-4ffd-aa3b-e9b44e8d5a05": {
-        "id": "4665ec72-84e8-4ffd-aa3b-e9b44e8d5a05",
-        "name": "ARI Tenant",
-        "position": {
-          "x": -2240,
-          "y": 848
-        },
-        "size": {
-          "width": 1344,
-          "height": 2272
-        },
-        "ports": [],
-        "style": {
-          "borderStyle": "dashed",
-          "borderColor": "#94a3b8"
-        },
-        "layerId": "1df13168-c637-4137-a29f-2de43279e862",
-        "childElementIds": [
-          "4718d099-1794-40ad-b754-81aa7206a9f4",
-          "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
-          "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
-          "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
-          "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
-          "25ed619e-5c0e-44e7-ac2e-661baea12a67",
-          "86ac50b1-6faa-4684-89d5-89091764107d",
-          "11960251-128b-487e-90af-fd106e741180",
-          "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
-          "5213e793-e425-4819-9d58-6fe27fac05f1",
-          "67df732f-a1f8-4365-9063-281c158bb32b",
-          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-          "374374ab-2701-4d8e-9e52-21183b441ab6",
-          "79165802-40c0-4db9-80b3-33f653a2ccb8",
-          "170d9b97-b2e2-4500-a588-5a11d63b5418"
         ]
       },
       "4d4d3637-6301-4716-b52a-a643e419db90": {
@@ -5497,7 +5550,6 @@
           "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
           "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
           "599ecf98-fead-41f3-a6fb-9bf142b5e03c",
-          "91659662-2680-4c20-9f07-5518378a0add",
           "3718d74c-8c81-4dca-8b84-dabf4be52fa8",
           "2a837ce9-832b-422f-b89f-0b1d3e97bb16",
           "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
@@ -5756,7 +5808,10 @@
           "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
           "a70c2f05-c4b6-45f8-9306-d28c5233755d",
           "415f0606-c9d1-4212-88b6-a837b211aca1",
-          "48eba994-627c-4d5f-b3e6-7118c215079c"
+          "48eba994-627c-4d5f-b3e6-7118c215079c",
+          "ed8f01f4-ee61-4815-8697-f9222cd27e0f",
+          "784ac2dc-7604-404a-bf9c-aa3a0b293bab",
+          "3512f198-156e-43e7-a097-9d7cf9bdd62a"
         ],
         "hiddenElementIds": [
           "98a889de-e021-49b5-9f93-6a10ab557230",
@@ -5892,73 +5947,6 @@
         "systemVersions": {
           "b4b6849a-e514-4e8a-b7cc-caca297bbd88": "latest",
           "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest"
-        }
-      },
-      "1df13168-c637-4137-a29f-2de43279e862": {
-        "id": "1df13168-c637-4137-a29f-2de43279e862",
-        "name": "Agent Usage AI Studio",
-        "color": "#3b82f6",
-        "zIndex": 6,
-        "visibleElementIds": [
-          "4718d099-1794-40ad-b754-81aa7206a9f4",
-          "67df732f-a1f8-4365-9063-281c158bb32b",
-          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-          "374374ab-2701-4d8e-9e52-21183b441ab6",
-          "cb0f5e0e-7308-446c-98e7-727030a53cf2",
-          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
-          "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
-          "f800a729-1aed-4591-8631-f96bb7be15d0",
-          "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0",
-          "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
-          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
-          "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
-          "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
-          "25ed619e-5c0e-44e7-ac2e-661baea12a67",
-          "86ac50b1-6faa-4684-89d5-89091764107d",
-          "11960251-128b-487e-90af-fd106e741180",
-          "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
-          "375c91c3-6b82-4993-a84a-ae2dddded8e3",
-          "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
-          "ff61e7e3-9b74-4f53-b2ab-2a660890c727",
-          "6df1283f-d67a-436d-a485-c8dadd37b2dd",
-          "4cd777ec-1894-4c59-adcb-447477a8a373",
-          "c1840cf5-f352-4a72-9309-d0c9325d3b21",
-          "b8465e48-32ec-4fca-bbae-86261ab31a6e",
-          "51e449ac-98fe-4dad-a760-4d65a32282bc",
-          "a4a34b1c-146b-48bc-b80f-4da0cfa58a5b",
-          "8d9fc310-7155-41d0-9555-bb8741f442e5",
-          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
-          "2ba8d505-27d3-491b-9cde-1326560fd12e",
-          "fd992819-d871-4577-8169-0da554ba5910",
-          "e97476c1-f396-4668-962e-12e56dff79ab",
-          "13554ba8-6bb8-4b8e-900e-a5d36112fd1d",
-          "4665ec72-84e8-4ffd-aa3b-e9b44e8d5a05",
-          "170d9b97-b2e2-4500-a588-5a11d63b5418",
-          "79165802-40c0-4db9-80b3-33f653a2ccb8",
-          "2f656943-8641-4cd7-9882-a33d784d524e",
-          "3943f54c-99ff-49eb-9340-4527c346e500",
-          "14382330-bfa5-4262-9f76-83f5a6d30006",
-          "575dd4ff-273f-4a8f-b909-6507010ce258",
-          "5213e793-e425-4819-9d58-6fe27fac05f1",
-          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
-          "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
-          "f0283d93-3146-4f55-970b-e6e055bb6dfd"
-        ],
-        "hiddenElementIds": [
-          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
-          "5359f6fb-98c2-45c5-9b12-c8b77f5bd380"
-        ],
-        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
-        "systemVersions": {
-          "4718d099-1794-40ad-b754-81aa7206a9f4": "latest",
-          "67df732f-a1f8-4365-9063-281c158bb32b": "latest",
-          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145": "latest",
-          "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest",
-          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": "latest",
-          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3": "latest",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "latest",
-          "170d9b97-b2e2-4500-a588-5a11d63b5418": "latest",
-          "3943f54c-99ff-49eb-9340-4527c346e500": "latest"
         }
       }
     },
