@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "timestamp": "2026-02-20T08:48:30.648Z",
+  "timestamp": "2026-02-20T11:12:09.125Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -328,43 +328,6 @@
           {
             "id": "f0a12ecd-dc02-4f87-86a3-11ef7feedee0",
             "side": "left"
-          }
-        ],
-        "activeVersion": "latest",
-        "versions": [
-          "latest"
-        ]
-      },
-      "91659662-2680-4c20-9f07-5518378a0add": {
-        "id": "91659662-2680-4c20-9f07-5518378a0add",
-        "name": "Управление расходами / Billing",
-        "metadata": {},
-        "containerIds": [],
-        "position": {
-          "x": -432,
-          "y": 1120
-        },
-        "size": {
-          "width": 224,
-          "height": 160
-        },
-        "color": "#facc15",
-        "ports": [
-          {
-            "id": "d7ec3a28-7bf4-493a-8a1d-a576b846cab4",
-            "side": "top"
-          },
-          {
-            "id": "574020bf-1dc2-4e15-bd2e-5768dd6067c5",
-            "side": "bottom"
-          },
-          {
-            "id": "8ba84a3d-5cfd-4fcf-9ee1-8da6cdac8621",
-            "side": "left"
-          },
-          {
-            "id": "b436923e-822e-4db2-9f7b-2434298d91a2",
-            "side": "right"
           }
         ],
         "activeVersion": "latest",
@@ -5624,7 +5587,10 @@
           "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
           "5359f6fb-98c2-45c5-9b12-c8b77f5bd380"
         ],
-        "isDefault": true
+        "isDefault": true,
+        "systemVersions": {
+          "91659662-2680-4c20-9f07-5518378a0add": "latest"
+        }
       },
       "647d58ba-08e1-4d12-9474-40e653fc216a": {
         "id": "647d58ba-08e1-4d12-9474-40e653fc216a",
