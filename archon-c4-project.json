@@ -1,6 +1,6 @@
 {
-  "version": "1.1.23",
-  "timestamp": "2026-02-20T12:37:39.805Z",
+  "version": "2.5.48",
+  "timestamp": "2026-02-24T10:36:20.243Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -723,7 +723,7 @@
       },
       "67df732f-a1f8-4365-9063-281c158bb32b": {
         "id": "67df732f-a1f8-4365-9063-281c158bb32b",
-        "name": "ARI Dynamic Agent namespace",
+        "name": "ARI Dynamic Agent namespaceЭ",
         "metadata": {
           "Deployment Target": "ns: ARI-Dynamic-{UUID}"
         },
@@ -995,6 +995,10 @@
           {
             "id": "28cd9908-851a-4ca9-9016-4def181ac7da",
             "side": "right"
+          },
+          {
+            "id": "a6848b50-e539-46a6-9059-3ea940de99bd",
+            "side": "top"
           }
         ],
         "activeVersion": "latest",
@@ -1105,17 +1109,19 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "position": {
           "x": -1920,
-          "y": 576
+          "y": 464
         },
         "size": {
-          "width": 896,
-          "height": 560
+          "width": 1120,
+          "height": 752
         },
-        "color": "#facc15",
+        "color": "#10b981",
         "ports": [
           {
             "id": "72bbf0e9-58bb-4e4d-9a86-657392c52234",
@@ -2978,7 +2984,9 @@
             "side": "right"
           }
         ],
-        "systemVersion": "latest"
+        "systemVersion": "latest",
+        "sideCars": [],
+        "showSideCars": false
       },
       "ed4064dd-ad40-4fbb-8108-0abb545aa5e4": {
         "id": "ed4064dd-ad40-4fbb-8108-0abb545aa5e4",
@@ -2987,7 +2995,7 @@
         "type": "App",
         "position": {
           "x": -1536,
-          "y": 656
+          "y": 544
         },
         "size": {
           "width": 192,
@@ -3013,7 +3021,9 @@
           }
         ],
         "systemVersion": "latest",
-        "description": "- validate\n- deduplicate\n- normalize event"
+        "description": "- validate\n- deduplicate\n- normalize event",
+        "sideCars": [],
+        "showSideCars": false
       },
       "4857fad6-13dc-4541-a61d-cb2a32379771": {
         "id": "4857fad6-13dc-4541-a61d-cb2a32379771",
@@ -3048,7 +3058,10 @@
           }
         ],
         "systemVersion": "latest",
-        "description": "1 chat_id === 1 партиция\nчто бы по разным партициям не раскидало сообщения одного и того же чата"
+        "description": "1 chat_id === 1 партиция\nчто бы по разным партициям не раскидало сообщения одного и того же чата",
+        "sideCars": [],
+        "showSideCars": false,
+        "topics": []
       },
       "9c735826-c2c3-4aa2-88ec-28cfb12170b6": {
         "id": "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
@@ -3057,7 +3070,7 @@
         "type": "DB",
         "position": {
           "x": -1888,
-          "y": 656
+          "y": 544
         },
         "size": {
           "width": 128,
@@ -3086,7 +3099,10 @@
         "technologies": [
           "Redis"
         ],
-        "description": "TTL 12 часов\nПроверка idempotency"
+        "description": "TTL 12 часов\nПроверка idempotency",
+        "sideCars": [],
+        "showSideCars": false,
+        "schemas": []
       },
       "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6": {
         "id": "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
@@ -3121,7 +3137,9 @@
           }
         ],
         "systemVersion": "latest",
-        "description": "Нужен chat lock в Orchestrator"
+        "description": "Нужен chat lock в Orchestrator",
+        "sideCars": [],
+        "showSideCars": false
       },
       "31f9e7cf-fa15-47eb-8668-37b6f174ff41": {
         "id": "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
@@ -3156,7 +3174,9 @@
           }
         ],
         "systemVersion": "latest",
-        "description": "Rate limiter"
+        "description": "Rate limiter",
+        "sideCars": [],
+        "showSideCars": false
       },
       "93fcec55-c79d-45e0-a7d4-00a47073a77b": {
         "id": "93fcec55-c79d-45e0-a7d4-00a47073a77b",
@@ -3165,7 +3185,7 @@
         "type": "App",
         "position": {
           "x": -1504,
-          "y": 1040
+          "y": 1120
         },
         "size": {
           "width": 128,
@@ -3187,6 +3207,76 @@
           },
           {
             "id": "4f742591-c85d-43da-88e0-fbff6cb43c55",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "sideCars": [],
+        "showSideCars": false
+      },
+      "3cf4ecee-38a8-4901-93aa-eef18c0214cb": {
+        "id": "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+        "systemId": "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+        "name": "Регистратор бота",
+        "type": "App",
+        "position": {
+          "x": -960,
+          "y": 544
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "dd68e2bc-a322-4cdd-b351-cb8e51fef310",
+            "side": "top"
+          },
+          {
+            "id": "e66ba947-2581-42b0-aac8-04276fe9d26d",
+            "side": "bottom"
+          },
+          {
+            "id": "1b1ed9b2-563e-43f5-a2bc-eb860e1ee022",
+            "side": "left"
+          },
+          {
+            "id": "57f66011-0804-4988-9168-039c4b51a242",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest"
+      },
+      "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4": {
+        "id": "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
+        "systemId": "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+        "name": "БД ботов",
+        "type": "DB",
+        "position": {
+          "x": -960,
+          "y": 864
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#10b981",
+        "ports": [
+          {
+            "id": "31ed41c2-5bfd-4fe9-a6ad-cb7a7384d3f5",
+            "side": "top"
+          },
+          {
+            "id": "13433dc9-9e5a-420f-8b02-54935524811c",
+            "side": "bottom"
+          },
+          {
+            "id": "3284a98d-e17d-4959-8467-773c42083fb3",
+            "side": "left"
+          },
+          {
+            "id": "74611498-1ab5-4bb3-bb8e-cd44dd688bb0",
             "side": "right"
           }
         ],
@@ -3418,7 +3508,7 @@
         "description": "Загрузка файлов",
         "labelOffset": {
           "x": 193.08215892024532,
-          "y": -54.874811811531856
+          "y": -79.80814514486514
         }
       },
       "73cabed4-ad88-49c8-82dd-d80884dde065": {
@@ -3670,8 +3760,8 @@
         "controlPoints": [],
         "description": "Загрузка файлов",
         "labelOffset": {
-          "x": 1.1512146473605753,
-          "y": 43.74615659970016
+          "x": -1.2379745418286348,
+          "y": -0.45384340029977466
         }
       },
       "41570909-5ec7-4c0d-94d0-50b613dd0c70": {
@@ -4230,8 +4320,8 @@
         ],
         "description": "Получение информации о звонке\nтекст / аудио",
         "labelOffset": {
-          "x": -232.6022021559794,
-          "y": 67.66885062984909
+          "x": -179.99793954515633,
+          "y": 81.59350837977286
         }
       },
       "e178b903-61c4-4e30-99c7-4ac7f6570e18": {
@@ -4970,8 +5060,8 @@
         "controlPoints": [],
         "description": "Вызов внешних Tools\nВызов внутренних Tools",
         "labelOffset": {
-          "x": 200.7595532025473,
-          "y": -40.07529632878527
+          "x": 80.88914884764381,
+          "y": -18.411970240549635
         }
       },
       "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1": {
@@ -5022,8 +5112,8 @@
         ],
         "description": "Создание сессии звонка от Агента\nВ Gateway service",
         "labelOffset": {
-          "x": 605.5351705306402,
-          "y": -1119.1328606445038
+          "x": 596.4000176061477,
+          "y": -1248.8520321722963
         }
       },
       "58be2dcb-5a77-43ce-937a-87114b309687": {
@@ -5103,8 +5193,8 @@
         ],
         "description": "Через OTEL Collector\nLF Ingress\nArize Ingress",
         "labelOffset": {
-          "x": -13.054120588298247,
-          "y": 36.131727891951414
+          "x": -223.44659395519056,
+          "y": 120.28871723870861
         }
       },
       "2f656943-8641-4cd7-9882-a33d784d524e": {
@@ -5599,8 +5689,8 @@
         "controlPoints": [],
         "description": "Сохранение нормализованного\nевента от мессенджера",
         "labelOffset": {
-          "x": 120.6468758995178,
-          "y": 9.280528915347531
+          "x": 112.99624050435807,
+          "y": -30.247753959644342
         }
       },
       "60525cfd-dc4e-4732-b356-8ac579cde1c2": {
@@ -5618,8 +5708,8 @@
         "controlPoints": [],
         "description": "Быстрый ответ на\nтиповые запросы\n\nПроверка idempotency",
         "labelOffset": {
-          "x": -75.22166493123291,
-          "y": 2.7147801331814208
+          "x": 78.82745394243443,
+          "y": -46.93271867976546
         }
       },
       "be542528-6bbb-4f09-bbdb-0b87aa8c9fa7": {
@@ -5644,7 +5734,7 @@
       "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": {
         "id": "c2b5cd76-7fff-429d-a870-ff1a49eb9c67",
         "sourceId": "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-        "sourceSide": "b65222eb-6c9b-4640-98eb-b77fb16a8a69",
+        "sourceSide": "9bcfe2ae-75c2-41b1-b91a-ec64b5315125",
         "targetId": "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
         "targetSide": "0d3e883e-4a3e-420c-8f23-e774aa025a50",
         "endpoints": [],
@@ -5656,8 +5746,8 @@
         "controlPoints": [],
         "description": "Отправление сообщений\nв чат",
         "labelOffset": {
-          "x": -84.10162053979309,
-          "y": -40.45569524657367
+          "x": -32.831350269522886,
+          "y": -21.412452003330372
         }
       },
       "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": {
@@ -5694,8 +5784,8 @@
         "controlPoints": [],
         "description": "Получение евента для\nтяжелого агента",
         "labelOffset": {
-          "x": 75.82651286194914,
-          "y": 8.322422143384529
+          "x": 80.92693645872214,
+          "y": 1.9468926474180535
         }
       },
       "59e0ea0b-f15e-4173-abe2-f165b0afa72e": {
@@ -5770,17 +5860,17 @@
         "controlPoints": [
           {
             "x": -1120,
-            "y": 624
+            "y": 528
           },
           {
             "x": -1824,
-            "y": 624
+            "y": 528
           }
         ],
         "description": "Проверка idempotency",
         "labelOffset": {
-          "x": 427.1363320028388,
-          "y": 128.3743074325472
+          "x": 246.83667985336433,
+          "y": 1.3738403720100791
         }
       },
       "9d2eeb9c-3bbb-4ffd-a007-62a7c3a1525e": {
@@ -5798,17 +5888,55 @@
         "controlPoints": [
           {
             "x": -1984,
-            "y": 1072
+            "y": 1152
           },
           {
             "x": -1984,
-            "y": 688
+            "y": 576
           }
         ],
         "description": "Проверка idempotency",
         "labelOffset": {
           "x": 354.77990417722117,
-          "y": 191.39442199034306
+          "y": 287.0273644298393
+        }
+      },
+      "89e762ee-aa67-4736-988c-4fed2f0dc5ae": {
+        "id": "89e762ee-aa67-4736-988c-4fed2f0dc5ae",
+        "sourceId": "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+        "sourceSide": "e66ba947-2581-42b0-aac8-04276fe9d26d",
+        "targetId": "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
+        "targetSide": "31ed41c2-5bfd-4fe9-a6ad-cb7a7384d3f5",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Сохраняем / Мобифицируем\nхуки ботов",
+        "labelOffset": {
+          "x": -96.68108108108117,
+          "y": 20.50810810810799
+        }
+      },
+      "09ef288b-9e25-47f7-9e85-2441e3416f4c": {
+        "id": "09ef288b-9e25-47f7-9e85-2441e3416f4c",
+        "sourceId": "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+        "sourceSide": "57f66011-0804-4988-9168-039c4b51a242",
+        "targetId": "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+        "targetSide": "a6848b50-e539-46a6-9059-3ea940de99bd",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#475569",
+          "arrow": true
+        },
+        "controlPoints": [],
+        "description": "Создание / обновление\nхуков ботов",
+        "labelOffset": {
+          "x": 105.47027027027025,
+          "y": 39.5513513513514
         }
       }
     },
@@ -5985,6 +6113,57 @@
           "5359f6fb-98c2-45c5-9b12-c8b77f5bd380",
           "d4826127-e328-49ec-b60c-fe34aa20fa1f"
         ]
+      },
+      "496c68f0-0a78-42d5-ac38-71bdc489d065": {
+        "id": "496c68f0-0a78-42d5-ac38-71bdc489d065",
+        "name": "Special Tenant",
+        "position": {
+          "x": -1920,
+          "y": 1616
+        },
+        "size": {
+          "width": 1600,
+          "height": 336
+        },
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#94a3b8"
+        },
+        "layerId": "22da27b2-e808-4a64-b1d2-910618e5fce1",
+        "childElementIds": [
+          "170d9b97-b2e2-4500-a588-5a11d63b5418",
+          "79165802-40c0-4db9-80b3-33f653a2ccb8",
+          "67df732f-a1f8-4365-9063-281c158bb32b",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+          "6542b468-d955-4380-93a2-8a60bfade64e",
+          "5359f6fb-98c2-45c5-9b12-c8b77f5bd380"
+        ]
+      },
+      "962bb5bc-0772-4acf-ac52-dcefc7db2f39": {
+        "id": "962bb5bc-0772-4acf-ac52-dcefc7db2f39",
+        "name": "Agent runtimes",
+        "position": {
+          "x": -1264,
+          "y": 1696
+        },
+        "size": {
+          "width": 288,
+          "height": 224
+        },
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#94a3b8"
+        },
+        "layerId": "22da27b2-e808-4a64-b1d2-910618e5fce1",
+        "childElementIds": [
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f"
+        ]
       }
     },
     "integrationLayers": {
@@ -6126,7 +6305,9 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "isDefault": true,
         "systemVersions": {
@@ -6231,7 +6412,9 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "systemVersions": {
           "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
@@ -6339,7 +6522,9 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "systemVersions": {
           "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
@@ -6388,7 +6573,9 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -6432,7 +6619,9 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -6483,7 +6672,9 @@
           "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
           "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
           "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
-          "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -6549,7 +6740,11 @@
           "f28a353b-0101-4042-bc48-4458c42a1e7f",
           "314b5e04-71b0-45a4-b3c8-b275725b8d1c",
           "9de401f4-9ed3-4fa1-898b-6918e1563fe5",
-          "9d2eeb9c-3bbb-4ffd-a007-62a7c3a1525e"
+          "9d2eeb9c-3bbb-4ffd-a007-62a7c3a1525e",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
+          "89e762ee-aa67-4736-988c-4fed2f0dc5ae",
+          "09ef288b-9e25-47f7-9e85-2441e3416f4c"
         ],
         "hiddenElementIds": [],
         "groupId": "9ca76066-855f-49f0-b9e2-7bacc0e303b9",
@@ -6562,6 +6757,87 @@
           "4718d099-1794-40ad-b754-81aa7206a9f4": "latest",
           "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest",
           "e2e2cdca-ce7c-494a-894e-c78f9bcc3145": "latest"
+        }
+      },
+      "22da27b2-e808-4a64-b1d2-910618e5fce1": {
+        "id": "22da27b2-e808-4a64-b1d2-910618e5fce1",
+        "name": "ARI Only",
+        "color": "#3b82f6",
+        "zIndex": 7,
+        "visibleElementIds": [
+          "4718d099-1794-40ad-b754-81aa7206a9f4",
+          "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
+          "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+          "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+          "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+          "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+          "86ac50b1-6faa-4684-89d5-89091764107d",
+          "11960251-128b-487e-90af-fd106e741180",
+          "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
+          "5213e793-e425-4819-9d58-6fe27fac05f1",
+          "170d9b97-b2e2-4500-a588-5a11d63b5418",
+          "79165802-40c0-4db9-80b3-33f653a2ccb8",
+          "67df732f-a1f8-4365-9063-281c158bb32b",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+          "6542b468-d955-4380-93a2-8a60bfade64e",
+          "5359f6fb-98c2-45c5-9b12-c8b77f5bd380",
+          "496c68f0-0a78-42d5-ac38-71bdc489d065",
+          "48eba994-627c-4d5f-b3e6-7118c215079c",
+          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
+          "415f0606-c9d1-4212-88b6-a837b211aca1",
+          "3512f198-156e-43e7-a097-9d7cf9bdd62a",
+          "962bb5bc-0772-4acf-ac52-dcefc7db2f39",
+          "2f656943-8641-4cd7-9882-a33d784d524e",
+          "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
+          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
+          "c1840cf5-f352-4a72-9309-d0c9325d3b21",
+          "6df1283f-d67a-436d-a485-c8dadd37b2dd",
+          "4cd777ec-1894-4c59-adcb-447477a8a373",
+          "ff61e7e3-9b74-4f53-b2ab-2a660890c727",
+          "8d9fc310-7155-41d0-9555-bb8741f442e5",
+          "51e449ac-98fe-4dad-a760-4d65a32282bc",
+          "a4a34b1c-146b-48bc-b80f-4da0cfa58a5b",
+          "b8465e48-32ec-4fca-bbae-86261ab31a6e",
+          "dad041a8-ea22-45b8-8467-8e1a22f76030",
+          "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+          "be717a0c-fff2-4d1c-b04c-67073825217b",
+          "b2b02043-a0cb-4d30-be6f-a899292ea73d",
+          "3a902a9e-cb30-4a94-8e25-ec776a527364",
+          "599ecf98-fead-41f3-a6fb-9bf142b5e03c",
+          "cb0f5e0e-7308-446c-98e7-727030a53cf2",
+          "4678048c-59de-48de-a691-e3b8b0faed25",
+          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+          "f800a729-1aed-4591-8631-f96bb7be15d0",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+          "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0",
+          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2",
+          "2ba8d505-27d3-491b-9cde-1326560fd12e",
+          "fd992819-d871-4577-8169-0da554ba5910",
+          "b1f226fd-3ebc-440f-86ba-7d1e41391c5a",
+          "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
+          "a70c2f05-c4b6-45f8-9306-d28c5233755d",
+          "375c91c3-6b82-4993-a84a-ae2dddded8e3"
+        ],
+        "hiddenElementIds": [],
+        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
+        "systemVersions": {
+          "4718d099-1794-40ad-b754-81aa7206a9f4": "latest",
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3": "latest",
+          "170d9b97-b2e2-4500-a588-5a11d63b5418": "latest",
+          "67df732f-a1f8-4365-9063-281c158bb32b": "latest",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3": "latest",
+          "6542b468-d955-4380-93a2-8a60bfade64e": "latest",
+          "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
+          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145": "latest",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest",
+          "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": "latest",
+          "b4b6849a-e514-4e8a-b7cc-caca297bbd88": "latest"
         }
       }
     },
@@ -6576,381 +6852,6 @@
       }
     },
     "businessScenarios": {
-      "a0c3756c-1b0b-4175-91ca-fe37fc6f87ec": {
-        "id": "a0c3756c-1b0b-4175-91ca-fe37fc6f87ec",
-        "name": "Выгрузка внешних ресурсов по CRON",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "86f6dc53-a840-47bb-8c17-4c7f2450d156",
-              "ae84dd19-d528-42bb-8e71-36624bf784d0",
-              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
-              "2ebe1061-7002-4510-b097-f573602902b7",
-              "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6",
-              "93d5f402-7f91-4cca-82bc-10b30b2c4c55",
-              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": [
-              "677ea888-027e-4e70-b6f7-a119c5407898"
-            ]
-          }
-        ],
-        "excludedRelationshipIds": [
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5",
-          "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50"
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "86f6dc53-a840-47bb-8c17-4c7f2450d156": "Сервис выгрузки внешних ресурсов",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6": "UI для пользователя"
-        },
-        "relationshipComments": {
-          "6518a1de-123c-4f35-9549-d1ca894cc044": "Загрузка файлов для tenant от внешних ресурсов",
-          "41570909-5ec7-4c0d-94d0-50b613dd0c70": "Получение правил по синхронизации",
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "73cabed4-ad88-49c8-82dd-d80884dde065": "Загрузка правил для crawler",
-          "1c49a32e-5596-4272-b566-71acb78b00c3": "Работа с backend",
-          "c08ab758-2781-423b-8603-6f24b50b2703": "Работа с UI",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
-        }
-      },
-      "af64dbc6-d17f-49f5-b315-39c62271ffbb": {
-        "id": "af64dbc6-d17f-49f5-b315-39c62271ffbb",
-        "name": "Загрузка файла от агента",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "e97476c1-f396-4668-962e-12e56dff79ab",
-              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-              "ae84dd19-d528-42bb-8e71-36624bf784d0",
-              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
-              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
-              "2ebe1061-7002-4510-b097-f573602902b7",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "excludedRelationshipIds": [
-          "73cabed4-ad88-49c8-82dd-d80884dde065",
-          "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50"
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
-        },
-        "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на загрузку файлов",
-          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
-        }
-      },
-      "7eb0c66c-4bf6-4f23-a3b7-654d1839fe6a": {
-        "id": "7eb0c66c-4bf6-4f23-a3b7-654d1839fe6a",
-        "name": "Обработка загруженного файла",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "e97476c1-f396-4668-962e-12e56dff79ab",
-              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
-              "2ebe1061-7002-4510-b097-f573602902b7",
-              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "excludedRelationshipIds": [
-          "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50"
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "cc33dcf4-97d5-4e59-8665-b6a750971a54": "Сервис для работы с загруженными файлами\nИндексация",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM",
-          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7": "Векторное хранилище"
-        },
-        "relationshipComments": {
-          "91409dcd-0a72-4813-92d4-a8da61a8b87a": "Обработка chunks для создания embeddings",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД"
-        }
-      },
-      "ce0a8de9-c905-46a9-bed1-4ce1f5cd9500": {
-        "id": "ce0a8de9-c905-46a9-bed1-4ce1f5cd9500",
-        "name": "Скачивание файлов от агента",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "e97476c1-f396-4668-962e-12e56dff79ab",
-              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-              "ae84dd19-d528-42bb-8e71-36624bf784d0",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "excludedRelationshipIds": [
-          "73cabed4-ad88-49c8-82dd-d80884dde065"
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
-        },
-        "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для загрузки документов напрямую из S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на скачивание файлов"
-        }
-      },
-      "efe59249-dd62-4032-a8b8-8461b1e02302": {
-        "id": "efe59249-dd62-4032-a8b8-8461b1e02302",
-        "name": "Текстовый запрос по файлам",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "e97476c1-f396-4668-962e-12e56dff79ab",
-              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-              "ae84dd19-d528-42bb-8e71-36624bf784d0",
-              "6cfbcffe-9b80-4d03-aa67-5c206fadf98d",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "excludedRelationshipIds": [
-          "73cabed4-ad88-49c8-82dd-d80884dde065"
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM",
-          "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7": "Векторное хранилище"
-        },
-        "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "33ebf154-577d-4e8d-8ad1-23a59ade8433": "Рассчет embeddings по текущему запросу",
-          "4ea7a942-8f7b-4da4-9653-09833fc1f806": "Поиск информации \nпо векторному хранилищу",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД"
-        }
-      },
-      "c7a2ac5c-d981-4db2-b5af-5e908985fd1c": {
-        "id": "c7a2ac5c-d981-4db2-b5af-5e908985fd1c",
-        "name": "Удаление файлов от агента",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "e97476c1-f396-4668-962e-12e56dff79ab",
-              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-              "ae84dd19-d528-42bb-8e71-36624bf784d0",
-              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
-              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "excludedRelationshipIds": [
-          "73cabed4-ad88-49c8-82dd-d80884dde065"
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
-        },
-        "relationshipComments": {
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Удаление файлов",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Запрос на удаление файлов"
-        }
-      },
-      "417fa452-107b-44dc-887b-100c996b3d8f": {
-        "id": "417fa452-107b-44dc-887b-100c996b3d8f",
-        "name": "Загрузка файлов пользователем",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "93d5f402-7f91-4cca-82bc-10b30b2c4c55",
-              "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6",
-              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
-              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
-              "ae84dd19-d528-42bb-8e71-36624bf784d0",
-              "13938655-f290-44fb-9455-8c0b9cdcaf92",
-              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
-              "2ebe1061-7002-4510-b097-f573602902b7",
-              "508217e4-17d3-4ce9-a715-57d3e6804f15",
-              "615ab8b8-86c1-468a-b230-60b0a135d46d"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
-        "elementComments": {
-          "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации",
-          "37c33689-b836-41ed-b9ef-8f70a1b0ba8d": "Центральный узел взаимодействия RAG системы",
-          "ddc1374c-d6ef-43cb-b88e-3f6545579b2a": "Сервис работы с файлами",
-          "13938655-f290-44fb-9455-8c0b9cdcaf92": "Сервис работы с базой данных tenant, метаданных файлов",
-          "508217e4-17d3-4ce9-a715-57d3e6804f15": "База данных хранения метаданных о документах и tenant",
-          "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": "Сервис хранения файлов",
-          "2ebe1061-7002-4510-b097-f573602902b7": "Шина по распределению ивентов в RAG системе",
-          "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6": "UI для пользователя"
-        },
-        "relationshipComments": {
-          "1c49a32e-5596-4272-b566-71acb78b00c3": "Работа с backend",
-          "c08ab758-2781-423b-8603-6f24b50b2703": "Работа с UI",
-          "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей",
-          "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
-          "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Взаимодействие с БД",
-          "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на загрузку файлов",
-          "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
-        },
-        "excludedRelationshipIds": [
-          "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50"
-        ]
-      },
-      "75b8ef0d-15d1-4541-a5aa-cde5403b5ec6": {
-        "id": "75b8ef0d-15d1-4541-a5aa-cde5403b5ec6",
-        "name": "Админ вызов агента",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
-              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-              "e97476c1-f396-4668-962e-12e56dff79ab",
-              "4718d099-1794-40ad-b754-81aa7206a9f4",
-              "374374ab-2701-4d8e-9e52-21183b441ab6",
-              "67df732f-a1f8-4365-9063-281c158bb32b"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "groupId": "c43046d3-6026-4127-9868-8b8a95695ec4",
-        "elementComments": {},
-        "relationshipComments": {},
-        "excludedRelationshipIds": []
-      },
-      "824143ea-5656-468a-9b06-502c359c629f": {
-        "id": "824143ea-5656-468a-9b06-502c359c629f",
-        "name": "Инициализация звонка агентом",
-        "integrationLayerId": "default-layer",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-              "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
-              "c07ea25d-f8f1-421c-b7d6-b656308d9369",
-              "6445e778-96a4-497a-a6fb-83615e0da860",
-              "a179f2bf-cf6a-497e-9b7f-75c9e2895233",
-              "80893243-5b05-48a0-bbfe-f820fe9d3170",
-              "75773706-eb28-48ed-805d-f7d176166836",
-              "6bce9f35-524d-4659-83d2-d189be85fc34",
-              "91d00661-3881-43a2-8064-e85985dd8276",
-              "1e1e9564-e46c-41b1-85b6-8fee915037b2",
-              "3718d74c-8c81-4dca-8b84-dabf4be52fa8",
-              "67df732f-a1f8-4365-9063-281c158bb32b"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "groupId": "1c660a0f-8b3d-4c85-8144-acbee949ac11",
-        "relationshipComments": {
-          "7c288914-f356-48d9-b9cf-8a9d64fdae7a": "Агент вызывает функцию GigaCaller\nдля инициализации звонка",
-          "4dda8113-fe0f-464e-86ee-dbc5d65fdac8": "Проверка black / white списков",
-          "e178b903-61c4-4e30-99c7-4ac7f6570e18": "Пересылка метаданных по звонку",
-          "94a913c5-6451-4210-9e75-8b56d59d8325": "Проверка ID для WS сессии",
-          "6a4e9b71-0410-4897-a419-fc6bfdbeef9d": "Аутентификация\nСистемный промпт, настройки, модель, чат",
-          "d31089cd-5048-4206-bbe7-1d2a685bd0dc": "Произведение звонка, получение / передача аудио",
-          "a858a206-cfcf-4b63-900c-34af16f3cbe3": "Передача текст + аудио",
-          "582577ad-a0ff-44ee-a3fa-6e77dffae5b9": "Сохранение termination_id по звонку",
-          "82f8cdab-e53f-4067-9ee1-afa8bc75300b": "Получение логов о звонке",
-          "e922faf9-1bd7-45c2-a38b-7b5664bc400f": "Сохранение аудио",
-          "b825451d-9bdb-49b0-b7fd-a1921cceb26d": "Работа с black / white списков",
-          "ecfd658e-80d2-4b9b-819b-70fb9ab51222": "Сохранение метаданных и \nтекст звонка"
-        },
-        "elementComments": {
-          "614b4ded-8311-4bce-a105-88ec8ba0cd3a": "Маршрутизатор WS",
-          "c07ea25d-f8f1-421c-b7d6-b656308d9369": "Сбор логов, трейсов, статистика, \nтекст, аудио звонка",
-          "6445e778-96a4-497a-a6fb-83615e0da860": "Состояние звонка / списков",
-          "80893243-5b05-48a0-bbfe-f820fe9d3170": "Хранилище текстов, аудио",
-          "a179f2bf-cf6a-497e-9b7f-75c9e2895233": "Метаданные о звонке",
-          "75773706-eb28-48ed-805d-f7d176166836": "Сервис для обработки и создания звонка",
-          "1e1e9564-e46c-41b1-85b6-8fee915037b2": "Шина для операций по звонку",
-          "91d00661-3881-43a2-8064-e85985dd8276": "Генерация и транскрибация аудио"
-        },
-        "excludedRelationshipIds": []
-      },
       "948a69e9-9c01-43ec-8499-28a46faf8f06": {
         "id": "948a69e9-9c01-43ec-8499-28a46faf8f06",
         "name": "Трассировка запросов",
@@ -6970,14 +6871,15 @@
               "67df732f-a1f8-4365-9063-281c158bb32b",
               "374374ab-2701-4d8e-9e52-21183b441ab6"
             ],
-            "relationshipIds": []
+            "relationshipIds": [],
+            "relationshipComments": {
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Трассировка действий от Агента"
+            }
           }
         ],
         "groupId": "c43046d3-6026-4127-9868-8b8a95695ec4",
         "elementComments": {},
-        "relationshipComments": {
-          "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Трассировка действий от Агента"
-        },
+        "relationshipComments": {},
         "excludedRelationshipIds": []
       },
       "e92263bf-2a5f-49e5-9ac2-a1166140ab4d": {
@@ -7006,59 +6908,6 @@
         "relationshipComments": {},
         "excludedRelationshipIds": []
       },
-      "f0bf3acb-fbbd-417d-941d-8e9858a90865": {
-        "id": "f0bf3acb-fbbd-417d-941d-8e9858a90865",
-        "name": "Создание Агента для B2C",
-        "integrationLayerId": "647d58ba-08e1-4d12-9474-40e653fc216a",
-        "steps": [
-          {
-            "order": "1",
-            "elementIds": [
-              "c6d50117-0d79-426a-9744-fd9deffd39c2",
-              "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
-              "dad041a8-ea22-45b8-8467-8e1a22f76030",
-              "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
-              "be717a0c-fff2-4d1c-b04c-67073825217b",
-              "4718d099-1794-40ad-b754-81aa7206a9f4",
-              "f0283d93-3146-4f55-970b-e6e055bb6dfd",
-              "67df732f-a1f8-4365-9063-281c158bb32b",
-              "e5e15d9b-3a7c-4973-9a73-b680c007df07",
-              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
-              "170d9b97-b2e2-4500-a588-5a11d63b5418",
-              "79165802-40c0-4db9-80b3-33f653a2ccb8",
-              "215d803d-cd18-450b-bdcd-ecd350532a83",
-              "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
-              "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
-              "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
-              "4d4d3637-6301-4716-b52a-a643e419db90",
-              "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
-              "df3b0a94-f6db-47e2-a458-8f3c2deffc37"
-            ],
-            "relationshipIds": []
-          }
-        ],
-        "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
-        "excludedRelationshipIds": [
-          "cb0f5e0e-7308-446c-98e7-727030a53cf2"
-        ],
-        "elementComments": {},
-        "relationshipComments": {
-          "141a7ad8-219b-47b1-9461-df8e54b326b7": "1.",
-          "3be24adc-b12f-4b82-92b3-cd3087568929": "4. Создание Агента и Предоставление параметров Агента",
-          "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc": "2.",
-          "68c33c5c-66ac-4a34-ae35-4c70100bc19e": "3.",
-          "b2b02043-a0cb-4d30-be6f-a899292ea73d": "5.",
-          "3a902a9e-cb30-4a94-8e25-ec776a527364": "6.",
-          "48eba994-627c-4d5f-b3e6-7118c215079c": "9.",
-          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1": "10.",
-          "d4bde6f3-1b08-4659-a8f6-380c81fd65b0": "11.",
-          "2f656943-8641-4cd7-9882-a33d784d524e": "14. Использование эфемерной базы данных",
-          "a70c2f05-c4b6-45f8-9306-d28c5233755d": "7. Использование self portal API для создания namespaces и Network Policies",
-          "85a40c65-ddbe-4931-9fdd-0ff324a66953": "12.",
-          "415f0606-c9d1-4212-88b6-a837b211aca1": "8. Или добавления новых роутов",
-          "3512f198-156e-43e7-a097-9d7cf9bdd62a": "13."
-        }
-      },
       "94b1c911-3c63-4e05-82f8-f65402ca061b": {
         "id": "94b1c911-3c63-4e05-82f8-f65402ca061b",
         "name": "Предоставление настроек для запуска агента B2C",
@@ -7072,18 +6921,20 @@
               "67c4336a-eabe-4eee-802c-d41d8ffaadc4",
               "435e177b-0681-47e6-9e3e-2751093222f2"
             ],
-            "relationshipIds": []
+            "relationshipIds": [],
+            "elementComments": {
+              "aa49bc9e-ede2-4803-b076-c918d842747a": "Общая шина в GigaBack"
+            },
+            "relationshipComments": {
+              "b7e1c146-6970-4e3b-b155-0e1e68aa4ffd": "1. После публикации агента - предоставляем настройки его использования",
+              "8479109b-e5f1-4aac-8fd8-38e33cf4a9f5": "2. Обновление настроек вызова Агента"
+            }
           }
         ],
         "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
         "excludedRelationshipIds": [],
-        "elementComments": {
-          "aa49bc9e-ede2-4803-b076-c918d842747a": "Общая шина в GigaBack"
-        },
-        "relationshipComments": {
-          "b7e1c146-6970-4e3b-b155-0e1e68aa4ffd": "1. После публикации агента - предоставляем настройки его использования",
-          "8479109b-e5f1-4aac-8fd8-38e33cf4a9f5": "2. Обновление настроек вызова Агента"
-        }
+        "elementComments": {},
+        "relationshipComments": {}
       },
       "5e3a6554-84cc-4b86-ad24-e78807f1eda1": {
         "id": "5e3a6554-84cc-4b86-ad24-e78807f1eda1",
@@ -7115,21 +6966,1214 @@
             "relationshipIds": [
               "3512f198-156e-43e7-a097-9d7cf9bdd62a",
               "cb0f5e0e-7308-446c-98e7-727030a53cf2"
-            ]
+            ],
+            "relationshipComments": {
+              "d26d8407-3602-4e2d-9f46-58d66ea27af8": "1. Вызов Агента в ARI",
+              "13554ba8-6bb8-4b8e-900e-a5d36112fd1d": "4. Использование LLM GigaChat",
+              "cb0f5e0e-7308-446c-98e7-727030a53cf2": "5. Если нужен интернет - работаем через NAT GW",
+              "f800a729-1aed-4591-8631-f96bb7be15d0": "6. Выход в интернет через KWTS",
+              "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0": "7. Выход в дикий интернет",
+              "3512f198-156e-43e7-a097-9d7cf9bdd62a": "2. Маршрутизация на Агента",
+              "2f656943-8641-4cd7-9882-a33d784d524e": "3."
+            }
           }
         ],
         "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
         "excludedRelationshipIds": [],
         "elementComments": {},
-        "relationshipComments": {
-          "d26d8407-3602-4e2d-9f46-58d66ea27af8": "1. Вызов Агента в ARI",
-          "13554ba8-6bb8-4b8e-900e-a5d36112fd1d": "4. Использование LLM GigaChat",
-          "cb0f5e0e-7308-446c-98e7-727030a53cf2": "5. Если нужен интернет - работаем через NAT GW",
-          "f800a729-1aed-4591-8631-f96bb7be15d0": "6. Выход в интернет через KWTS",
-          "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0": "7. Выход в дикий интернет",
-          "3512f198-156e-43e7-a097-9d7cf9bdd62a": "2. Маршрутизация на Агента",
-          "2f656943-8641-4cd7-9882-a33d784d524e": "3."
-        }
+        "relationshipComments": {}
+      },
+      "3724e775-a078-4652-9faa-eeddf693562a": {
+        "id": "3724e775-a078-4652-9faa-eeddf693562a",
+        "name": "Бот и легкие агенты",
+        "integrationLayerId": "d6054cfa-f033-4336-802c-1120ed2dba4f",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 10",
+            "elementIds": [
+              "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+              "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "3cf4ecee-38a8-4901-93aa-eef18c0214cb": "Получили запрос на регистрацию бота"
+            },
+            "relationshipComments": {
+              "89e762ee-aa67-4736-988c-4fed2f0dc5ae": "Обновили информацию о боте",
+              "09ef288b-9e25-47f7-9e85-2441e3416f4c": "Отослали информацию мессенджеру"
+            },
+            "excludedRelationshipIds": []
+          },
+          {
+            "order": "2",
+            "elementIds": [
+              "4cbc44b2-f471-49e0-98a2-b2f08418693a",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c": "Отправка webhook на наш Gateway"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 2",
+            "elementIds": [
+              "ed4064dd-ad40-4fbb-8108-0abb545aa5e4",
+              "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "ed4064dd-ad40-4fbb-8108-0abb545aa5e4": "Валидация\nНормализация",
+              "9c735826-c2c3-4aa2-88ec-28cfb12170b6": "Хранение состояния переписок"
+            },
+            "relationshipComments": {
+              "e7140280-71d4-42c5-b857-f917b85b08bd": "Проверка на дедупликацию"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 3",
+            "elementIds": [
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "ed4064dd-ad40-4fbb-8108-0abb545aa5e4",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "27fadee8-abaf-4765-99ca-ae0194c3d04c": "Отправка евента на обработку"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 4",
+            "elementIds": [
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
+              "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6": "Организовываем chat lock\nПроверка idempotency",
+              "4857fad6-13dc-4541-a61d-cb2a32379771": "Общая шина\n1 chat_id = 1 партиция"
+            },
+            "relationshipComments": {
+              "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Получение нормализованного евента от бота"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 5",
+            "elementIds": [
+              "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "4cbc44b2-f471-49e0-98a2-b2f08418693a",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "31f9e7cf-fa15-47eb-8668-37b6f174ff41": "Обработчик сообщений"
+            },
+            "relationshipComments": {
+              "be542528-6bbb-4f09-bbdb-0b87aa8c9fa7": "Получение евентов",
+              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отсылка typing евента"
+            },
+            "excludedRelationshipIds": [
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
+            ]
+          },
+          {
+            "order": "7",
+            "name": "Step 6",
+            "elementIds": [
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
+              "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+              "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "67df732f-a1f8-4365-9063-281c158bb32b",
+              "5359f6fb-98c2-45c5-9b12-c8b77f5bd380",
+              "6542b468-d955-4380-93a2-8a60bfade64e",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6": "Осознаём, что запрос для быстрого агента",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f": "POD Агента"
+            },
+            "relationshipComments": {
+              "59e0ea0b-f15e-4173-abe2-f165b0afa72e": "Отправляем запрос на нужного агента",
+              "cb0f5e0e-7308-446c-98e7-727030a53cf2": "Если нужен интернет, идём в интернет",
+              "3512f198-156e-43e7-a097-9d7cf9bdd62a": "Routing на нужного агента по UUID",
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Сбор телеметрии"
+            },
+            "excludedRelationshipIds": [
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b"
+            ]
+          },
+          {
+            "order": "8",
+            "name": "Step 7",
+            "elementIds": [
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "67df732f-a1f8-4365-9063-281c158bb32b",
+              "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+              "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+              "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+              "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+              "11960251-128b-487e-90af-fd106e741180",
+              "86ac50b1-6faa-4684-89d5-89091764107d",
+              "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Отправка ответа от Агента",
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Логируем активность агента"
+            }
+          },
+          {
+            "order": "9",
+            "name": "Step 8",
+            "elementIds": [
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
+              "4857fad6-13dc-4541-a61d-cb2a32379771"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
+            ],
+            "relationshipComments": {
+              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отправка результата в чат",
+              "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Отсылаем результат работы агента"
+            }
+          },
+          {
+            "order": "10",
+            "name": "Step 9",
+            "elementIds": [
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "4cbc44b2-f471-49e0-98a2-b2f08418693a",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
+            ],
+            "relationshipComments": {
+              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отсылает ответ в чат пользователю",
+              "be542528-6bbb-4f09-bbdb-0b87aa8c9fa7": "Получение нового евента"
+            }
+          }
+        ],
+        "groupId": "91224ca5-c9f9-400b-b962-23d877044163",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
+      },
+      "984943a3-5b8a-44ec-9c81-4be59eced45e": {
+        "id": "984943a3-5b8a-44ec-9c81-4be59eced45e",
+        "name": "Бот и тяжелые агенты",
+        "integrationLayerId": "d6054cfa-f033-4336-802c-1120ed2dba4f",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 12",
+            "elementIds": [
+              "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+              "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "89e762ee-aa67-4736-988c-4fed2f0dc5ae": "Обновили информацию о боте",
+              "09ef288b-9e25-47f7-9e85-2441e3416f4c": "Отослали информацию мессенджеру"
+            },
+            "elementComments": {
+              "3cf4ecee-38a8-4901-93aa-eef18c0214cb": "Получили запрос на регистрацию бота"
+            }
+          },
+          {
+            "order": "2",
+            "elementIds": [
+              "4cbc44b2-f471-49e0-98a2-b2f08418693a",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c": "Отправка webhook на наш Gateway"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 2",
+            "elementIds": [
+              "ed4064dd-ad40-4fbb-8108-0abb545aa5e4",
+              "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "ed4064dd-ad40-4fbb-8108-0abb545aa5e4": "Валидация\nНормализация",
+              "9c735826-c2c3-4aa2-88ec-28cfb12170b6": "Хранение состояния переписок"
+            },
+            "relationshipComments": {
+              "e7140280-71d4-42c5-b857-f917b85b08bd": "Проверка на дедупликацию"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 3",
+            "elementIds": [
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "ed4064dd-ad40-4fbb-8108-0abb545aa5e4",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "27fadee8-abaf-4765-99ca-ae0194c3d04c": "Отправка евента на обработку"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 4",
+            "elementIds": [
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
+              "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6": "Организовываем chat lock\nПроверка idempotency",
+              "4857fad6-13dc-4541-a61d-cb2a32379771": "Общая шина\n1 chat_id = 1 партиция"
+            },
+            "relationshipComments": {
+              "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Получение нормализованного евента от бота"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 5",
+            "elementIds": [
+              "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "4cbc44b2-f471-49e0-98a2-b2f08418693a",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "31f9e7cf-fa15-47eb-8668-37b6f174ff41": "Обработчик сообщений"
+            },
+            "relationshipComments": {
+              "be542528-6bbb-4f09-bbdb-0b87aa8c9fa7": "Получение евентов",
+              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отсылка typing евента"
+            },
+            "excludedRelationshipIds": [
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
+            ]
+          },
+          {
+            "order": "7",
+            "name": "Step 10",
+            "elementIds": [
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Запускаем воркера для тяжелого агента"
+            }
+          },
+          {
+            "order": "8",
+            "name": "Step 11",
+            "elementIds": [
+              "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "8e91b21f-dcc5-4764-9d78-419cf314b2af": "Когда свободны - читаем новое сообщение о новом запуске агента"
+            }
+          },
+          {
+            "order": "9",
+            "name": "Step 6",
+            "elementIds": [
+              "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+              "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "67df732f-a1f8-4365-9063-281c158bb32b",
+              "5359f6fb-98c2-45c5-9b12-c8b77f5bd380",
+              "6542b468-d955-4380-93a2-8a60bfade64e",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6": "Осознаём, что запрос для быстрого агента",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f": "POD Агента"
+            },
+            "relationshipComments": {
+              "cb0f5e0e-7308-446c-98e7-727030a53cf2": "Если нужен интернет, идём в интернет",
+              "3512f198-156e-43e7-a097-9d7cf9bdd62a": "Routing на нужного агента по UUID",
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Сбор телеметрии",
+              "f28a353b-0101-4042-bc48-4458c42a1e7f": "Отправляем запрос на нужного агента"
+            },
+            "excludedRelationshipIds": [
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
+              "59e0ea0b-f15e-4173-abe2-f165b0afa72e"
+            ]
+          },
+          {
+            "order": "10",
+            "name": "Step 7",
+            "elementIds": [
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "67df732f-a1f8-4365-9063-281c158bb32b",
+              "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+              "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+              "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+              "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+              "11960251-128b-487e-90af-fd106e741180",
+              "86ac50b1-6faa-4684-89d5-89091764107d",
+              "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Отправка ответа от Агента",
+              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Логируем активность агента"
+            }
+          },
+          {
+            "order": "11",
+            "name": "Step 8",
+            "elementIds": [
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "93fcec55-c79d-45e0-a7d4-00a47073a77b"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
+            ],
+            "relationshipComments": {
+              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отправка результата в чат",
+              "8e91b21f-dcc5-4764-9d78-419cf314b2af": "Отсылаем результат работы агента"
+            }
+          },
+          {
+            "order": "12",
+            "name": "Step 9",
+            "elementIds": [
+              "4857fad6-13dc-4541-a61d-cb2a32379771",
+              "31f9e7cf-fa15-47eb-8668-37b6f174ff41",
+              "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+              "4cbc44b2-f471-49e0-98a2-b2f08418693a",
+              "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
+            ],
+            "relationshipComments": {
+              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отсылает ответ в чат пользователю",
+              "be542528-6bbb-4f09-bbdb-0b87aa8c9fa7": "Получение нового евента"
+            }
+          }
+        ],
+        "groupId": "91224ca5-c9f9-400b-b962-23d877044163",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
+      },
+      "cc67c7a6-0f6a-4fcb-9011-3b6715d709ee": {
+        "id": "cc67c7a6-0f6a-4fcb-9011-3b6715d709ee",
+        "name": "Обработка файлов",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 1",
+            "elementIds": [
+              "e97476c1-f396-4668-962e-12e56dff79ab",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "e97476c1-f396-4668-962e-12e56dff79ab": "Оркестратор взаимодействия с LLM"
+            },
+            "relationshipComments": {
+              "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12": "Загружаем файл"
+            }
+          },
+          {
+            "order": "2",
+            "name": "Step 2",
+            "elementIds": [
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "ae84dd19-d528-42bb-8e71-36624bf784d0"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "ae84dd19-d528-42bb-8e71-36624bf784d0": "Система аутентификации и авторизации"
+            },
+            "relationshipComments": {
+              "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка прав / ролей"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 3",
+            "elementIds": [
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Получение ссылки на загрузку файлов",
+              "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 4",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 5",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "508217e4-17d3-4ce9-a715-57d3e6804f15"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "43ce1737-40e1-412f-beb4-e316bf75d26e": "Сохранение метаданных файла для тенанта"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 6",
+            "elementIds": [
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "074309ed-4f71-4660-bf23-102ea25436a9": "Получение евента на успешную загрузку файла"
+            }
+          },
+          {
+            "order": "7",
+            "name": "Step 7",
+            "elementIds": [
+              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "6489929b-501b-45b2-a848-403ed3f06cfa": "Чтение и чанкирование файла"
+            }
+          },
+          {
+            "order": "8",
+            "name": "Step 8",
+            "elementIds": [
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "e97476c1-f396-4668-962e-12e56dff79ab"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12"
+            ],
+            "relationshipComments": {
+              "91409dcd-0a72-4813-92d4-a8da61a8b87a": "Рассчет embeddings"
+            }
+          },
+          {
+            "order": "9",
+            "name": "Step 9",
+            "elementIds": [
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "7f45443b-b394-4ce1-bea5-800a07686aca": "Обновление векторов"
+            }
+          },
+          {
+            "order": "10",
+            "name": "Step 10",
+            "elementIds": [
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "074309ed-4f71-4660-bf23-102ea25436a9": "Успешная обработка файла для индекса"
+            }
+          }
+        ],
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+      },
+      "56d7af8f-ad05-45a0-9d5c-33bebe9ee6c0": {
+        "id": "56d7af8f-ad05-45a0-9d5c-33bebe9ee6c0",
+        "name": "Обработка файлов от Crawler",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 11",
+            "elementIds": [
+              "93d5f402-7f91-4cca-82bc-10b30b2c4c55",
+              "bbc59fbd-e503-4a70-9a36-0d0556ec2bd6",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "ae84dd19-d528-42bb-8e71-36624bf784d0",
+              "508217e4-17d3-4ce9-a715-57d3e6804f15"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "1c49a32e-5596-4272-b566-71acb78b00c3": "Пользователь настраивает правила для своего тенанта",
+              "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверяем права",
+              "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Сохраняем настройки"
+            }
+          },
+          {
+            "order": "2",
+            "name": "Step 10",
+            "elementIds": [
+              "86f6dc53-a840-47bb-8c17-4c7f2450d156",
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "508217e4-17d3-4ce9-a715-57d3e6804f15"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "41570909-5ec7-4c0d-94d0-50b613dd0c70": "Получаем правила обработки внешних ресурсов"
+            },
+            "excludedRelationshipIds": []
+          },
+          {
+            "order": "3",
+            "name": "Step 1",
+            "elementIds": [
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "86f6dc53-a840-47bb-8c17-4c7f2450d156",
+              "65ebd0ec-cb55-4425-9ac5-4004b82d064b"
+            ],
+            "relationshipIds": [],
+            "elementComments": {},
+            "relationshipComments": {
+              "677ea888-027e-4e70-b6f7-a119c5407898": "Скачиваем информацию"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 3",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "86f6dc53-a840-47bb-8c17-4c7f2450d156"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Предоставление ссылки для сохранения документов напрямую в S3",
+              "6518a1de-123c-4f35-9549-d1ca894cc044": "Запрашиваем ссылку для загрузки файла"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 4",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Ивент на успешную загрузку файла"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 5",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "508217e4-17d3-4ce9-a715-57d3e6804f15"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "43ce1737-40e1-412f-beb4-e316bf75d26e": "Сохранение метаданных файла для тенанта"
+            }
+          },
+          {
+            "order": "7",
+            "name": "Step 6",
+            "elementIds": [
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "074309ed-4f71-4660-bf23-102ea25436a9": "Получение евента на успешную загрузку файла"
+            }
+          },
+          {
+            "order": "8",
+            "name": "Step 7",
+            "elementIds": [
+              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "6489929b-501b-45b2-a848-403ed3f06cfa": "Чтение и чанкирование файла"
+            }
+          },
+          {
+            "order": "9",
+            "name": "Step 8",
+            "elementIds": [
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "e97476c1-f396-4668-962e-12e56dff79ab"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12"
+            ],
+            "relationshipComments": {
+              "91409dcd-0a72-4813-92d4-a8da61a8b87a": "Рассчет embeddings"
+            }
+          },
+          {
+            "order": "10",
+            "name": "Step 9",
+            "elementIds": [
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "7f45443b-b394-4ce1-bea5-800a07686aca": "Обновление векторов"
+            }
+          },
+          {
+            "order": "11",
+            "name": "Step 10",
+            "elementIds": [
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "074309ed-4f71-4660-bf23-102ea25436a9": "Успешная обработка файла для индекса"
+            }
+          }
+        ],
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+      },
+      "1431551a-74fb-4988-a9de-730903b7eebf": {
+        "id": "1431551a-74fb-4988-a9de-730903b7eebf",
+        "name": "Удаление файлов агента",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 1",
+            "elementIds": [
+              "e97476c1-f396-4668-962e-12e56dff79ab",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12": "Запрос на удаление файла в тенанте"
+            }
+          },
+          {
+            "order": "2",
+            "name": "Step 2",
+            "elementIds": [
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "ae84dd19-d528-42bb-8e71-36624bf784d0"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка ролей"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 3",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "d9a20644-c870-4a01-b10b-6d5c37b78be5": "Запрос на удаление файла"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 4",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "18e542a1-5c67-4f69-b82e-d3ebfbe824ca": "Удаляем файл"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 5",
+            "elementIds": [
+              "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "0c7eb13f-92eb-4077-afd7-5d3e018b79a3": "Уведомляем об удалении файла"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 6",
+            "elementIds": [
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "074309ed-4f71-4660-bf23-102ea25436a9": "Получаем евент на удаление файла"
+            }
+          },
+          {
+            "order": "7",
+            "name": "Step 7",
+            "elementIds": [
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "7f45443b-b394-4ce1-bea5-800a07686aca": "Производим реиндекс"
+            }
+          },
+          {
+            "order": "8",
+            "name": "Step 8",
+            "elementIds": [
+              "2ebe1061-7002-4510-b097-f573602902b7",
+              "cc33dcf4-97d5-4e59-8665-b6a750971a54",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "074309ed-4f71-4660-bf23-102ea25436a9": "Произвели реиндекс"
+            }
+          },
+          {
+            "order": "9",
+            "name": "Step 9",
+            "elementIds": [
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "2ebe1061-7002-4510-b097-f573602902b7"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "cb76a3b7-7fd4-4af0-838e-b33b4dff9a50": "Получили евент об успешном реиндексе"
+            }
+          },
+          {
+            "order": "10",
+            "name": "Step 10",
+            "elementIds": [
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "508217e4-17d3-4ce9-a715-57d3e6804f15",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "aa473361-255b-4727-9e3d-0b181ddb6dfa": "Обновили мета информацию о тенанте"
+            }
+          }
+        ],
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+      },
+      "a4f5bafa-bbcd-43c1-9e32-cabad85cdd13": {
+        "id": "a4f5bafa-bbcd-43c1-9e32-cabad85cdd13",
+        "name": "Запрос по индексам",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 1",
+            "elementIds": [
+              "e97476c1-f396-4668-962e-12e56dff79ab",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12": "Запрос по индексам"
+            }
+          },
+          {
+            "order": "2",
+            "name": "Step 2",
+            "elementIds": [
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "ae84dd19-d528-42bb-8e71-36624bf784d0"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка ролей"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 3",
+            "elementIds": [
+              "13938655-f290-44fb-9455-8c0b9cdcaf92",
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "508217e4-17d3-4ce9-a715-57d3e6804f15"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "73cabed4-ad88-49c8-82dd-d80884dde065": "Получаем мета информацию о тенантах"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 4",
+            "elementIds": [
+              "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
+              "6cfbcffe-9b80-4d03-aa67-5c206fadf98d",
+              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "852849e0-37a8-4e5a-a3cb-3497cc577962": "Производим запрос"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 5",
+            "elementIds": [
+              "6cfbcffe-9b80-4d03-aa67-5c206fadf98d",
+              "e97476c1-f396-4668-962e-12e56dff79ab",
+              "615ab8b8-86c1-468a-b230-60b0a135d46d",
+              "2f5dbbe5-653b-422f-bbd3-6eefcc22d9d7"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "33ebf154-577d-4e8d-8ad1-23a59ade8433": "Вызов LLM  и предоставление ответа"
+            },
+            "excludedRelationshipIds": [
+              "ba26bfa8-aec9-4bbd-b0e6-f584ef8b0a12"
+            ]
+          }
+        ],
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+      },
+      "2feb1960-f0ae-487c-8fed-9c7bee3dfed4": {
+        "id": "2feb1960-f0ae-487c-8fed-9c7bee3dfed4",
+        "name": "Звонок от агента",
+        "integrationLayerId": "default-layer",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 1",
+            "elementIds": [
+              "dc3df43b-2f3d-4cc5-9042-203883af4c25",
+              "374374ab-2701-4d8e-9e52-21183b441ab6",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "7c288914-f356-48d9-b9cf-8a9d64fdae7a": "Вызов GigaCaller"
+            }
+          },
+          {
+            "order": "2",
+            "name": "Step 9",
+            "elementIds": [
+              "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
+              "c07ea25d-f8f1-421c-b7d6-b656308d9369",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "4dda8113-fe0f-464e-86ee-dbc5d65fdac8": "Информируем о появившемся звонке"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 2",
+            "elementIds": [
+              "614b4ded-8311-4bce-a105-88ec8ba0cd3a",
+              "1e1e9564-e46c-41b1-85b6-8fee915037b2",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "e178b903-61c4-4e30-99c7-4ac7f6570e18": "Инициализация звонка"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 3",
+            "elementIds": [
+              "1e1e9564-e46c-41b1-85b6-8fee915037b2",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8",
+              "75773706-eb28-48ed-805d-f7d176166836"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "a858a206-cfcf-4b63-900c-34af16f3cbe3": "Получаем информацию о звонке"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 4",
+            "elementIds": [
+              "75773706-eb28-48ed-805d-f7d176166836",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8",
+              "91d00661-3881-43a2-8064-e85985dd8276"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "6a4e9b71-0410-4897-a419-fc6bfdbeef9d": "Генерируем фразы по запросу"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 5",
+            "elementIds": [
+              "6bce9f35-524d-4659-83d2-d189be85fc34",
+              "75773706-eb28-48ed-805d-f7d176166836",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "d31089cd-5048-4206-bbe7-1d2a685bd0dc": "Производим звонок"
+            }
+          },
+          {
+            "order": "7",
+            "name": "Step 6",
+            "elementIds": [
+              "75773706-eb28-48ed-805d-f7d176166836",
+              "1e1e9564-e46c-41b1-85b6-8fee915037b2",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "a858a206-cfcf-4b63-900c-34af16f3cbe3": "Информирование о состоянии звонка"
+            }
+          },
+          {
+            "order": "8",
+            "name": "Step 7",
+            "elementIds": [
+              "c07ea25d-f8f1-421c-b7d6-b656308d9369",
+              "1e1e9564-e46c-41b1-85b6-8fee915037b2",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "82f8cdab-e53f-4067-9ee1-afa8bc75300b": "Получение информации о звонке"
+            }
+          },
+          {
+            "order": "9",
+            "name": "Step 8",
+            "elementIds": [
+              "c07ea25d-f8f1-421c-b7d6-b656308d9369",
+              "6445e778-96a4-497a-a6fb-83615e0da860",
+              "a179f2bf-cf6a-497e-9b7f-75c9e2895233",
+              "80893243-5b05-48a0-bbfe-f820fe9d3170",
+              "3718d74c-8c81-4dca-8b84-dabf4be52fa8"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "b825451d-9bdb-49b0-b7fd-a1921cceb26d": "Сохранение сессии",
+              "ecfd658e-80d2-4b9b-819b-70fb9ab51222": "Сохранение текста и мета инфомрации",
+              "e922faf9-1bd7-45c2-a38b-7b5664bc400f": "Сохранение атефактов звонка"
+            }
+          }
+        ],
+        "groupId": "1c660a0f-8b3d-4c85-8144-acbee949ac11"
+      },
+      "71a79845-6723-4283-aa63-c5c4f0d644b5": {
+        "id": "71a79845-6723-4283-aa63-c5c4f0d644b5",
+        "name": "Создание Агента для B2C",
+        "integrationLayerId": "647d58ba-08e1-4d12-9474-40e653fc216a",
+        "steps": [
+          {
+            "order": "1",
+            "name": "Step 1",
+            "elementIds": [
+              "c6d50117-0d79-426a-9744-fd9deffd39c2",
+              "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+              "dad041a8-ea22-45b8-8467-8e1a22f76030",
+              "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+              "be717a0c-fff2-4d1c-b04c-67073825217b"
+            ],
+            "relationshipIds": []
+          },
+          {
+            "order": "2",
+            "name": "Step 2",
+            "elementIds": [
+              "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+              "4718d099-1794-40ad-b754-81aa7206a9f4"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "3be24adc-b12f-4b82-92b3-cd3087568929": "Создаём агента"
+            }
+          },
+          {
+            "order": "3",
+            "name": "Step 3",
+            "elementIds": [
+              "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+              "4718d099-1794-40ad-b754-81aa7206a9f4",
+              "be717a0c-fff2-4d1c-b04c-67073825217b",
+              "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
+              "dad041a8-ea22-45b8-8467-8e1a22f76030"
+            ],
+            "relationshipIds": [],
+            "elementComments": {
+              "f0283d93-3146-4f55-970b-e6e055bb6dfd": "Скачиваем артефакты"
+            }
+          },
+          {
+            "order": "4",
+            "name": "Step 4",
+            "elementIds": [
+              "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+              "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+              "215d803d-cd18-450b-bdcd-ecd350532a83",
+              "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
+              "4718d099-1794-40ad-b754-81aa7206a9f4"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "a70c2f05-c4b6-45f8-9306-d28c5233755d": "Создаём запросы на создание инфраструктуры"
+            }
+          },
+          {
+            "order": "5",
+            "name": "Step 5",
+            "elementIds": [
+              "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+              "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+              "4d4d3637-6301-4716-b52a-a643e419db90",
+              "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+              "170d9b97-b2e2-4500-a588-5a11d63b5418",
+              "79165802-40c0-4db9-80b3-33f653a2ccb8",
+              "67df732f-a1f8-4365-9063-281c158bb32b",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "4718d099-1794-40ad-b754-81aa7206a9f4"
+            ],
+            "relationshipIds": [],
+            "excludedRelationshipIds": [
+              "2f656943-8641-4cd7-9882-a33d784d524e",
+              "3512f198-156e-43e7-a097-9d7cf9bdd62a"
+            ],
+            "relationshipComments": {
+              "415f0606-c9d1-4212-88b6-a837b211aca1": "Создание / Обновление Router",
+              "48eba994-627c-4d5f-b3e6-7118c215079c": "Создание / Обновление Эфемерных баз данных",
+              "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1": "Создание / Обновление Namespaces для Агентов"
+            }
+          },
+          {
+            "order": "6",
+            "name": "Step 6",
+            "elementIds": [
+              "e5e15d9b-3a7c-4973-9a73-b680c007df07",
+              "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+              "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+              "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+              "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+              "79165802-40c0-4db9-80b3-33f653a2ccb8",
+              "170d9b97-b2e2-4500-a588-5a11d63b5418",
+              "67df732f-a1f8-4365-9063-281c158bb32b"
+            ],
+            "relationshipIds": [],
+            "relationshipComments": {
+              "d4bde6f3-1b08-4659-a8f6-380c81fd65b0": "Тестируем агента"
+            }
+          }
+        ],
+        "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246"
       }
     },
     "scenarioGroups": {
@@ -7148,6 +8192,10 @@
       "9cec2de8-ddd2-4e2c-8943-40053cb12246": {
         "id": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
         "name": "Агенты ARI & B2C"
+      },
+      "91224ca5-c9f9-400b-b962-23d877044163": {
+        "id": "91224ca5-c9f9-400b-b962-23d877044163",
+        "name": "Messangers"
       }
     },
     "savedElements": {},
