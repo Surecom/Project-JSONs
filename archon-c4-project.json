@@ -1,6 +1,6 @@
 {
-  "version": "2.5.48",
-  "timestamp": "2026-02-24T10:36:20.243Z",
+  "version": "3.0.61",
+  "timestamp": "2026-02-26T07:10:46.666Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -6031,7 +6031,7 @@
       },
       "4d4d3637-6301-4716-b52a-a643e419db90": {
         "id": "4d4d3637-6301-4716-b52a-a643e419db90",
-        "name": "Special Tenant",
+        "name": "Isolated Tenant",
         "position": {
           "x": -1920,
           "y": 1616
@@ -7334,7 +7334,6 @@
             ],
             "relationshipIds": [],
             "elementComments": {
-              "cb5d55a8-3cbd-42ce-aad7-a7ca536ffae6": "Осознаём, что запрос для быстрого агента",
               "2169b4a2-3985-4b47-b2be-0104a56dd67f": "POD Агента"
             },
             "relationshipComments": {
