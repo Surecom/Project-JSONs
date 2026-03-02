@@ -1,6 +1,6 @@
 {
-  "version": "3.0.61",
-  "timestamp": "2026-02-26T07:10:46.666Z",
+  "version": "3.0.63",
+  "timestamp": "2026-03-02T14:04:27.107Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -3246,7 +3246,9 @@
             "side": "right"
           }
         ],
-        "systemVersion": "latest"
+        "systemVersion": "latest",
+        "sideCars": [],
+        "showSideCars": false
       },
       "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4": {
         "id": "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
@@ -3280,7 +3282,10 @@
             "side": "right"
           }
         ],
-        "systemVersion": "latest"
+        "systemVersion": "latest",
+        "sideCars": [],
+        "showSideCars": false,
+        "schemas": []
       }
     },
     "users": {
@@ -7114,8 +7119,7 @@
             "relationshipComments": {
               "59e0ea0b-f15e-4173-abe2-f165b0afa72e": "Отправляем запрос на нужного агента",
               "cb0f5e0e-7308-446c-98e7-727030a53cf2": "Если нужен интернет, идём в интернет",
-              "3512f198-156e-43e7-a097-9d7cf9bdd62a": "Routing на нужного агента по UUID",
-              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Сбор телеметрии"
+              "3512f198-156e-43e7-a097-9d7cf9bdd62a": "Routing на нужного агента по UUID"
             },
             "excludedRelationshipIds": [
               "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b"
@@ -7154,7 +7158,6 @@
               "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
             ],
             "relationshipComments": {
-              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отправка результата в чат",
               "dc03b1e4-a6cc-4ff9-a49a-17edea04e365": "Отсылаем результат работы агента"
             }
           },
@@ -7339,7 +7342,6 @@
             "relationshipComments": {
               "cb0f5e0e-7308-446c-98e7-727030a53cf2": "Если нужен интернет, идём в интернет",
               "3512f198-156e-43e7-a097-9d7cf9bdd62a": "Routing на нужного агента по UUID",
-              "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": "Сбор телеметрии",
               "f28a353b-0101-4042-bc48-4458c42a1e7f": "Отправляем запрос на нужного агента"
             },
             "excludedRelationshipIds": [
@@ -7380,7 +7382,6 @@
               "314b5e04-71b0-45a4-b3c8-b275725b8d1c"
             ],
             "relationshipComments": {
-              "c2b5cd76-7fff-429d-a870-ff1a49eb9c67": "Отправка результата в чат",
               "8e91b21f-dcc5-4764-9d78-419cf314b2af": "Отсылаем результат работы агента"
             }
           },
@@ -7557,7 +7558,10 @@
             }
           }
         ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
       },
       "56d7af8f-ad05-45a0-9d5c-33bebe9ee6c0": {
         "id": "56d7af8f-ad05-45a0-9d5c-33bebe9ee6c0",
@@ -7723,7 +7727,10 @@
             }
           }
         ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
       },
       "1431551a-74fb-4988-a9de-730903b7eebf": {
         "id": "1431551a-74fb-4988-a9de-730903b7eebf",
@@ -7859,7 +7866,10 @@
             }
           }
         ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
       },
       "a4f5bafa-bbcd-43c1-9e32-cabad85cdd13": {
         "id": "a4f5bafa-bbcd-43c1-9e32-cabad85cdd13",
@@ -7889,7 +7899,8 @@
             "relationshipIds": [],
             "relationshipComments": {
               "c4383caa-48bb-4b51-8fcb-07ac26686e61": "Проверка ролей"
-            }
+            },
+            "excludedRelationshipIds": []
           },
           {
             "order": "3",
@@ -7937,7 +7948,10 @@
             ]
           }
         ],
-        "groupId": "63775880-2051-4164-9b64-9cc5c7439012"
+        "groupId": "63775880-2051-4164-9b64-9cc5c7439012",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
       },
       "2feb1960-f0ae-487c-8fed-9c7bee3dfed4": {
         "id": "2feb1960-f0ae-487c-8fed-9c7bee3dfed4",
@@ -8067,7 +8081,10 @@
             }
           }
         ],
-        "groupId": "1c660a0f-8b3d-4c85-8144-acbee949ac11"
+        "groupId": "1c660a0f-8b3d-4c85-8144-acbee949ac11",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
       },
       "71a79845-6723-4283-aa63-c5c4f0d644b5": {
         "id": "71a79845-6723-4283-aa63-c5c4f0d644b5",
@@ -8172,7 +8189,10 @@
             }
           }
         ],
-        "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246"
+        "groupId": "9cec2de8-ddd2-4e2c-8943-40053cb12246",
+        "elementComments": {},
+        "relationshipComments": {},
+        "excludedRelationshipIds": []
       }
     },
     "scenarioGroups": {
