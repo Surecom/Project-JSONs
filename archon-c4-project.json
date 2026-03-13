@@ -1,6 +1,6 @@
 {
-  "version": "4.4.102",
-  "timestamp": "2026-03-11T13:07:37.231Z",
+  "version": "4.4.110",
+  "timestamp": "2026-03-13T08:17:33.991Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -233,11 +233,11 @@
           "f0283d93-3146-4f55-970b-e6e055bb6dfd"
         ],
         "position": {
-          "x": -1552,
+          "x": -1568,
           "y": 896
         },
         "size": {
-          "width": 656,
+          "width": 672,
           "height": 304
         },
         "color": "#3b82f6",
@@ -297,7 +297,8 @@
             "infrastructure": ""
           }
         },
-        "zIndex": 5
+        "zIndex": 5,
+        "foundParentGroupId": "df3b0a94-f6db-47e2-a458-8f3c2deffc37"
       },
       "0c7fcb79-3002-4c88-a9e2-fcf810f80afc": {
         "id": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
@@ -631,7 +632,7 @@
           "width": 528,
           "height": 384
         },
-        "color": "#10b981",
+        "color": "#e633e6",
         "ports": [
           {
             "id": "8442ddfb-10c4-4492-9d7b-f6a49e5c4406",
@@ -658,7 +659,9 @@
         "versions": [
           "latest"
         ],
-        "zIndex": 13
+        "zIndex": 13,
+        "prePaletteColor": "#10b981",
+        "paletteId": "b38ebb7a-6640-4bc3-bd5b-c623f8c2135b"
       },
       "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3": {
         "id": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
@@ -1530,7 +1533,17 @@
         "systemVersion": "latest",
         "sideCars": [],
         "showSideCars": false,
-        "zIndex": 6
+        "zIndex": 6,
+        "cornerStyles": {
+          "topLeft": "rounded",
+          "topRight": "rounded",
+          "bottomRight": "rounded",
+          "bottomLeft": "rounded"
+        },
+        "metadata": {
+          "Deployment Target": ""
+        },
+        "isBadgeCollapsed": true
       },
       "fea798fb-170f-41c6-bbd4-9c6a0f3b5603": {
         "id": "fea798fb-170f-41c6-bbd4-9c6a0f3b5603",
@@ -1665,10 +1678,6 @@
             "side": "top"
           },
           {
-            "id": "e63e6d1a-55ac-413b-acca-9c44f33c6a30",
-            "side": "bottom"
-          },
-          {
             "id": "a226d373-cd34-43b5-a75b-1eebcdf24b40",
             "side": "left"
           },
@@ -1721,7 +1730,13 @@
         "schemas": [],
         "sideCars": [],
         "showSideCars": false,
-        "zIndex": 11
+        "zIndex": 11,
+        "cornerStyles": {
+          "topLeft": "rounded",
+          "topRight": "rounded",
+          "bottomRight": "rounded",
+          "bottomLeft": "rounded"
+        }
       },
       "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4": {
         "id": "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
@@ -1770,7 +1785,7 @@
         "name": "Controller",
         "type": "App",
         "position": {
-          "x": -1520,
+          "x": -1536,
           "y": 1040
         },
         "size": {
@@ -1779,10 +1794,6 @@
         },
         "color": "#6366f1",
         "ports": [
-          {
-            "id": "ddf21397-314b-4ef0-acd1-bb80d08cb1a5",
-            "side": "top"
-          },
           {
             "id": "4fed03a5-5580-4b0e-b616-20f2a1b44ca1",
             "side": "bottom"
@@ -1814,10 +1825,6 @@
           {
             "id": "ac8cbf57-696e-4963-ba5f-dfebb9f67236",
             "side": "right"
-          },
-          {
-            "id": "5c02bd6e-1ae0-42ca-a292-01a47b8f3866",
-            "side": "bottom"
           }
         ],
         "metadata": {
@@ -3460,7 +3467,7 @@
           "width": 176,
           "height": 48
         },
-        "color": "#6366f1",
+        "color": "#e5579e",
         "ports": [
           {
             "id": "d3c602ce-d8d8-4a80-ac89-2676dc0b7ec8",
@@ -3482,7 +3489,8 @@
         "systemVersion": "latest",
         "zIndex": 3,
         "sideCars": [],
-        "showSideCars": false
+        "showSideCars": false,
+        "prePaletteColor": "#6366f1"
       },
       "02e725d2-2cb4-419d-9e16-9b4ba2f8d539": {
         "id": "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
@@ -3497,7 +3505,7 @@
           "width": 128,
           "height": 64
         },
-        "color": "#6366f1",
+        "color": "#e5579e",
         "ports": [
           {
             "id": "69638d9b-b059-4049-aadf-2b8163457827",
@@ -3519,7 +3527,8 @@
         "systemVersion": "latest",
         "zIndex": 4,
         "sideCars": [],
-        "showSideCars": false
+        "showSideCars": false,
+        "prePaletteColor": "#6366f1"
       },
       "1f82cd93-5b39-49b1-b1e1-78f640365bef": {
         "id": "1f82cd93-5b39-49b1-b1e1-78f640365bef",
@@ -3534,7 +3543,7 @@
           "width": 128,
           "height": 64
         },
-        "color": "#6366f1",
+        "color": "#e5579e",
         "ports": [
           {
             "id": "d4768871-0bcc-4c56-8e87-c892a60c0e1e",
@@ -3556,7 +3565,8 @@
         "systemVersion": "latest",
         "zIndex": 5,
         "sideCars": [],
-        "showSideCars": false
+        "showSideCars": false,
+        "prePaletteColor": "#6366f1"
       },
       "21d8b5a3-8d07-4aa5-a738-75d9980e9a56": {
         "id": "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
@@ -3571,7 +3581,7 @@
           "width": 128,
           "height": 64
         },
-        "color": "#6366f1",
+        "color": "#e5579e",
         "ports": [
           {
             "id": "97f7aec4-7284-4b0b-9d7b-5cdbbe35689f",
@@ -3593,7 +3603,8 @@
         "systemVersion": "latest",
         "zIndex": 7,
         "sideCars": [],
-        "showSideCars": false
+        "showSideCars": false,
+        "prePaletteColor": "#6366f1"
       },
       "c630bc9b-8c20-40bc-a687-2526e6c2e431": {
         "id": "c630bc9b-8c20-40bc-a687-2526e6c2e431",
@@ -3608,7 +3619,7 @@
           "width": 176,
           "height": 48
         },
-        "color": "#6366f1",
+        "color": "#e5579e",
         "ports": [
           {
             "id": "1d6a1ad8-a2f0-4c4d-998f-0397848a6ed1",
@@ -3630,7 +3641,8 @@
         "systemVersion": "latest",
         "zIndex": 8,
         "sideCars": [],
-        "showSideCars": false
+        "showSideCars": false,
+        "prePaletteColor": "#6366f1"
       }
     },
     "users": {
@@ -5453,7 +5465,7 @@
           "x": -230.5657162498593,
           "y": 9.489860232480169
         },
-        "technology": "technology relationship"
+        "technology": ""
       },
       "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b": {
         "id": "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
@@ -6164,25 +6176,6 @@
         },
         "description": "Создание евента \nна вызов Агента"
       },
-      "d22efada-ba6d-406c-97ca-9c556574dcf6": {
-        "id": "d22efada-ba6d-406c-97ca-9c556574dcf6",
-        "sourceId": "a5e87558-cc05-4840-baa7-8048a7a96d81",
-        "sourceSide": "dd0166bb-0487-45fc-bde3-9c2252bb5bcd",
-        "targetId": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
-        "targetSide": "3cad94eb-3f47-400e-a141-0f0a00bb0b8d",
-        "endpoints": [],
-        "style": {
-          "type": "bezier",
-          "color": "#94a3b8",
-          "arrow": true
-        },
-        "controlPoints": [],
-        "description": "Передача артефактов для\nсоздания агентов в продакшене",
-        "labelOffset": {
-          "x": -2.353116086716568,
-          "y": -21.178044780449227
-        }
-      },
       "83bba9de-aedd-480c-9eb2-6f17a2f0b4e1": {
         "id": "83bba9de-aedd-480c-9eb2-6f17a2f0b4e1",
         "sourceId": "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
@@ -6217,8 +6210,8 @@
         "controlPoints": [],
         "description": "Получение JSON\nАгента для запуска",
         "labelOffset": {
-          "x": -60.78544647894296,
-          "y": 12.66363468311306
+          "x": -65.26751471426405,
+          "y": -14.228774728814074
         }
       },
       "795aa2cf-16bc-4014-869a-7b3b13f5d99f": {
@@ -6576,6 +6569,61 @@
         "childElementIds": [
           "c630bc9b-8c20-40bc-a687-2526e6c2e431",
           "1788ec82-d939-4ef4-8288-12d071066ad3"
+        ]
+      },
+      "d071624f-95bd-417f-bdf1-f5956445b7fa": {
+        "id": "d071624f-95bd-417f-bdf1-f5956445b7fa",
+        "name": "Special Tenant",
+        "layerId": "d6054cfa-f033-4336-802c-1120ed2dba4f",
+        "childElementIds": [
+          "6ca1fc45-06e9-4e06-a83f-0e2fda7c4d9b",
+          "ed4064dd-ad40-4fbb-8108-0abb545aa5e4",
+          "4857fad6-13dc-4541-a61d-cb2a32379771",
+          "9c735826-c2c3-4aa2-88ec-28cfb12170b6",
+          "93fcec55-c79d-45e0-a7d4-00a47073a77b",
+          "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
+          "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
+          "7cc3e419-16bf-44d4-9212-47f44993caee"
+        ],
+        "position": {
+          "x": -2064,
+          "y": 768
+        },
+        "size": {
+          "width": 1280,
+          "height": 480
+        },
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#94a3b8"
+        }
+      },
+      "7418d457-0d32-420c-8b68-b9e18d593087": {
+        "id": "7418d457-0d32-420c-8b68-b9e18d593087",
+        "name": "Special Tenant",
+        "position": {
+          "x": -1920,
+          "y": 1616
+        },
+        "size": {
+          "width": 1600,
+          "height": 336
+        },
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#94a3b8"
+        },
+        "layerId": "d6054cfa-f033-4336-802c-1120ed2dba4f",
+        "childElementIds": [
+          "67df732f-a1f8-4365-9063-281c158bb32b",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "374374ab-2701-4d8e-9e52-21183b441ab6",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+          "6542b468-d955-4380-93a2-8a60bfade64e",
+          "5359f6fb-98c2-45c5-9b12-c8b77f5bd380"
         ]
       }
     },
@@ -7175,7 +7223,6 @@
           "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
           "89e762ee-aa67-4736-988c-4fed2f0dc5ae",
           "09ef288b-9e25-47f7-9e85-2441e3416f4c",
-          "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
           "a5e87558-cc05-4840-baa7-8048a7a96d81",
           "3c32b0c2-ffc8-4278-b241-95f0cbe7a799",
           "46f1649f-a51e-4189-afba-69d59b1afa20",
@@ -7183,15 +7230,15 @@
           "7cc3e419-16bf-44d4-9212-47f44993caee",
           "c099d54d-c757-46b5-b2bf-41dc74387a5a",
           "6bbdba45-a510-4513-b78a-df33f3e2fda6",
-          "d22efada-ba6d-406c-97ca-9c556574dcf6",
           "83bba9de-aedd-480c-9eb2-6f17a2f0b4e1",
           "dad041a8-ea22-45b8-8467-8e1a22f76030",
           "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
           "be717a0c-fff2-4d1c-b04c-67073825217b",
           "f712a46d-1e22-4e1a-9d50-8243939f5466",
-          "d789d82a-9b0e-462f-9b54-c3b67dd5ecbc",
-          "68c33c5c-66ac-4a34-ae35-4c70100bc19e",
-          "ea45e8bf-3ac8-46ea-af18-82b300d5223a"
+          "ea45e8bf-3ac8-46ea-af18-82b300d5223a",
+          "ae284104-6268-4342-84c2-c97807a78776",
+          "d071624f-95bd-417f-bdf1-f5956445b7fa",
+          "7418d457-0d32-420c-8b68-b9e18d593087"
         ],
         "hiddenElementIds": [
           "1788ec82-d939-4ef4-8288-12d071066ad3",
@@ -7302,6 +7349,61 @@
           "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest",
           "c0cd7a42-3bdf-4934-aec8-51088fa6b7c2": "latest",
           "b4b6849a-e514-4e8a-b7cc-caca297bbd88": "latest"
+        }
+      },
+      "1a4d04c7-b5e0-4484-b7f0-3e48c6c697e9": {
+        "id": "1a4d04c7-b5e0-4484-b7f0-3e48c6c697e9",
+        "name": "RLI",
+        "color": "#3b82f6",
+        "zIndex": 8,
+        "visibleElementIds": [
+          "4718d099-1794-40ad-b754-81aa7206a9f4",
+          "f0283d93-3146-4f55-970b-e6e055bb6dfd",
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+          "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+          "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+          "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+          "86ac50b1-6faa-4684-89d5-89091764107d",
+          "11960251-128b-487e-90af-fd106e741180",
+          "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
+          "5213e793-e425-4819-9d58-6fe27fac05f1",
+          "67df732f-a1f8-4365-9063-281c158bb32b",
+          "2169b4a2-3985-4b47-b2be-0104a56dd67f",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+          "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
+          "3be24adc-b12f-4b82-92b3-cd3087568929",
+          "b4b6849a-e514-4e8a-b7cc-caca297bbd88",
+          "215d803d-cd18-450b-bdcd-ecd350532a83",
+          "ad7f6a06-d6c3-48ce-8e7f-d96b06ebf7c9",
+          "a70c2f05-c4b6-45f8-9306-d28c5233755d",
+          "70d0a2a8-fe66-4dda-8dc9-cf237708b8f1",
+          "415f0606-c9d1-4212-88b6-a837b211aca1",
+          "3512f198-156e-43e7-a097-9d7cf9bdd62a",
+          "726aeb0e-bbbb-4537-8d6f-a36aa790ed7b",
+          "6c11bb14-2c56-4098-aed8-d2c04e87fe1d",
+          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
+          "ff61e7e3-9b74-4f53-b2ab-2a660890c727",
+          "4cd777ec-1894-4c59-adcb-447477a8a373",
+          "6df1283f-d67a-436d-a485-c8dadd37b2dd",
+          "c1840cf5-f352-4a72-9309-d0c9325d3b21",
+          "8d9fc310-7155-41d0-9555-bb8741f442e5",
+          "51e449ac-98fe-4dad-a760-4d65a32282bc",
+          "a4a34b1c-146b-48bc-b80f-4da0cfa58a5b",
+          "b8465e48-32ec-4fca-bbae-86261ab31a6e"
+        ],
+        "hiddenElementIds": [],
+        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
+        "systemVersions": {
+          "4718d099-1794-40ad-b754-81aa7206a9f4": "latest",
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3": "latest",
+          "67df732f-a1f8-4365-9063-281c158bb32b": "latest",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3": "latest",
+          "6542b468-d955-4380-93a2-8a60bfade64e": "latest",
+          "0c7fcb79-3002-4c88-a9e2-fcf810f80afc": "latest",
+          "b4b6849a-e514-4e8a-b7cc-caca297bbd88": "latest",
+          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145": "latest",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest"
         }
       }
     },
@@ -8405,9 +8507,7 @@
               "0c7fcb79-3002-4c88-a9e2-fcf810f80afc"
             ],
             "relationshipIds": [],
-            "relationshipComments": {
-              "d22efada-ba6d-406c-97ca-9c556574dcf6": "Передаём данные в GigaStore"
-            }
+            "relationshipComments": {}
           },
           {
             "order": "2",
@@ -8724,7 +8824,14 @@
         "visibility": "private"
       }
     },
-    "responsibilityPalettes": {},
+    "responsibilityPalettes": {
+      "b38ebb7a-6640-4bc3-bd5b-c623f8c2135b": {
+        "id": "b38ebb7a-6640-4bc3-bd5b-c623f8c2135b",
+        "name": "AI Studio",
+        "primary": "#e633e6",
+        "secondary": "#e1e12d"
+      }
+    },
     "customColors": [
       "#ff8000",
       "#94a3b8",
