@@ -1,6 +1,6 @@
 {
-  "version": "4.6.120",
-  "timestamp": "2026-03-17T08:54:53.313Z",
+  "version": "4.9.131",
+  "timestamp": "2026-03-19T09:04:11.589Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -57,9 +57,7 @@
       "615ab8b8-86c1-468a-b230-60b0a135d46d": {
         "id": "615ab8b8-86c1-468a-b230-60b0a135d46d",
         "name": "Giga RAG",
-        "metadata": {
-          "Deployment Target": "ns: p-gigarag"
-        },
+        "metadata": {},
         "containerIds": [
           "37c33689-b836-41ed-b9ef-8f70a1b0ba8d",
           "ddc1374c-d6ef-43cb-b88e-3f6545579b2a",
@@ -78,7 +76,7 @@
           "y": 336
         },
         "size": {
-          "width": 1328,
+          "width": 1392,
           "height": 704
         },
         "color": "#3b82f6",
@@ -232,9 +230,7 @@
       "4718d099-1794-40ad-b754-81aa7206a9f4": {
         "id": "4718d099-1794-40ad-b754-81aa7206a9f4",
         "name": "ARI",
-        "metadata": {
-          "Deployment Target": "ns: ari"
-        },
+        "metadata": {},
         "containerIds": [
           "28ea87a0-26cf-4aa4-9d42-32568fbfc9f4",
           "f0283d93-3146-4f55-970b-e6e055bb6dfd"
@@ -304,7 +300,17 @@
             "infrastructure": ""
           }
         },
-        "zIndex": 5
+        "zIndex": 5,
+        "deploymentTargets": [
+          {
+            "name": "ns: ari",
+            "url": "",
+            "cpu": "",
+            "ram": "",
+            "hdd": "",
+            "count": ""
+          }
+        ]
       },
       "0c7fcb79-3002-4c88-a9e2-fcf810f80afc": {
         "id": "0c7fcb79-3002-4c88-a9e2-fcf810f80afc",
@@ -672,9 +678,7 @@
       "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3": {
         "id": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
         "name": "ARI Telemetry",
-        "metadata": {
-          "Deployment Target": "ns: ARI-Telemetry"
-        },
+        "metadata": {},
         "containerIds": [
           "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
           "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
@@ -728,7 +732,17 @@
         "versions": [
           "latest"
         ],
-        "zIndex": 14
+        "zIndex": 14,
+        "deploymentTargets": [
+          {
+            "name": "ns: ARI-Telemetry",
+            "url": "",
+            "cpu": "",
+            "ram": "",
+            "hdd": "",
+            "count": ""
+          }
+        ]
       },
       "170d9b97-b2e2-4500-a588-5a11d63b5418": {
         "id": "170d9b97-b2e2-4500-a588-5a11d63b5418",
@@ -774,9 +788,7 @@
       "67df732f-a1f8-4365-9063-281c158bb32b": {
         "id": "67df732f-a1f8-4365-9063-281c158bb32b",
         "name": "ARI Dynamic Agent namespace",
-        "metadata": {
-          "Deployment Target": "ns: ARI-Dynamic-{UUID}"
-        },
+        "metadata": {},
         "containerIds": [
           "2169b4a2-3985-4b47-b2be-0104a56dd67f",
           "aae6dfd9-b79a-446c-9206-037a33faa14e",
@@ -847,7 +859,17 @@
         ],
         "description": "",
         "zIndex": 16,
-        "isBadgeCollapsed": false
+        "isBadgeCollapsed": false,
+        "deploymentTargets": [
+          {
+            "name": "ns: ARI-Dynamic-{UUID}",
+            "url": "",
+            "cpu": "",
+            "ram": "",
+            "hdd": "",
+            "count": ""
+          }
+        ]
       },
       "65ebd0ec-cb55-4425-9ac5-4004b82d064b": {
         "id": "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
@@ -1435,7 +1457,7 @@
         "name": "Query service",
         "type": "App",
         "position": {
-          "x": 1072,
+          "x": 1136,
           "y": 624
         },
         "size": {
@@ -1583,9 +1605,7 @@
           "bottomRight": "rounded",
           "bottomLeft": "rounded"
         },
-        "metadata": {
-          "Deployment Target": ""
-        },
+        "metadata": {},
         "isBadgeCollapsed": false,
         "deploymentTargets": [
           {
@@ -1637,9 +1657,7 @@
         "sideCars": [],
         "showSideCars": false,
         "zIndex": 7,
-        "metadata": {
-          "Deployment Target": "p-gigarag-0"
-        },
+        "metadata": {},
         "deploymentTargets": [
           {
             "name": "bucket: p-gigarag-0",
@@ -1653,7 +1671,7 @@
         "name": "UI",
         "type": "App",
         "position": {
-          "x": 1072,
+          "x": 1136,
           "y": 416
         },
         "size": {
@@ -1802,7 +1820,7 @@
         "name": "Qdrant",
         "type": "DB",
         "position": {
-          "x": 1072,
+          "x": 1136,
           "y": 784
         },
         "size": {
@@ -1882,14 +1900,22 @@
             "side": "right"
           }
         ],
-        "metadata": {
-          "Deployment Target": "pod: ari-oap"
-        },
+        "metadata": {},
         "systemVersion": "latest",
         "sideCars": [],
         "showSideCars": false,
         "isBadgeCollapsed": false,
-        "zIndex": 1
+        "zIndex": 1,
+        "deploymentTargets": [
+          {
+            "name": "pod: ari-oap",
+            "url": "",
+            "cpu": "",
+            "ram": "",
+            "hdd": "",
+            "count": ""
+          }
+        ]
       },
       "f0283d93-3146-4f55-970b-e6e055bb6dfd": {
         "id": "f0283d93-3146-4f55-970b-e6e055bb6dfd",
@@ -1939,13 +1965,21 @@
             "side": "right"
           }
         ],
-        "metadata": {
-          "Deployment Target": "pod: ari-controller"
-        },
+        "metadata": {},
         "systemVersion": "latest",
         "sideCars": [],
         "showSideCars": false,
-        "zIndex": 2
+        "zIndex": 2,
+        "deploymentTargets": [
+          {
+            "name": "pod: ari-controller",
+            "url": "",
+            "cpu": "",
+            "ram": "",
+            "hdd": "",
+            "count": ""
+          }
+        ]
       },
       "2a837ce9-832b-422f-b89f-0b1d3e97bb16": {
         "id": "2a837ce9-832b-422f-b89f-0b1d3e97bb16",
@@ -3573,36 +3607,25 @@
         "type": "App",
         "position": {
           "x": -832,
-          "y": -160
+          "y": -144
         },
         "size": {
           "width": 176,
           "height": 48
         },
         "color": "#e5579e",
-        "ports": [
-          {
-            "id": "d3c602ce-d8d8-4a80-ac89-2676dc0b7ec8",
-            "side": "top"
-          },
-          {
-            "id": "979c889d-60f2-4650-a82b-1359a16ab0a3",
-            "side": "bottom"
-          },
-          {
-            "id": "dd1832e0-d740-486d-ae16-4b75a9003638",
-            "side": "left"
-          },
-          {
-            "id": "04123f10-4cf5-47b4-b834-a5ae521a73ee",
-            "side": "right"
-          }
-        ],
+        "ports": [],
         "systemVersion": "latest",
         "zIndex": 3,
         "sideCars": [],
         "showSideCars": false,
-        "prePaletteColor": "#6366f1"
+        "prePaletteColor": "#6366f1",
+        "cornerStyles": {
+          "topLeft": "rounded",
+          "topRight": "rounded",
+          "bottomRight": "straight",
+          "bottomLeft": "straight"
+        }
       },
       "02e725d2-2cb4-419d-9e16-9b4ba2f8d539": {
         "id": "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
@@ -3732,29 +3755,18 @@
           "height": 48
         },
         "color": "#e5579e",
-        "ports": [
-          {
-            "id": "1d6a1ad8-a2f0-4c4d-998f-0397848a6ed1",
-            "side": "top"
-          },
-          {
-            "id": "e62d1702-fb51-4ade-817a-5c3dd9e2f92f",
-            "side": "bottom"
-          },
-          {
-            "id": "cb2f4b89-360c-481f-8b38-dfa454aa0fc0",
-            "side": "left"
-          },
-          {
-            "id": "57bb2d37-cde5-4144-89e5-77ff17424556",
-            "side": "right"
-          }
-        ],
+        "ports": [],
         "systemVersion": "latest",
         "zIndex": 8,
         "sideCars": [],
         "showSideCars": false,
-        "prePaletteColor": "#6366f1"
+        "prePaletteColor": "#6366f1",
+        "cornerStyles": {
+          "topLeft": "straight",
+          "topRight": "straight",
+          "bottomRight": "rounded",
+          "bottomLeft": "rounded"
+        }
       }
     },
     "users": {
@@ -3962,7 +3974,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с backend"
@@ -3977,7 +3992,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4001,7 +4019,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с tenant",
@@ -4020,7 +4041,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4028,7 +4052,7 @@
             "y": 560
           },
           {
-            "x": 1136,
+            "x": 1200,
             "y": 560
           }
         ],
@@ -4048,7 +4072,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Обработка метаданных\nпо tenant",
@@ -4067,11 +4094,14 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
-            "x": 1136,
+            "x": 1200,
             "y": 960
           }
         ],
@@ -4092,7 +4122,10 @@
           "type": "polyline",
           "color": "#94a3b8",
           "arrow": true,
-          "lineStyle": "solid"
+          "lineStyle": "solid",
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4120,7 +4153,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Сохранение метаданных\nпо tenant",
@@ -4139,7 +4175,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4170,7 +4209,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Обработка документов \nпо tenant",
@@ -4189,7 +4231,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4216,7 +4261,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4247,7 +4295,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Загрузка файлов",
@@ -4267,7 +4318,11 @@
           "type": "polyline",
           "color": "#3b82f6",
           "arrow": true,
-          "fontSize": 11
+          "fontSize": 11,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true,
+          "jumpStyle": "arc"
         },
         "controlPoints": [
           {
@@ -4283,7 +4338,8 @@
         "labelOffset": {
           "x": 43.77162651609035,
           "y": -29.010902726493782
-        }
+        },
+        "jumpOrder": 1
       },
       "6489929b-501b-45b2-a848-403ed3f06cfa": {
         "id": "6489929b-501b-45b2-a848-403ed3f06cfa",
@@ -4295,7 +4351,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -4309,18 +4368,21 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
-            "x": 784,
+            "x": 832,
             "y": 176
           }
         ],
         "description": "Произведение запросов \nпо RAG по tenant",
         "labelOffset": {
-          "x": -13.357724474588963,
-          "y": -96.23407835195349
+          "x": -51.807223679426784,
+          "y": -103.62821281442228
         }
       },
       "33ebf154-577d-4e8d-8ad1-23a59ade8433": {
@@ -4333,7 +4395,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4361,7 +4426,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с RAG UI",
@@ -4380,7 +4448,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Запрос на поиск",
@@ -4399,7 +4470,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Получение метаданных\nпо tenant",
@@ -4418,11 +4492,14 @@
         "style": {
           "type": "polyline",
           "color": "#f43f5e",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
-            "x": 352,
+            "x": 368,
             "y": 192
           }
         ],
@@ -4442,7 +4519,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4470,7 +4550,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Аутентификация / Авторизация\ntenant",
@@ -4489,7 +4572,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с ARI",
@@ -4508,7 +4594,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4536,7 +4625,10 @@
         "style": {
           "type": "polyline",
           "color": "#10b981",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4560,7 +4652,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4584,7 +4679,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4608,7 +4706,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4632,7 +4733,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4656,7 +4760,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4684,7 +4791,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с \nартефактами звонков",
@@ -4703,7 +4813,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с сессией звонка",
@@ -4722,7 +4835,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Хранилище связей",
@@ -4741,7 +4857,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с backend",
@@ -4760,7 +4879,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4784,7 +4906,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Информация о звонке \nдля трассировкм",
@@ -4803,7 +4928,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4827,7 +4955,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Инициализация звонка",
@@ -4846,7 +4977,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Информация о звонке\nПодписка на инициализацию звонка",
@@ -4865,7 +4999,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Установка голосового вызова",
@@ -4884,7 +5021,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с UI"
@@ -4899,7 +5039,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с UI"
@@ -4914,7 +5057,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Работа с UI"
@@ -4929,7 +5075,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -4943,7 +5092,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4962,7 +5114,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -4976,7 +5131,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -4999,7 +5157,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5022,7 +5183,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5036,7 +5200,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5064,7 +5231,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5078,7 +5248,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Предоставление конфигураций / Обновлений агентов\n\nПредоставление отзывов для аналитики",
@@ -5097,7 +5270,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5120,7 +5296,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5134,7 +5313,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5158,7 +5340,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5182,7 +5367,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5206,11 +5394,14 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
-            "x": -1056,
+            "x": -1232,
             "y": 256
           }
         ],
@@ -5230,7 +5421,10 @@
         "style": {
           "type": "polyline",
           "color": "#10b981",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5258,7 +5452,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5282,7 +5479,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5296,7 +5496,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5310,7 +5513,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5324,7 +5530,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5338,7 +5547,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5352,7 +5564,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5366,7 +5581,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5393,7 +5611,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5407,7 +5628,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5431,7 +5655,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Создание namespace / DB\nдля Агентов",
@@ -5450,7 +5677,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5478,7 +5708,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Вызов внешних Tools\nВызов внутренних Tools",
@@ -5497,7 +5730,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5521,7 +5757,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5549,7 +5788,10 @@
         "style": {
           "type": "polyline",
           "color": "#f43f5e",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5577,7 +5819,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5602,7 +5847,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5630,7 +5878,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5654,7 +5905,11 @@
         "style": {
           "type": "polyline",
           "color": "#facc15",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true,
+          "jumpStyle": "arc"
         },
         "controlPoints": [
           {
@@ -5670,7 +5925,8 @@
         "labelOffset": {
           "x": 68.38553500166017,
           "y": 677.1835905042456
-        }
+        },
+        "jumpOrder": 2
       },
       "677ea888-027e-4e70-b6f7-a119c5407898": {
         "id": "677ea888-027e-4e70-b6f7-a119c5407898",
@@ -5682,7 +5938,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Сбор информации",
@@ -5701,7 +5960,10 @@
         "style": {
           "type": "bezier",
           "color": "#ffff00",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Свободный доступ к интернету\nна основе заранее определённых правил",
@@ -5720,7 +5982,10 @@
         "style": {
           "type": "bezier",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Заранее прописанные правила доступа в интернет\nNetwork Policy",
@@ -5739,7 +6004,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5767,7 +6035,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5795,7 +6066,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -5809,7 +6083,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5841,7 +6118,10 @@
         "style": {
           "type": "polyline",
           "color": "#f43f5e",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5869,7 +6149,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5897,7 +6180,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Вызов доступных tools",
@@ -5916,7 +6202,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5940,7 +6229,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -5968,7 +6260,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6000,7 +6295,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6028,7 +6326,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6056,7 +6357,10 @@
         "style": {
           "type": "polyline",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6088,7 +6392,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Проверка на дедупликацию",
@@ -6107,7 +6414,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Сохранение нормализованного\nевента от мессенджера",
@@ -6126,7 +6436,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Получение евента для\nтяжелого агента",
@@ -6145,7 +6458,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6173,7 +6489,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "WebHook от Бота",
@@ -6192,7 +6511,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Проверка idempotency\nКеширование JSON Агента",
@@ -6211,7 +6533,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Сохраняем / Мобифицируем\nхуки ботов",
@@ -6230,7 +6555,10 @@
         "style": {
           "type": "bezier",
           "color": "#f59e0b",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Создание / обновление\nхуков ботов",
@@ -6249,7 +6577,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6273,7 +6604,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Проверка расписания \nпо CRON",
@@ -6292,7 +6626,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "labelOffset": {
@@ -6311,7 +6648,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Регистрация endpoint для WebHook",
@@ -6330,7 +6670,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Получение JSON\nАгента для запуска",
@@ -6349,7 +6692,10 @@
         "style": {
           "type": "bezier",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": []
       },
@@ -6363,7 +6709,10 @@
         "style": {
           "type": "polyline",
           "color": "#facc15",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6387,7 +6736,10 @@
         "style": {
           "type": "polyline",
           "color": "#94a3b8",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6415,7 +6767,10 @@
         "style": {
           "type": "bezier",
           "color": "#a855f7",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [],
         "description": "Auth",
@@ -6434,7 +6789,10 @@
         "style": {
           "type": "polyline",
           "color": "#10b981",
-          "arrow": true
+          "arrow": true,
+          "lineWidth": 2,
+          "lineEndStyle": "normal",
+          "fontItalic": true
         },
         "controlPoints": [
           {
@@ -6679,11 +7037,11 @@
         "name": "Micro Frontends",
         "position": {
           "x": -832,
-          "y": -208
+          "y": -192
         },
         "size": {
           "width": 176,
-          "height": 160
+          "height": 144
         },
         "ports": [],
         "style": {
