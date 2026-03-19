@@ -1,6 +1,6 @@
 {
   "version": "4.9.131",
-  "timestamp": "2026-03-19T09:04:11.589Z",
+  "timestamp": "2026-03-19T09:40:39.708Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -6712,7 +6712,8 @@
           "arrow": true,
           "lineWidth": 2,
           "lineEndStyle": "normal",
-          "fontItalic": true
+          "fontItalic": true,
+          "jumpStyle": "arc"
         },
         "controlPoints": [
           {
@@ -6724,7 +6725,8 @@
             "y": -336
           }
         ],
-        "description": "Работа с RAG"
+        "description": "Работа с RAG",
+        "jumpOrder": 3
       },
       "ea45e8bf-3ac8-46ea-af18-82b300d5223a": {
         "id": "ea45e8bf-3ac8-46ea-af18-82b300d5223a",
