@@ -1,6 +1,6 @@
 {
-  "version": "4.9.131",
-  "timestamp": "2026-03-19T09:40:39.708Z",
+  "version": "4.9.134",
+  "timestamp": "2026-03-25T08:31:02.831Z",
   "project": {
     "name": "GigaPlatform",
     "systems": {
@@ -686,14 +686,16 @@
           "86ac50b1-6faa-4684-89d5-89091764107d",
           "11960251-128b-487e-90af-fd106e741180",
           "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
-          "5213e793-e425-4819-9d58-6fe27fac05f1"
+          "5213e793-e425-4819-9d58-6fe27fac05f1",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "position": {
           "x": -2240,
           "y": 2272
         },
         "size": {
-          "width": 704,
+          "width": 976,
           "height": 848
         },
         "color": "#3b82f6",
@@ -1133,6 +1135,10 @@
           {
             "id": "08ebcb33-6237-401e-8317-09e4b0ce39f0",
             "side": "top"
+          },
+          {
+            "id": "8e9be05a-78ee-418f-a0ca-4d8dea1f49bf",
+            "side": "right"
           }
         ],
         "activeVersion": "latest",
@@ -1281,6 +1287,55 @@
           "latest"
         ],
         "zIndex": 25
+      },
+      "7256e299-0534-4b38-83b5-8b33e54e8d34": {
+        "id": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "ARI GigaAgent",
+        "metadata": {},
+        "containerIds": [
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "94aa2a64-552e-490f-b8f2-37e01bcd3a97",
+          "37224609-4cf5-4e48-90a6-1c00e0b48506",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442"
+        ],
+        "position": {
+          "x": -1376,
+          "y": 1600
+        },
+        "size": {
+          "width": 592,
+          "height": 528
+        },
+        "color": "#a855f7",
+        "ports": [
+          {
+            "id": "4afc31d4-571d-4249-8a66-4cd519eb3de2",
+            "side": "top"
+          },
+          {
+            "id": "493b153f-89a4-43b2-9636-7497726df9c4",
+            "side": "bottom"
+          },
+          {
+            "id": "a7d23d44-ecf5-4476-a846-2ce83f4a3db7",
+            "side": "left"
+          },
+          {
+            "id": "68dfc388-7b75-4140-becf-0ab7717939cb",
+            "side": "right"
+          }
+        ],
+        "activeVersion": "latest",
+        "versions": [
+          "latest"
+        ],
+        "zIndex": 26
       }
     },
     "containers": {
@@ -3767,6 +3822,423 @@
           "bottomRight": "rounded",
           "bottomLeft": "rounded"
         }
+      },
+      "38abaa40-c51a-4239-a9df-2a6021b65520": {
+        "id": "38abaa40-c51a-4239-a9df-2a6021b65520",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "UI",
+        "type": "App",
+        "position": {
+          "x": -1168,
+          "y": 1680
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [],
+        "systemVersion": "latest",
+        "zIndex": 1,
+        "cornerStyles": {
+          "topLeft": "rounded",
+          "topRight": "rounded",
+          "bottomRight": "straight",
+          "bottomLeft": "straight"
+        }
+      },
+      "58f68566-2679-438e-9216-1eee880f1867": {
+        "id": "58f68566-2679-438e-9216-1eee880f1867",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "Aegra",
+        "type": "App",
+        "position": {
+          "x": -1168,
+          "y": 1872
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "0f628703-825a-49be-ac0e-104075301074",
+            "side": "top"
+          },
+          {
+            "id": "f13e9417-0eef-4f01-8856-47bf055abb80",
+            "side": "bottom"
+          },
+          {
+            "id": "4fb6ca71-cc7d-4cb9-bf87-c6f14f2ca4a4",
+            "side": "left"
+          },
+          {
+            "id": "0070ed6e-9ac2-45c6-9123-c17fad1ff958",
+            "side": "right"
+          },
+          {
+            "id": "1997e3fe-5b18-4494-8cf5-7b5420e6c076",
+            "side": "right"
+          },
+          {
+            "id": "ffebf784-3d2c-46bc-ad72-ab77d9d34a60",
+            "side": "bottom"
+          },
+          {
+            "id": "b82f1a7e-09fa-42fe-a98e-8f8ae665fc21",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 2
+      },
+      "1f0713f5-312e-40dd-8f5b-cc60457c0010": {
+        "id": "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "Agent DB",
+        "type": "DB",
+        "position": {
+          "x": -944,
+          "y": 1920
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#10b981",
+        "ports": [
+          {
+            "id": "c3afb3e7-dd88-4a34-a34f-9bd4a580d657",
+            "side": "top"
+          },
+          {
+            "id": "928e72bb-11a5-4a07-ae4d-4f0b6dfad7d8",
+            "side": "bottom"
+          },
+          {
+            "id": "ee699a96-a2bb-4415-9142-8907391b648a",
+            "side": "left"
+          },
+          {
+            "id": "82fb393f-2aca-45d6-933d-0b7240a2a48f",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 3
+      },
+      "353fce97-1fa8-4102-b68f-ffc06a2f1715": {
+        "id": "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "Redis",
+        "type": "DB",
+        "position": {
+          "x": -944,
+          "y": 2032
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#10b981",
+        "ports": [
+          {
+            "id": "b8789919-909b-4e4f-b188-09e4de8d84c2",
+            "side": "top"
+          },
+          {
+            "id": "21862627-5567-452e-b74b-792cd925f2d1",
+            "side": "bottom"
+          },
+          {
+            "id": "06a17eec-36eb-47cb-bfec-3d52e7cbb1c5",
+            "side": "left"
+          },
+          {
+            "id": "b2c1c2b4-8d03-4436-9b06-1bb011ebe986",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 4
+      },
+      "1219c2eb-645f-48f2-9578-a6aa04b3d1c4": {
+        "id": "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "Qdrant",
+        "type": "DB",
+        "position": {
+          "x": -1152,
+          "y": 2032
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#10b981",
+        "ports": [
+          {
+            "id": "c2418af1-0a9a-43a8-b4bc-976dda7eba7f",
+            "side": "top"
+          },
+          {
+            "id": "02fb0f7b-1608-44f6-8959-719af1c304d1",
+            "side": "bottom"
+          },
+          {
+            "id": "ed5ca47d-71d9-4008-b396-be56acc416e3",
+            "side": "left"
+          },
+          {
+            "id": "108f66ce-6721-4632-a324-3b80d3bf1c96",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 5
+      },
+      "94aa2a64-552e-490f-b8f2-37e01bcd3a97": {
+        "id": "94aa2a64-552e-490f-b8f2-37e01bcd3a97",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "New App",
+        "type": "App",
+        "position": {
+          "x": -1168,
+          "y": 1984
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "937d4da7-050e-412d-acd6-07708758d1e3",
+            "side": "top"
+          },
+          {
+            "id": "6755cf78-7b00-44d5-8c78-8310ad38dcb2",
+            "side": "bottom"
+          },
+          {
+            "id": "0f0d273a-6541-4203-bad6-122bb17784f2",
+            "side": "left"
+          },
+          {
+            "id": "c7b9150d-103f-4ec2-a392-1f243b1a607e",
+            "side": "right"
+          }
+        ],
+        "currentLayerId": "2ac16292-a665-4311-a675-9e49004b8d28"
+      },
+      "37224609-4cf5-4e48-90a6-1c00e0b48506": {
+        "id": "37224609-4cf5-4e48-90a6-1c00e0b48506",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "Code Interpreter",
+        "type": "App",
+        "position": {
+          "x": -1168,
+          "y": 2000
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "82c16f7b-1070-4f24-81b8-75201f8a36d3",
+            "side": "top"
+          },
+          {
+            "id": "aa7ac6fb-defd-47ff-aca4-41ece00b9e2c",
+            "side": "bottom"
+          },
+          {
+            "id": "93c99ab1-641b-47c7-a119-b84a94812361",
+            "side": "left"
+          },
+          {
+            "id": "c84eec16-1c89-4678-b8e1-895da0e0c289",
+            "side": "right"
+          }
+        ],
+        "currentLayerId": "2ac16292-a665-4311-a675-9e49004b8d28"
+      },
+      "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c": {
+        "id": "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "Code Interpreter",
+        "type": "App",
+        "position": {
+          "x": -1344,
+          "y": 1744
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "29bd370d-70cf-418c-a807-4c1e4a1655e4",
+            "side": "top"
+          },
+          {
+            "id": "873511ce-6f89-4bb7-9678-9b440e1618a9",
+            "side": "bottom"
+          },
+          {
+            "id": "29f9b886-a9f5-489a-a01c-a99d66d7436a",
+            "side": "left"
+          },
+          {
+            "id": "f53d96f3-f84f-4547-a159-dfdefd540913",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 6
+      },
+      "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3": {
+        "id": "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "User DB",
+        "type": "DB",
+        "position": {
+          "x": -944,
+          "y": 1728
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#10b981",
+        "ports": [
+          {
+            "id": "d15962ef-17e2-4077-bfbe-ddbd7959eae6",
+            "side": "top"
+          },
+          {
+            "id": "77166788-9db4-409f-9d19-bf91b769bace",
+            "side": "bottom"
+          },
+          {
+            "id": "93a84f10-5ea8-4274-8d44-268795102e08",
+            "side": "left"
+          },
+          {
+            "id": "fd22b10b-46c0-41e2-80d3-a1d7d39a1c66",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 7
+      },
+      "d317b818-bdab-4fa4-87be-97148185d442": {
+        "id": "d317b818-bdab-4fa4-87be-97148185d442",
+        "systemId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "name": "BFF",
+        "type": "App",
+        "position": {
+          "x": -1168,
+          "y": 1744
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "6604926b-af9f-48bc-ad6b-063b68d10068",
+            "side": "bottom"
+          },
+          {
+            "id": "af09a39f-a3ff-4fae-b6c7-f8f56e7ce864",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 8,
+        "cornerStyles": {
+          "topLeft": "straight",
+          "topRight": "straight",
+          "bottomRight": "rounded",
+          "bottomLeft": "rounded"
+        }
+      },
+      "0a9f825d-4c74-4cac-9da2-bebc10d5a397": {
+        "id": "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+        "systemId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "name": "Arize Phoenix",
+        "type": "App",
+        "position": {
+          "x": -1424,
+          "y": 2528
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#6366f1",
+        "ports": [
+          {
+            "id": "0904d79d-5bb4-42e1-8a15-1935787441d5",
+            "side": "top"
+          },
+          {
+            "id": "2db88f9e-d0df-4364-b7a0-9ae9e0160a7f",
+            "side": "bottom"
+          },
+          {
+            "id": "02fdc8cc-f045-418d-826e-75716412e73b",
+            "side": "left"
+          },
+          {
+            "id": "3ee2b6d2-4937-4ef3-9e1a-a9965ee9e901",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 8
+      },
+      "a42f85ae-073a-4ce3-89d3-3472df9dc5f4": {
+        "id": "a42f85ae-073a-4ce3-89d3-3472df9dc5f4",
+        "systemId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "name": "Phoenix DB",
+        "type": "DB",
+        "position": {
+          "x": -1424,
+          "y": 2688
+        },
+        "size": {
+          "width": 128,
+          "height": 64
+        },
+        "color": "#10b981",
+        "ports": [
+          {
+            "id": "157b6bed-ab87-4b3f-8d1b-c21e16e9e03f",
+            "side": "top"
+          },
+          {
+            "id": "777a502e-eaff-47f8-aa55-a32e6cb1bc3a",
+            "side": "bottom"
+          },
+          {
+            "id": "1dc75730-ea2f-4c04-965f-487e2baf31b5",
+            "side": "left"
+          },
+          {
+            "id": "7a6c5a78-642b-49ed-8602-0d357957e90d",
+            "side": "right"
+          }
+        ],
+        "systemVersion": "latest",
+        "zIndex": 9
       }
     },
     "users": {
@@ -6807,6 +7279,180 @@
           "x": 362.8237791540828,
           "y": -153.6104453221303
         }
+      },
+      "5bf97ccc-2d6c-47d1-9189-b95489272708": {
+        "id": "5bf97ccc-2d6c-47d1-9189-b95489272708",
+        "sourceId": "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+        "sourceSide": "a04d28db-7b08-46c5-92ef-d880492594d2",
+        "targetId": "7256e299-0534-4b38-83b5-8b33e54e8d34",
+        "targetSide": "a7d23d44-ecf5-4476-a846-2ce83f4a3db7",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -1760,
+            "y": 1872
+          }
+        ],
+        "description": "Роутинг на агента",
+        "labelOffset": {
+          "x": 40.92474745051891,
+          "y": -3.323812823764456
+        }
+      },
+      "b979abc5-4137-4c99-9bab-4cffb85e0582": {
+        "id": "b979abc5-4137-4c99-9bab-4cffb85e0582",
+        "sourceId": "58f68566-2679-438e-9216-1eee880f1867",
+        "sourceSide": "4fb6ca71-cc7d-4cb9-bf87-c6f14f2ca4a4",
+        "targetId": "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+        "targetSide": "873511ce-6f89-4bb7-9678-9b440e1618a9",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "e815214a-15a7-4950-8427-c462d6c9a712": {
+        "id": "e815214a-15a7-4950-8427-c462d6c9a712",
+        "sourceId": "d317b818-bdab-4fa4-87be-97148185d442",
+        "sourceSide": "af09a39f-a3ff-4fae-b6c7-f8f56e7ce864",
+        "targetId": "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+        "targetSide": "93a84f10-5ea8-4274-8d44-268795102e08",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "b42d0e11-05fd-4c80-bc5e-f6f2cd14d1df": {
+        "id": "b42d0e11-05fd-4c80-bc5e-f6f2cd14d1df",
+        "sourceId": "58f68566-2679-438e-9216-1eee880f1867",
+        "sourceSide": "1997e3fe-5b18-4494-8cf5-7b5420e6c076",
+        "targetId": "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+        "targetSide": "ee699a96-a2bb-4415-9142-8907391b648a",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "d3029fa9-c8c8-421d-a889-c4967704ce34": {
+        "id": "d3029fa9-c8c8-421d-a889-c4967704ce34",
+        "sourceId": "58f68566-2679-438e-9216-1eee880f1867",
+        "sourceSide": "b82f1a7e-09fa-42fe-a98e-8f8ae665fc21",
+        "targetId": "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+        "targetSide": "06a17eec-36eb-47cb-bfec-3d52e7cbb1c5",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "246f7da1-9689-45d1-9d75-0f4cd0059d2f": {
+        "id": "246f7da1-9689-45d1-9d75-0f4cd0059d2f",
+        "sourceId": "58f68566-2679-438e-9216-1eee880f1867",
+        "sourceSide": "ffebf784-3d2c-46bc-ad72-ab77d9d34a60",
+        "targetId": "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+        "targetSide": "c2418af1-0a9a-43a8-b4bc-976dda7eba7f",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "e8815a12-6772-4ef2-87af-173c9fbb8cd6": {
+        "id": "e8815a12-6772-4ef2-87af-173c9fbb8cd6",
+        "sourceId": "d317b818-bdab-4fa4-87be-97148185d442",
+        "sourceSide": "6604926b-af9f-48bc-ad6b-063b68d10068",
+        "targetId": "58f68566-2679-438e-9216-1eee880f1867",
+        "targetSide": "0f628703-825a-49be-ac0e-104075301074",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "3384abed-427c-4d10-9c94-a6e0471897d4": {
+        "id": "3384abed-427c-4d10-9c94-a6e0471897d4",
+        "sourceId": "58f68566-2679-438e-9216-1eee880f1867",
+        "sourceSide": "0070ed6e-9ac2-45c6-9123-c17fad1ff958",
+        "targetId": "6542b468-d955-4380-93a2-8a60bfade64e",
+        "targetSide": "fa065df8-e343-4529-a5bd-1683078fda90",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "d442e9ef-9224-4c7a-9dc5-9c30c1435b39": {
+        "id": "d442e9ef-9224-4c7a-9dc5-9c30c1435b39",
+        "sourceId": "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+        "sourceSide": "2db88f9e-d0df-4364-b7a0-9ae9e0160a7f",
+        "targetId": "a42f85ae-073a-4ce3-89d3-3472df9dc5f4",
+        "targetSide": "157b6bed-ab87-4b3f-8d1b-c21e16e9e03f",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
+      },
+      "5c144e41-256e-473b-a68f-c78dab1e37b8": {
+        "id": "5c144e41-256e-473b-a68f-c78dab1e37b8",
+        "sourceId": "5213e793-e425-4819-9d58-6fe27fac05f1",
+        "sourceSide": "f6c8737b-8a13-4607-9eb1-61c5378fd048",
+        "targetId": "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+        "targetSide": "02fdc8cc-f045-418d-826e-75716412e73b",
+        "endpoints": [],
+        "style": {
+          "type": "polyline",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": [
+          {
+            "x": -1616,
+            "y": 2560
+          }
+        ],
+        "description": "Получение информации\nот Phoenix",
+        "labelOffset": {
+          "x": 1.2262712283845758,
+          "y": -15.94152596900085
+        }
+      },
+      "87e8ee44-01c2-4958-980a-3cd0f16b4dd6": {
+        "id": "87e8ee44-01c2-4958-980a-3cd0f16b4dd6",
+        "sourceId": "58f68566-2679-438e-9216-1eee880f1867",
+        "sourceSide": "f13e9417-0eef-4f01-8856-47bf055abb80",
+        "targetId": "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+        "targetSide": "0f738ff1-e697-452b-8079-9c2ec801fc8e",
+        "endpoints": [],
+        "style": {
+          "type": "bezier",
+          "color": "#94a3b8",
+          "arrow": true
+        },
+        "controlPoints": []
       }
     },
     "groups": {
@@ -7110,6 +7756,41 @@
           "6542b468-d955-4380-93a2-8a60bfade64e",
           "5359f6fb-98c2-45c5-9b12-c8b77f5bd380"
         ]
+      },
+      "0e38840c-05d9-4586-b4a4-12f803d5c010": {
+        "id": "0e38840c-05d9-4586-b4a4-12f803d5c010",
+        "name": "Special Tenant",
+        "position": {
+          "x": -1920,
+          "y": 1552
+        },
+        "size": {
+          "width": 1600,
+          "height": 576
+        },
+        "ports": [],
+        "style": {
+          "borderStyle": "dashed",
+          "borderColor": "#94a3b8"
+        },
+        "layerId": "2ac16292-a665-4311-a675-9e49004b8d28",
+        "childElementIds": [
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+          "6542b468-d955-4380-93a2-8a60bfade64e",
+          "5359f6fb-98c2-45c5-9b12-c8b77f5bd380",
+          "7256e299-0534-4b38-83b5-8b33e54e8d34",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "94aa2a64-552e-490f-b8f2-37e01bcd3a97",
+          "37224609-4cf5-4e48-90a6-1c00e0b48506",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442"
+        ]
       }
     },
     "integrationLayers": {
@@ -7258,7 +7939,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "isDefault": true,
         "systemVersions": {
@@ -7370,7 +8061,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "systemVersions": {
           "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
@@ -7482,7 +8183,17 @@
           "3cf4ecee-38a8-4901-93aa-eef18c0214cb",
           "24c4524f-8e2f-45dc-8085-f41c7e1cd6d4",
           "a6b1631e-50c2-4c3c-bbc7-695811bd25a0",
-          "7cc3e419-16bf-44d4-9212-47f44993caee"
+          "7cc3e419-16bf-44d4-9212-47f44993caee",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "systemVersions": {
           "dad041a8-ea22-45b8-8467-8e1a22f76030": "latest",
@@ -7539,7 +8250,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -7590,7 +8311,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -7648,7 +8379,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -7730,7 +8471,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "groupId": "9ca76066-855f-49f0-b9e2-7bacc0e303b9",
         "systemVersions": {
@@ -7819,7 +8570,17 @@
           "02e725d2-2cb4-419d-9e16-9b4ba2f8d539",
           "1f82cd93-5b39-49b1-b1e1-78f640365bef",
           "21d8b5a3-8d07-4aa5-a738-75d9980e9a56",
-          "c630bc9b-8c20-40bc-a687-2526e6c2e431"
+          "c630bc9b-8c20-40bc-a687-2526e6c2e431",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
         ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
@@ -7877,7 +8638,18 @@
           "a4a34b1c-146b-48bc-b80f-4da0cfa58a5b",
           "b8465e48-32ec-4fca-bbae-86261ab31a6e"
         ],
-        "hiddenElementIds": [],
+        "hiddenElementIds": [
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4"
+        ],
         "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
         "systemVersions": {
           "4718d099-1794-40ad-b754-81aa7206a9f4": "latest",
@@ -7887,6 +8659,73 @@
           "6542b468-d955-4380-93a2-8a60bfade64e": "latest",
           "0c7fcb79-3002-4c88-a9e2-fcf810f80afc": "latest",
           "b4b6849a-e514-4e8a-b7cc-caca297bbd88": "latest",
+          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145": "latest",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest"
+        }
+      },
+      "2ac16292-a665-4311-a675-9e49004b8d28": {
+        "id": "2ac16292-a665-4311-a675-9e49004b8d28",
+        "name": "GigaAgent",
+        "color": "#3b82f6",
+        "zIndex": 9,
+        "visibleElementIds": [
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3",
+          "d0a13d55-f0b2-45af-9dd8-3b50e4378679",
+          "8f8141ac-945d-4c95-9bfd-bde08d46acaa",
+          "25ed619e-5c0e-44e7-ac2e-661baea12a67",
+          "86ac50b1-6faa-4684-89d5-89091764107d",
+          "11960251-128b-487e-90af-fd106e741180",
+          "7db7e61d-7cb3-4c2b-934b-cc8327e47ecc",
+          "5213e793-e425-4819-9d58-6fe27fac05f1",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3",
+          "0b51208f-1adb-4b8a-84b2-33ef5f740d75",
+          "6542b468-d955-4380-93a2-8a60bfade64e",
+          "5359f6fb-98c2-45c5-9b12-c8b77f5bd380",
+          "7256e299-0534-4b38-83b5-8b33e54e8d34",
+          "38abaa40-c51a-4239-a9df-2a6021b65520",
+          "58f68566-2679-438e-9216-1eee880f1867",
+          "1f0713f5-312e-40dd-8f5b-cc60457c0010",
+          "353fce97-1fa8-4102-b68f-ffc06a2f1715",
+          "1219c2eb-645f-48f2-9578-a6aa04b3d1c4",
+          "2cf0496c-e9fe-428e-840b-7d8e1ee73f3c",
+          "dcf8cdf8-36e9-4d6f-931d-46d56a8831f3",
+          "5bf97ccc-2d6c-47d1-9189-b95489272708",
+          "b979abc5-4137-4c99-9bab-4cffb85e0582",
+          "d317b818-bdab-4fa4-87be-97148185d442",
+          "e815214a-15a7-4950-8427-c462d6c9a712",
+          "b42d0e11-05fd-4c80-bc5e-f6f2cd14d1df",
+          "d3029fa9-c8c8-421d-a889-c4967704ce34",
+          "246f7da1-9689-45d1-9d75-0f4cd0059d2f",
+          "e8815a12-6772-4ef2-87af-173c9fbb8cd6",
+          "3384abed-427c-4d10-9c94-a6e0471897d4",
+          "e2e2cdca-ce7c-494a-894e-c78f9bcc3145",
+          "65ebd0ec-cb55-4425-9ac5-4004b82d064b",
+          "f800a729-1aed-4591-8631-f96bb7be15d0",
+          "cbf8cf00-4e85-48f2-b98e-581c1d0f40f0",
+          "ff61e7e3-9b74-4f53-b2ab-2a660890c727",
+          "4cd777ec-1894-4c59-adcb-447477a8a373",
+          "6df1283f-d67a-436d-a485-c8dadd37b2dd",
+          "c1840cf5-f352-4a72-9309-d0c9325d3b21",
+          "ad0cd2a3-b22a-4407-8be7-37bd6fc7cb4a",
+          "8d9fc310-7155-41d0-9555-bb8741f442e5",
+          "51e449ac-98fe-4dad-a760-4d65a32282bc",
+          "a4a34b1c-146b-48bc-b80f-4da0cfa58a5b",
+          "b8465e48-32ec-4fca-bbae-86261ab31a6e",
+          "0a9f825d-4c74-4cac-9da2-bebc10d5a397",
+          "a42f85ae-073a-4ce3-89d3-3472df9dc5f4",
+          "d442e9ef-9224-4c7a-9dc5-9c30c1435b39",
+          "5c144e41-256e-473b-a68f-c78dab1e37b8",
+          "87e8ee44-01c2-4958-980a-3cd0f16b4dd6",
+          "0e38840c-05d9-4586-b4a4-12f803d5c010"
+        ],
+        "hiddenElementIds": [],
+        "groupId": "c809fd20-eea0-40b8-8132-a02da956f105",
+        "systemVersions": {
+          "4718d099-1794-40ad-b754-81aa7206a9f4": "latest",
+          "777e4b45-16cf-4b91-aeb3-d7247fc3b2f3": "latest",
+          "67df732f-a1f8-4365-9063-281c158bb32b": "latest",
+          "bc8de3e9-6a8a-4f2b-920f-378f86e668b3": "latest",
+          "6542b468-d955-4380-93a2-8a60bfade64e": "latest",
           "e2e2cdca-ce7c-494a-894e-c78f9bcc3145": "latest",
           "65ebd0ec-cb55-4425-9ac5-4004b82d064b": "latest"
         }
@@ -8724,7 +9563,8 @@
               "6464b4e8-e5e5-4a8e-a9f6-946b9c89b68a",
               "be717a0c-fff2-4d1c-b04c-67073825217b"
             ],
-            "relationshipIds": []
+            "relationshipIds": [],
+            "excludedRelationshipIds": []
           },
           {
             "order": "2",
